@@ -2,7 +2,8 @@
 
 **Status:** Approved design baseline — fixed first-playable roster and initial loadouts  
 **Approved:** 8 November 2026  
-**Remaining decisions:** Class display-name confirmation and detailed combat actions are explicitly deferred.
+**Remaining decisions:** Detailed combat actions are explicitly deferred.  
+**Naming decision:** **Thief** confirmed as the canonical fifth-class name on 8 November 2026.
 
 ## Design intent
 
@@ -18,13 +19,13 @@ The concept-art filenames in the current repository establish the class-to-chara
 | --- | --- | --- | --- |
 | Champion | Female dwarf | Mace and shield | [Dwarf Champion](../concept%20art/02_Female_Dwarf_Champion.png) |
 | Hunter | Young, outdoors-weathered human male | Longbow and longsword | [Male Hunter](../concept%20art/05_Human_Male_Hunter.png) |
-| Rogue | Female halfling | Shortsword and shortbow | [Halfling Rogue](../concept%20art/04_Female_Halfling_Rogue.png) |
+| Thief | Female halfling | Shortsword and shortbow | [Halfling Thief](../concept%20art/04_Female_Halfling_Rogue.png) |
 | Evoker | Female elf | Staff | [Elf Evoker](../concept%20art/01_Female_Elf_Evoker.png) |
 | Priest | Older / mature human male | Staff | [Human Priest](../concept%20art/03_Middle_Aged_Human_Male_Priest.png) |
 
 **Hunter revision:** The **male** human Hunter is the current intended poster/playable character. The earlier `05_Female_Human_Hunter.png` remains in the concept-art library as an earlier concept; it should not be used as the initial Hunter reference.
 
-**Class terminology — open decision:** **Rogue** is the current working label. Earlier material sometimes used **Thief**; the final display name remains unconfirmed and must be decided before player-facing terminology is finalised. This does not block approval of the roster or starting loadout.
+**Class terminology — resolved 8 November 2026:** **Thief** is the canonical fifth-class name. Earlier references used *Rogue*, and the legacy concept-art filename `04_Female_Halfling_Rogue.png` is retained for provenance and to keep the approved artwork link working. The asset filename does not determine the class name.
 
 ## Stage 01 visible equipment
 
@@ -32,7 +33,7 @@ The concept-art filenames in the current repository establish the class-to-chara
 | --- | --- | --- |
 | Champion | One-handed mace + shield | Melee strikes and shield block |
 | Hunter | Longbow + longsword | Ranged combat with melee fallback; switch between weapons |
-| Rogue | Shortbow + shortsword | Ranged combat with melee fallback; switch between weapons |
+| Thief | Shortbow + shortsword | Ranged combat with melee fallback; switch between weapons |
 | Evoker | Staff | Spellcasting; precise initial actions to be defined |
 | Priest | Staff | Spellcasting/support; precise initial actions to be defined |
 
@@ -43,7 +44,7 @@ Weapon overlap is intentional; abilities, timings, defensive tools and attack be
 - Five fixed character appearances with the above loadouts.
 - Shared foundational movement, targeting, hit reactions, death and interaction systems, where appropriate.
 - Class-appropriate combat actions and powers, without a full weapon inventory.
-- Hunter and Rogue switching between their **fixed** melee and ranged weapons.
+- Hunter and Thief switching between their **fixed** melee and ranged weapons.
 - Rigging and animation that accommodate different character sizes and body proportions.
 
 ## Deferred deliberately

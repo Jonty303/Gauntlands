@@ -19,7 +19,7 @@ The aim is to build assets and systems that **pull double duty** across classes,
 3. **Class-specific configuration:** Timing, speed, reach, movement restrictions, defensive behaviour, available attacks and powers.
 4. **Distinct presentation when valuable:** Hero silhouettes, signatures, VFX/SFX, weapon-specific impact and unique ability animations.
 
-Reuse does not mean identical gameplay. A Hunter and Rogue may use the same foundational bow set, yet feel different through their powers, cadence and movement. Do not assume a fixed percentage of animation reuse without testing.
+Reuse does not mean identical gameplay. A Hunter and Thief may use the same foundational bow set, yet feel different through their powers, cadence and movement. Do not assume a fixed percentage of animation reuse without testing.
 
 ## Stage 01 animation scope
 
@@ -27,8 +27,8 @@ Prioritise three **primary weapon animation families**, with class-specific exte
 
 | Family | Users | Shared moves / systems | Exceptions and refinements |
 | --- | --- | --- | --- |
-| One-handed melee | Champion, Hunter, Rogue | Locomotion integration, anticipation, attack, impact, recovery | Mace/sword silhouette and contact pose adjustments; Champion shield block |
-| Archery | Hunter, Rogue | Equip/switch, draw, aim, release, recovery | Longbow/shortbow hand placement, draw length and cadence |
+| One-handed melee | Champion, Hunter, Thief | Locomotion integration, anticipation, attack, impact, recovery | Mace/sword silhouette and contact pose adjustments; Champion shield block |
+| Archery | Hunter, Thief | Equip/switch, draw, aim, release, recovery | Longbow/shortbow hand placement, draw length and cadence |
 | Staff/casting | Evoker, Priest | Staff grip, casting start/hold/release, spell hooks | Class-specific spells, effects and signature gestures |
 
 Also provide suitable foundational locomotion, idle, turn, flinch/hit, death and interaction states for every playable character. The precise animation list and counts are not yet fixed.
@@ -38,9 +38,9 @@ Also provide suitable foundational locomotion, idle, turn, flinch/hit, death and
 | Animation family | Users | Reuse objective |
 | --- | --- | --- |
 | Two-handed melee | Champion | Reuse combat state machine, anticipation/hit/recovery logic; build correct new two-handed clips |
-| Dual wield | Hunter, Rogue | One shared alternating/combo foundation, varied per class |
+| Dual wield | Hunter, Thief | One shared alternating/combo foundation, varied per class |
 | Wand casting | Evoker, Priest | Build on existing spell framework with one-handed casting |
-| Throwing knives | Hunter, Rogue | Reuse targeting and projectile collision; add a distinct throw animation |
+| Throwing knives | Hunter, Thief | Reuse targeting and projectile collision; add a distinct throw animation |
 
 ## Later proposals
 
@@ -50,7 +50,7 @@ Also provide suitable foundational locomotion, idle, turn, flinch/hit, death and
 
 ## Five poster characters and rig compatibility
 
-The planned character set consists of a female dwarf Champion, young human male Hunter, female halfling Rogue, female elf Evoker and older/mature human male Priest. Consult [CHARACTERS_AND_INITIAL_SCOPE.md](CHARACTERS_AND_INITIAL_SCOPE.md) for current artwork links.
+The planned character set consists of a female dwarf Champion, young human male Hunter, female halfling Thief, female elf Evoker and older/mature human male Priest. Consult [CHARACTERS_AND_INITIAL_SCOPE.md](CHARACTERS_AND_INITIAL_SCOPE.md) for current artwork links.
 
 A common rig specification and animation contract are desirable, but **shorter-limbed dwarf and halfling bodies may require retargeting, animation variants, IK or hand-contact adjustments**. Verify weapon grip and ground contact rather than assuming every humanoid clip is transferable as-is.
 
