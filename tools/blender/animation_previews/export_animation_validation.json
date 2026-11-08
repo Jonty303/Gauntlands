@@ -1,0 +1,2139 @@
+{
+  "saved_animation_reopened": true,
+  "editable_keys": 9,
+  "used_textures_packed": true,
+  "accepted_source_preserved": true,
+  "glb_sha256": "1b50359cbfbf4f0c50e8a79f5f12050485fda5d043e6a3389b3530f43eec0ccf",
+  "frames": [
+    {
+      "frame": 1,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 2,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004777039051987231
+    },
+    {
+      "frame": 3,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004783661221154034
+    },
+    {
+      "frame": 4,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004789645783603191
+    },
+    {
+      "frame": 5,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004794909502379596
+    },
+    {
+      "frame": 6,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004799442132934928
+    },
+    {
+      "frame": 7,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004803247400559485
+    },
+    {
+      "frame": 8,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004806402255780995
+    },
+    {
+      "frame": 9,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004808774683624506
+    },
+    {
+      "frame": 10,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004810441751033068
+    },
+    {
+      "frame": 11,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004811401944607496
+    },
+    {
+      "frame": 12,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.00481160229537636
+    },
+    {
+      "frame": 13,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0048111159121617675
+    },
+    {
+      "frame": 14,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.00480983080342412
+    },
+    {
+      "frame": 15,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004807827644981444
+    },
+    {
+      "frame": 16,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0048051439225673676
+    },
+    {
+      "frame": 17,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004801698494702578
+    },
+    {
+      "frame": 18,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004797480418346822
+    },
+    {
+      "frame": 19,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047925704857334495
+    },
+    {
+      "frame": 20,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004786967067047954
+    },
+    {
+      "frame": 21,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004780571674928069
+    },
+    {
+      "frame": 22,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047735178377479315
+    },
+    {
+      "frame": 23,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004765747231431305
+    },
+    {
+      "frame": 24,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004757226910442114
+    },
+    {
+      "frame": 25,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047480029752478
+    },
+    {
+      "frame": 26,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004738184390589595
+    },
+    {
+      "frame": 27,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004727561259642243
+    },
+    {
+      "frame": 28,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004716385854408145
+    },
+    {
+      "frame": 29,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004704444669187069
+    },
+    {
+      "frame": 30,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004691848414950073
+    },
+    {
+      "frame": 31,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004678627010434866
+    },
+    {
+      "frame": 32,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004691848414950073
+    },
+    {
+      "frame": 33,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004704444669187069
+    },
+    {
+      "frame": 34,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004716385854408145
+    },
+    {
+      "frame": 35,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004727561259642243
+    },
+    {
+      "frame": 36,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004738184390589595
+    },
+    {
+      "frame": 37,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047480029752478
+    },
+    {
+      "frame": 38,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004757226910442114
+    },
+    {
+      "frame": 39,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004765747231431305
+    },
+    {
+      "frame": 40,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047735178377479315
+    },
+    {
+      "frame": 41,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004780571674928069
+    },
+    {
+      "frame": 42,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004786967067047954
+    },
+    {
+      "frame": 43,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047925704857334495
+    },
+    {
+      "frame": 44,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004797480418346822
+    },
+    {
+      "frame": 45,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004801698494702578
+    },
+    {
+      "frame": 46,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0048051439225673676
+    },
+    {
+      "frame": 47,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004807827644981444
+    },
+    {
+      "frame": 48,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.00480983080342412
+    },
+    {
+      "frame": 49,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0048111159121617675
+    },
+    {
+      "frame": 50,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.00481160229537636
+    },
+    {
+      "frame": 51,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004811401944607496
+    },
+    {
+      "frame": 52,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004810441751033068
+    },
+    {
+      "frame": 53,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004808774683624506
+    },
+    {
+      "frame": 54,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004806402255780995
+    },
+    {
+      "frame": 55,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004803247400559485
+    },
+    {
+      "frame": 56,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004799486603587866
+    },
+    {
+      "frame": 57,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004794909502379596
+    },
+    {
+      "frame": 58,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004789645783603191
+    },
+    {
+      "frame": 59,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004783661221154034
+    },
+    {
+      "frame": 60,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004777039051987231
+    },
+    {
+      "frame": 61,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 62,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004777459427714348
+    },
+    {
+      "frame": 63,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047845502849668264
+    },
+    {
+      "frame": 64,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004790914244949818
+    },
+    {
+      "frame": 65,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004796520574018359
+    },
+    {
+      "frame": 66,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004801325965672731
+    },
+    {
+      "frame": 67,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004805442760698497
+    },
+    {
+      "frame": 68,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004808785510249436
+    },
+    {
+      "frame": 69,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004811343853361905
+    },
+    {
+      "frame": 70,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004813114064745605
+    },
+    {
+      "frame": 71,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0048140911385416985
+    },
+    {
+      "frame": 72,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004814344807527959
+    },
+    {
+      "frame": 73,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004813801264390349
+    },
+    {
+      "frame": 74,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004812438739463687
+    },
+    {
+      "frame": 75,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004810304613783956
+    },
+    {
+      "frame": 76,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004807449411600828
+    },
+    {
+      "frame": 77,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004803748801350594
+    },
+    {
+      "frame": 78,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004799274727702141
+    },
+    {
+      "frame": 79,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004794017411768436
+    },
+    {
+      "frame": 80,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004788069752976298
+    },
+    {
+      "frame": 81,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047812891425564885
+    },
+    {
+      "frame": 82,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004773675347678363
+    },
+    {
+      "frame": 83,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004765439196489751
+    },
+    {
+      "frame": 84,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004756361711770296
+    },
+    {
+      "frame": 85,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047465694369748235
+    },
+    {
+      "frame": 86,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004736012080684304
+    },
+    {
+      "frame": 87,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047247413313016295
+    },
+    {
+      "frame": 88,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004712772089987993
+    },
+    {
+      "frame": 89,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004700076766312122
+    },
+    {
+      "frame": 90,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004686659434810281
+    },
+    {
+      "frame": 91,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004672531853429973
+    },
+    {
+      "frame": 92,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004686659434810281
+    },
+    {
+      "frame": 93,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004700076766312122
+    },
+    {
+      "frame": 94,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004712772089987993
+    },
+    {
+      "frame": 95,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047247413313016295
+    },
+    {
+      "frame": 96,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004736012080684304
+    },
+    {
+      "frame": 97,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047465694369748235
+    },
+    {
+      "frame": 98,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004756358452141285
+    },
+    {
+      "frame": 99,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004765439196489751
+    },
+    {
+      "frame": 100,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004773675347678363
+    },
+    {
+      "frame": 101,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047812891425564885
+    },
+    {
+      "frame": 102,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004788069752976298
+    },
+    {
+      "frame": 103,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004794017411768436
+    },
+    {
+      "frame": 104,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004799274727702141
+    },
+    {
+      "frame": 105,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004803748801350594
+    },
+    {
+      "frame": 106,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004807449411600828
+    },
+    {
+      "frame": 107,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004810304613783956
+    },
+    {
+      "frame": 108,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004812438739463687
+    },
+    {
+      "frame": 109,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004813801264390349
+    },
+    {
+      "frame": 110,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004814344807527959
+    },
+    {
+      "frame": 111,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0048140911385416985
+    },
+    {
+      "frame": 112,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004813114064745605
+    },
+    {
+      "frame": 113,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004811343853361905
+    },
+    {
+      "frame": 114,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004808785510249436
+    },
+    {
+      "frame": 115,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004805442760698497
+    },
+    {
+      "frame": 116,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004801325965672731
+    },
+    {
+      "frame": 117,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004796520574018359
+    },
+    {
+      "frame": 118,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004790914244949818
+    },
+    {
+      "frame": 119,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.0047845502849668264
+    },
+    {
+      "frame": 120,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004777459427714348
+    },
+    {
+      "frame": 121,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 122,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 123,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 124,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 125,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 126,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 127,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 128,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 129,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 130,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 131,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 132,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 133,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 134,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 135,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 136,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 137,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 138,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 139,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 140,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 141,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 142,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 143,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 144,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 145,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 146,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 147,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 148,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 149,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 150,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 151,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 152,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 153,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 154,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 155,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 156,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 157,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 158,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 159,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 160,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 161,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 162,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 163,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 164,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 165,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 166,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 167,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 168,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 169,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 170,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 171,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 172,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 173,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 174,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 175,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 176,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 177,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 178,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 179,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 180,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 181,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 182,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 183,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 184,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 185,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 186,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 187,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 188,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 189,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 190,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 191,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 192,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 193,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 194,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 195,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 196,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 197,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 198,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 199,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 200,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 201,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 202,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 203,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 204,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 205,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 206,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 207,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 208,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 209,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 210,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 211,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 212,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 213,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 214,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 215,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 216,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 217,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 218,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 219,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 220,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 221,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 222,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 223,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 224,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 225,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 226,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 227,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 228,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 229,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 230,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 231,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 232,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 233,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 234,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 235,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 236,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 237,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 238,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 239,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 240,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    },
+    {
+      "frame": 241,
+      "body_intersections": 0,
+      "self_intersections": 0,
+      "inside": 0,
+      "min_clearance": 0.004769668215885758
+    }
+  ],
+  "samples": {
+    "1": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999993562698364
+        ],
+        [
+          -0.09410092979669571,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.1398468166589737
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.04261140525341034,
+          0.04261119291186333
+        ],
+        [
+          1.6822035312652588,
+          1.7104575634002686
+        ],
+        [
+          0.11241261661052704,
+          0.13564279675483704
+        ]
+      ]
+    },
+    "31": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999993562698364
+        ],
+        [
+          -0.09410088509321213,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851097464561462
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.20711833238601685
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.04261140525341034,
+          0.04261119291186333
+        ],
+        [
+          1.6822035312652588,
+          1.7104575634002686
+        ],
+        [
+          0.11241261661052704,
+          0.13564279675483704
+        ]
+      ]
+    },
+    "61": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999993562698364
+        ],
+        [
+          -0.09410092979669571,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.1398468166589737
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.04261140525341034,
+          0.04261119291186333
+        ],
+        [
+          1.6822035312652588,
+          1.7104575634002686
+        ],
+        [
+          0.11241261661052704,
+          0.13564279675483704
+        ]
+      ]
+    },
+    "91": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          2.2643052943749353e-07,
+          1.7999993562698364
+        ],
+        [
+          -0.09410092979669571,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991982221603394
+        ],
+        [
+          -0.10381300747394562,
+          0.20711840689182281
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.04261140525341034,
+          0.04261119291186333
+        ],
+        [
+          1.6822035312652588,
+          1.7104575634002686
+        ],
+        [
+          0.11241261661052704,
+          0.13564279675483704
+        ]
+      ]
+    },
+    "121": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999993562698364
+        ],
+        [
+          -0.09410092979669571,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.1398468166589737
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.04261140525341034,
+          0.04261119291186333
+        ],
+        [
+          1.6822035312652588,
+          1.7104575634002686
+        ],
+        [
+          0.11241261661052704,
+          0.13564279675483704
+        ]
+      ]
+    },
+    "151": {
+      "Human": [
+        [
+          -0.5927055478096008,
+          0.5927057862281799
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999993562698364
+        ],
+        [
+          -0.09410092979669571,
+          0.5353750586509705
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.1398468166589737
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.04261140525341034,
+          0.04261119291186333
+        ],
+        [
+          1.6822035312652588,
+          1.7104575634002686
+        ],
+        [
+          0.11241261661052704,
+          0.13564279675483704
+        ]
+      ]
+    },
+    "181": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999993562698364
+        ],
+        [
+          -0.09410092979669571,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.1398468166589737
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.04261140525341034,
+          0.04261119291186333
+        ],
+        [
+          1.6822035312652588,
+          1.7104575634002686
+        ],
+        [
+          0.11241261661052704,
+          0.13564279675483704
+        ]
+      ]
+    },
+    "196": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999992370605469
+        ],
+        [
+          -0.09410092979669571,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.1398468166589737
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.005080729722976685,
+          0.07485473155975342
+        ],
+        [
+          1.6822034120559692,
+          1.7104573249816895
+        ],
+        [
+          0.08830533921718597,
+          0.13911393284797668
+        ]
+      ]
+    },
+    "211": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999992370605469
+        ],
+        [
+          -0.09410092979669571,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.1398468166589737
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.07485499978065491,
+          0.005080614238977432
+        ],
+        [
+          1.6822034120559692,
+          1.710457444190979
+        ],
+        [
+          0.08830532431602478,
+          0.13911373913288116
+        ]
+      ]
+    },
+    "241": {
+      "Human": [
+        [
+          -0.5927058458328247,
+          0.5927059650421143
+        ],
+        [
+          1.6213471099035814e-07,
+          1.7999993562698364
+        ],
+        [
+          -0.09410092979669571,
+          0.3865305781364441
+        ]
+      ],
+      "Gauntlands_Boxer_Briefs": [
+        [
+          -0.19851094484329224,
+          0.19851092994213104
+        ],
+        [
+          0.8101051449775696,
+          1.0991991758346558
+        ],
+        [
+          -0.1038130596280098,
+          0.1398468166589737
+        ]
+      ],
+      "Human.high-poly": [
+        [
+          -0.04261140525341034,
+          0.04261119291186333
+        ],
+        [
+          1.6822035312652588,
+          1.7104575634002686
+        ],
+        [
+          0.11241261661052704,
+          0.13564279675483704
+        ]
+      ]
+    }
+  },
+  "passed": true
+}

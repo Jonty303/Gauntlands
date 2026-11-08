@@ -101,3 +101,9 @@ Use `assets/Blender Models/Human-Male-180cm.blend` for the proportion-preserving
 1.80 m derivative, including regenerated briefs. Original source is preserved.
 The original 2.4308 units were confirmed as metres, not a rig-axis artefact.
 See [scale contract, reproduction and validation](../../development/HUMAN_SCALE_REVIEW.md).
+
+## Animated export proof
+
+The accepted 180cm model now has a separate diagnostic-animation derivative and
+Godot review scene. See [the viewer](../../prototype/README.md) and
+[recorded validation](../../development/ANIMATION_PROOF_REVIEW.md).

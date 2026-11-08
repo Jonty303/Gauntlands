@@ -1,0 +1,107 @@
+{
+  "source_sha256": "a4bd547d659e928b132f530f166d96fd20e9001fedb09dcc424e7c65c0fc1d75",
+  "blender": "5.2.3 LTS",
+  "frames": [
+    1,
+    241
+  ],
+  "fps": 30,
+  "duration_seconds": 8,
+  "animation": "Diagnostic",
+  "controlled_bones": [
+    "head",
+    "lowerleg01.L",
+    "lowerleg01.R",
+    "upperarm01.L",
+    "upperarm01.R",
+    "upperleg01.L",
+    "upperleg01.R"
+  ],
+  "poses": {
+    "1": {},
+    "31": {
+      "upperleg01.L": [
+        [
+          1,
+          0,
+          0
+        ],
+        -30
+      ],
+      "lowerleg01.L": [
+        [
+          1,
+          0,
+          0
+        ],
+        45
+      ]
+    },
+    "61": {},
+    "91": {
+      "upperleg01.R": [
+        [
+          1,
+          0,
+          0
+        ],
+        -30
+      ],
+      "lowerleg01.R": [
+        [
+          1,
+          0,
+          0
+        ],
+        45
+      ]
+    },
+    "121": {},
+    "151": {
+      "upperarm01.L": [
+        [
+          1,
+          0,
+          0
+        ],
+        -25
+      ],
+      "upperarm01.R": [
+        [
+          1,
+          0,
+          0
+        ],
+        25
+      ]
+    },
+    "181": {},
+    "196": {
+      "head": [
+        [
+          0,
+          0,
+          1
+        ],
+        25
+      ]
+    },
+    "211": {
+      "head": [
+        [
+          0,
+          0,
+          1
+        ],
+        -25
+      ]
+    },
+    "241": {}
+  },
+  "textures": [
+    "brown_eye.png",
+    "young_lightskinned_male_diffuse.png"
+  ],
+  "export_policy": "Current shape and non-armature modifiers baked; max 8 influences; no morphs",
+  "source_preserved": true
+}
