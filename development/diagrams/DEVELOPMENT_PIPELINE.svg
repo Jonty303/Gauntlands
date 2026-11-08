@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1370" viewBox="0 0 2100 1370"><rect width="100%" height="100%" fill="#0b1421"/><rect x="0" y="0" width="2100" height="1370" fill="#0b1421"/>
+<rect x="0" y="0" width="2100" height="12" fill="#65d8d2"/>
+<text x="84" y="103" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="58.800000000000004" font-weight="700" letter-spacing="0.56" fill="#eff7ff">GAUNTLANDS / DEVELOPMENT PIPELINE</text>
+<text x="85" y="146" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">DESIGN FIRST  /  IMPLEMENT IN SMALL SLICES  /  HUMAN APPROVES</text>
+<rect x="80" y="209" width="578" height="166" rx="20" fill="#09101b"/>
+<rect x="72" y="198" width="578" height="166" rx="20" fill="#35536d"/>
+<rect x="75" y="201" width="572" height="160" rx="18" fill="#14283b"/>
+<rect x="92" y="215" width="8" height="132" rx="4" fill="#65d8d2"/>
+<text x="115" y="243" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#65d8d2">GATE 0</text>
+<text x="115" y="286" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">DESIGN BRIEF</text>
+<text x="115" y="328" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">IPAD / L0 + R1 / GPT-6 HIGH</text>
+<text x="115" y="349" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16.8" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">REFERENCES + ACCEPTANCE</text>
+<rect x="768" y="209" width="578" height="166" rx="20" fill="#09101b"/>
+<rect x="760" y="198" width="578" height="166" rx="20" fill="#35536d"/>
+<rect x="763" y="201" width="572" height="160" rx="18" fill="#14283b"/>
+<rect x="780" y="215" width="8" height="132" rx="4" fill="#f3c075"/>
+<text x="803" y="243" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#f3c075">GATE 1</text>
+<text x="803" y="286" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">SCOPE APPROVAL</text>
+<text x="803" y="328" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">HUMAN REVIEWS REQUIREMENTS</text>
+<text x="803" y="349" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16.8" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">NO CODE BEFORE DECISION</text>
+<rect x="1456" y="209" width="578" height="166" rx="20" fill="#09101b"/>
+<rect x="1448" y="198" width="578" height="166" rx="20" fill="#35536d"/>
+<rect x="1451" y="201" width="572" height="160" rx="18" fill="#14283b"/>
+<rect x="1468" y="215" width="8" height="132" rx="4" fill="#bdaef3"/>
+<text x="1491" y="243" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#bdaef3">GATE 2</text>
+<text x="1491" y="286" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">WORK PACKAGE</text>
+<text x="1491" y="328" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">OWNER + REVIEWER ASSIGNED</text>
+<text x="1491" y="349" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16.8" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">REPO + BRANCH VERIFIED</text>
+<line x1="652" y1="280" x2="749" y2="280" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<line x1="729" y1="292" x2="749" y2="280" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<line x1="729" y1="268" x2="749" y2="280" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<line x1="1340" y1="280" x2="1435" y2="280" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<line x1="1415" y1="292" x2="1435" y2="280" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<line x1="1415" y1="268" x2="1435" y2="280" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<rect x="80" y="431" width="1952" height="80" rx="20" fill="#09101b"/>
+<rect x="72" y="420" width="1952" height="80" rx="20" fill="#35536d"/>
+<rect x="75" y="423" width="1946" height="74" rx="18" fill="#213c53"/>
+<rect x="92" y="437" width="8" height="46" rx="4" fill="#7dbbf4"/>
+<text x="110" y="468" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#eff7ff">GITHUB / VERSIONED HANDOFFS / REVISIONS TRACE TO AN APPROVED BRIEF</text>
+<line x1="1730" y1="366" x2="1730" y2="410" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<line x1="1718" y1="390" x2="1730" y2="410" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<line x1="1742" y1="390" x2="1730" y2="410" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<rect x="80" y="565" width="941" height="249" rx="20" fill="#09101b"/>
+<rect x="72" y="554" width="941" height="249" rx="20" fill="#35536d"/>
+<rect x="75" y="557" width="935" height="243" rx="18" fill="#14283b"/>
+<rect x="92" y="571" width="8" height="215" rx="4" fill="#65d8d2"/>
+<text x="114" y="604" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#65d8d2">TRACK A / CODE + PIPELINE</text>
+<text x="114" y="661" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">CODESPACES / R2 + R5</text>
+<text x="114" y="704" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">CODEX / GODOT / PYTHON / CHECKS</text>
+<text x="114" y="744" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16.8" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">PROTOTYPE BRANCH ONLY WHEN AUTHORISED</text>
+<rect x="1091" y="565" width="941" height="249" rx="20" fill="#09101b"/>
+<rect x="1083" y="554" width="941" height="249" rx="20" fill="#35536d"/>
+<rect x="1086" y="557" width="935" height="243" rx="18" fill="#14283b"/>
+<rect x="1103" y="571" width="8" height="215" rx="4" fill="#bdaef3"/>
+<text x="1125" y="604" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#bdaef3">TRACK B / MODEL + LOOK</text>
+<text x="1125" y="661" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">WINDOWS BLENDER / R3 + R4</text>
+<text x="1125" y="704" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">MPFB / SKIN / RIG / ANIM / GLB</text>
+<text x="1125" y="744" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16.8" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">SOURCES AND EXPORT MANIFESTS</text>
+<line x1="1042" y1="500" x2="533" y2="540" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<line x1="552" y1="526" x2="533" y2="540" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<line x1="553" y1="550" x2="533" y2="540" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<line x1="1061" y1="500" x2="1552" y2="540" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<line x1="1531" y1="550" x2="1552" y2="540" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<line x1="1533" y1="526" x2="1552" y2="540" stroke="#7dbbf4" stroke-width="8" stroke-linecap="round"/>
+<line x1="543" y1="807" x2="755" y2="870" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<line x1="733" y1="876" x2="755" y2="870" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<line x1="740" y1="853" x2="755" y2="870" stroke="#65d8d2" stroke-width="10" stroke-linecap="round"/>
+<line x1="1572" y1="807" x2="1338" y2="870" stroke="#bdaef3" stroke-width="10" stroke-linecap="round"/>
+<line x1="1354" y1="853" x2="1338" y2="870" stroke="#bdaef3" stroke-width="10" stroke-linecap="round"/>
+<line x1="1360" y1="877" x2="1338" y2="870" stroke="#bdaef3" stroke-width="10" stroke-linecap="round"/>
+<rect x="413" y="892" width="1288" height="153" rx="20" fill="#09101b"/>
+<rect x="405" y="881" width="1288" height="153" rx="20" fill="#35536d"/>
+<rect x="408" y="884" width="1282" height="147" rx="18" fill="#1b3248"/>
+<rect x="425" y="898" width="8" height="119" rx="4" fill="#7dbbf4"/>
+<text x="446" y="932" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#7dbbf4">GATE 3 / GODOT INTEGRATION</text>
+<text x="446" y="980" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#eff7ff">WINDOWS GODOT / R2 + R3 / GLB IMPORT / EIGHT-WAY WALK</text>
+<text x="446" y="1018" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16.8" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">DESKTOP PLAYTEST REQUIRED</text>
+<line x1="1049" y1="1039" x2="1049" y2="1090" stroke="#7dbbf4" stroke-width="10" stroke-linecap="round"/>
+<line x1="1037" y1="1070" x2="1049" y2="1090" stroke="#7dbbf4" stroke-width="10" stroke-linecap="round"/>
+<line x1="1061" y1="1070" x2="1049" y2="1090" stroke="#7dbbf4" stroke-width="10" stroke-linecap="round"/>
+<rect x="80" y="1113" width="941" height="152" rx="20" fill="#09101b"/>
+<rect x="72" y="1102" width="941" height="152" rx="20" fill="#35536d"/>
+<rect x="75" y="1105" width="935" height="146" rx="18" fill="#14283b"/>
+<rect x="92" y="1119" width="8" height="118" rx="4" fill="#76d7ac"/>
+<text x="113" y="1149" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#76d7ac">GATE 4 / QA + EVIDENCE</text>
+<text x="113" y="1193" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#eff7ff">R6 / HEADLESS + VISUAL TESTS</text>
+<text x="113" y="1235" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">FAIL -&gt; OWNER REVISES</text>
+<rect x="1091" y="1113" width="941" height="152" rx="20" fill="#09101b"/>
+<rect x="1083" y="1102" width="941" height="152" rx="20" fill="#35536d"/>
+<rect x="1086" y="1105" width="935" height="146" rx="18" fill="#14283b"/>
+<rect x="1103" y="1119" width="8" height="118" rx="4" fill="#f3c075"/>
+<text x="1124" y="1149" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#f3c075">GATE 5 / HUMAN SIGN-OFF</text>
+<text x="1124" y="1193" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#eff7ff">L0 PRESENTS PASS / FAIL / RISKS</text>
+<text x="1124" y="1235" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">ACCEPT / REVISE / DEFER</text>
+<line x1="1019" y1="1179" x2="1073" y2="1179" stroke="#76d7ac" stroke-width="10" stroke-linecap="round"/>
+<line x1="1053" y1="1191" x2="1073" y2="1179" stroke="#76d7ac" stroke-width="10" stroke-linecap="round"/>
+<line x1="1053" y1="1167" x2="1073" y2="1179" stroke="#76d7ac" stroke-width="10" stroke-linecap="round"/>
+<rect x="72" y="1290" width="1952" height="2" fill="#35536d"/>
+<text x="75" y="1333" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">MAIN: AUTHORISED DOCS ONLY  /  HUMAN-PROTOTYPE-01: PROTOTYPE WHEN AUTHORISED</text>
+<text x="75" y="1360" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16.8" font-weight="700" letter-spacing="0.3" fill="#eb96a0">NO EXTRA BRANCHES. NO MERGES WITHOUT EXPLICIT HUMAN APPROVAL.</text></svg>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2360" height="1610" viewBox="0 0 2360 1610"><rect width="100%" height="100%" fill="#0b1421"/><rect x="0" y="0" width="2360" height="1610" fill="#0b1421"/>
+<rect x="0" y="0" width="2360" height="12" fill="#65d8d2"/>
+<text x="74" y="105" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="58.800000000000004" font-weight="700" letter-spacing="0.56" fill="#eff7ff">GAUNTLANDS / WORK TO ROLE TO MODEL</text>
+<text x="75" y="151" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">CHOOSE RESPONSIBILITY FIRST  /  THEN MODEL + EXECUTION TOOL</text>
+<rect x="72" y="210" width="2232" height="65" rx="20" fill="#09101b"/>
+<rect x="64" y="199" width="2232" height="65" rx="20" fill="#35536d"/>
+<rect x="67" y="202" width="2226" height="59" rx="18" fill="#213c53"/>
+<rect x="84" y="216" width="8" height="31" rx="4" fill="#7dbbf4"/>
+<text x="101" y="244" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">WORK TYPE</text>
+<text x="789" y="244" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">ACCOUNTABLE ROLE</text>
+<text x="1561" y="244" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">CHATGPT MODEL / TOOL</text>
+<rect x="72" y="300" width="2232" height="140" rx="20" fill="#09101b"/>
+<rect x="64" y="289" width="2232" height="140" rx="20" fill="#35536d"/>
+<rect x="67" y="292" width="2226" height="134" rx="18" fill="#14283b"/>
+<rect x="84" y="306" width="8" height="106" rx="4" fill="#65d8d2"/>
+<rect x="734" y="299" width="3" height="119" fill="#35536d"/>
+<rect x="1525" y="299" width="3" height="119" fill="#35536d"/>
+<text x="101" y="336" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">SYSTEMS + COMBAT</text>
+<text x="101" y="392" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">SPEC + ACCEPTANCE</text>
+<text x="787" y="336" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">R1 / GAME DESIGN</text>
+<text x="787" y="392" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">L0 SCOPE REVIEW</text>
+<text x="1570" y="336" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#65d8d2">GPT-6 HIGH</text>
+<text x="1570" y="392" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">CHAT / MEDIUM FOR DRAFTS</text>
+<rect x="72" y="450" width="2232" height="140" rx="20" fill="#09101b"/>
+<rect x="64" y="439" width="2232" height="140" rx="20" fill="#35536d"/>
+<rect x="67" y="442" width="2226" height="134" rx="18" fill="#192d43"/>
+<rect x="84" y="456" width="8" height="106" rx="4" fill="#7dbbf4"/>
+<rect x="734" y="449" width="3" height="119" fill="#35536d"/>
+<rect x="1525" y="449" width="3" height="119" fill="#35536d"/>
+<text x="101" y="486" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">GODOT GAMEPLAY</text>
+<text x="101" y="542" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">SCENES + CONTROLS</text>
+<text x="787" y="486" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">R2 / GODOT ENGINEER</text>
+<text x="787" y="542" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">IN-ENGINE OWNERSHIP</text>
+<text x="1570" y="486" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#7dbbf4">CODEX / SOL*</text>
+<text x="1570" y="542" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">ASTRA FOR HARD DEBUGGING</text>
+<rect x="72" y="600" width="2232" height="140" rx="20" fill="#09101b"/>
+<rect x="64" y="589" width="2232" height="140" rx="20" fill="#35536d"/>
+<rect x="67" y="592" width="2226" height="134" rx="18" fill="#14283b"/>
+<rect x="84" y="606" width="8" height="106" rx="4" fill="#bdaef3"/>
+<rect x="734" y="599" width="3" height="119" fill="#35536d"/>
+<rect x="1525" y="599" width="3" height="119" fill="#35536d"/>
+<text x="101" y="636" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">HUMAN MODEL + SKIN</text>
+<text x="101" y="692" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">MESH + MATERIALS</text>
+<text x="787" y="636" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">R3 / TECHNICAL ART</text>
+<text x="787" y="692" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">BLENDER + MPFB</text>
+<text x="1570" y="636" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#bdaef3">CODEX + BLENDER</text>
+<text x="1570" y="692" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">GPT-6 HIGH FOR SPEC</text>
+<rect x="72" y="750" width="2232" height="140" rx="20" fill="#09101b"/>
+<rect x="64" y="739" width="2232" height="140" rx="20" fill="#35536d"/>
+<rect x="67" y="742" width="2226" height="134" rx="18" fill="#192d43"/>
+<rect x="84" y="756" width="8" height="106" rx="4" fill="#bdaef3"/>
+<rect x="734" y="749" width="3" height="119" fill="#35536d"/>
+<rect x="1525" y="749" width="3" height="119" fill="#35536d"/>
+<text x="101" y="786" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">RIGGING + WALK</text>
+<text x="101" y="842" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">SKINNING + ANIMATION</text>
+<text x="787" y="786" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">R3 / TECHNICAL ART</text>
+<text x="787" y="842" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">RIG AND EXPORT CONTRACT</text>
+<text x="1570" y="786" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#bdaef3">CODEX / ASTRA*</text>
+<text x="1570" y="842" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">BLENDER EXECUTES + TESTS</text>
+<rect x="72" y="900" width="2232" height="140" rx="20" fill="#09101b"/>
+<rect x="64" y="889" width="2232" height="140" rx="20" fill="#35536d"/>
+<rect x="67" y="892" width="2226" height="134" rx="18" fill="#14283b"/>
+<rect x="84" y="906" width="8" height="106" rx="4" fill="#f3c075"/>
+<rect x="734" y="899" width="3" height="119" fill="#35536d"/>
+<rect x="1525" y="899" width="3" height="119" fill="#35536d"/>
+<text x="101" y="936" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">CONCEPTS + SHADERS</text>
+<text x="101" y="992" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">STYLE + RENDERING</text>
+<text x="787" y="936" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">R4 / ART + RENDER</text>
+<text x="787" y="992" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">VISUAL APPROVAL GATE</text>
+<text x="1570" y="936" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#f3c075">GPT-6 + IMAGE GEN</text>
+<text x="1570" y="992" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">BLENDER / GODOT FINISH</text>
+<rect x="72" y="1050" width="2232" height="140" rx="20" fill="#09101b"/>
+<rect x="64" y="1039" width="2232" height="140" rx="20" fill="#35536d"/>
+<rect x="67" y="1042" width="2226" height="134" rx="18" fill="#192d43"/>
+<rect x="84" y="1056" width="8" height="106" rx="4" fill="#7dbbf4"/>
+<rect x="734" y="1049" width="3" height="119" fill="#35536d"/>
+<rect x="1525" y="1049" width="3" height="119" fill="#35536d"/>
+<text x="101" y="1086" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">CODESPACES + CI</text>
+<text x="101" y="1142" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">REBUILD + SCRIPTS</text>
+<text x="787" y="1086" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">R5 / PIPELINE</text>
+<text x="787" y="1142" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">PIN AND CHECK TOOLS</text>
+<text x="1570" y="1086" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#7dbbf4">CODEX / SOL*</text>
+<text x="1570" y="1142" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">ASTRA FOR COMPLEX FAULTS</text>
+<rect x="72" y="1200" width="2232" height="140" rx="20" fill="#09101b"/>
+<rect x="64" y="1189" width="2232" height="140" rx="20" fill="#35536d"/>
+<rect x="67" y="1192" width="2226" height="134" rx="18" fill="#14283b"/>
+<rect x="84" y="1206" width="8" height="106" rx="4" fill="#76d7ac"/>
+<rect x="734" y="1199" width="3" height="119" fill="#35536d"/>
+<rect x="1525" y="1199" width="3" height="119" fill="#35536d"/>
+<text x="101" y="1236" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">TEST + PERFORMANCE</text>
+<text x="101" y="1292" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">REGRESSION + EVIDENCE</text>
+<text x="787" y="1236" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">R6 / QA ENGINEER</text>
+<text x="787" y="1292" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">MANUAL + HEADLESS</text>
+<text x="1570" y="1236" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#76d7ac">CODEX + GPT-6 HIGH</text>
+<text x="1570" y="1292" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">GODOT VISUAL CHECKS</text>
+<rect x="72" y="1350" width="2232" height="140" rx="20" fill="#09101b"/>
+<rect x="64" y="1339" width="2232" height="140" rx="20" fill="#35536d"/>
+<rect x="67" y="1342" width="2226" height="134" rx="18" fill="#192d43"/>
+<rect x="84" y="1356" width="8" height="106" rx="4" fill="#eb96a0"/>
+<rect x="734" y="1349" width="3" height="119" fill="#35536d"/>
+<rect x="1525" y="1349" width="3" height="119" fill="#35536d"/>
+<text x="101" y="1386" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">REVIEW + APPROVAL</text>
+<text x="101" y="1442" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">SCOPE + DECISIONS</text>
+<text x="787" y="1386" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eff7ff">L0 / PRODUCTION LEAD</text>
+<text x="787" y="1442" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">HUMAN IS FINAL AUTHORITY</text>
+<text x="1570" y="1386" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="33.6" font-weight="700" letter-spacing="0.32" fill="#eb96a0">GPT-6 HIGH</text>
+<text x="1570" y="1442" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">NO AUTOMATIC MERGE</text>
+<rect x="75" y="1513" width="2210" height="2" fill="#35536d"/>
+<text x="79" y="1552" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="25.200000000000003" font-weight="700" letter-spacing="0.3" fill="#9eb7ca">* ASTRA ONLY IF AVAILABLE. MODEL PICKER AND ALLOWANCE CAN CHANGE.</text>
+<text x="79" y="1585" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16.8" font-weight="700" letter-spacing="0.3" fill="#eb96a0">MODELS WRITE PLANS OR CODE; BLENDER + GODOT AND HUMAN QA VERIFY RESULTS.</text></svg>
