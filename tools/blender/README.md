@@ -1,61 +1,96 @@
-# Gauntlands — Prototype 01: fitted boxer briefs
+# Fitted boxer briefs v2 — human-prototype-01
 
-**Status:** Experimental first-pass generator, **not yet executed or visually approved**.  
-**Branch:** `human-prototype-01` only.  
-**Intended host:** Blender 5.2.3 LTS, with the user’s MPFB 2.0.18 male human and rig. The exact combination is not yet independently tested.
+This replaces the rejected face-extraction generator with a new, connected garment
+mesh. Tested in **Blender 5.2.3 LTS** (e13b728c6880) against the committed
+`assets/Blender Models/Human-Male.blend`. Installed MPFB manifest: **2.0.18**.
+MPFB does not need to be enabled to run this generator: the saved shape keys,
+mask and rig supply the inputs. Human artistic approval remains pending.
 
-## Design brief
+## Run in Blender
 
-Create plain charcoal-grey, close-fitting **boxer briefs** for the existing underwear-only male character. This is a modesty and deformation-test garment, not a general inventory/equipment system.
+1. Update your clean checkout of **Jonty303/Gauntlands**, existing branch
+   `human-prototype-01`. Preserve any local changes before pulling.
+2. Open the original `assets/Blender Models/Human-Male.blend`. Choose **Save As**
+   and use a different filename, for example `Human-Male-Briefs-test.blend`.
+3. Use Object Mode and the neutral rig pose. In Scripting, open
+   `tools/blender/generate_briefs.py`, then press **Alt+P** over the text editor.
+4. Inspect `Gauntlands_Boxer_Briefs` in front/back/side and underneath. The script
+   finds the MPFB body by its body group and shape keys; selection is irrelevant.
+5. Save only your test copy. The generator itself never saves any file.
 
-**Constraints:**
-- Preserve `assets/Blender Models/Human-Male.blend` unchanged during initial testing.
-- Make an **independent mesh** named `Gauntlands_Boxer_Briefs`; do not permanently modify the skin mesh.
-- Use the body surface as the initial fit and transfer its vertex-group weights; reuse the existing Armature modifier where available.
-- Flat, opaque charcoal fabric, understated dark waistband and short leg hems; no branding or unnecessary geometry.
-- Do not generate a second character, armour, hairstyles, weapons or expanded gameplay.
+If v1 briefs are already in the scene, hide or remove that rejected garment first.
+Rerunning v2 preserves existing objects and produces `.001`, `.002`, etc.; these
+occupy the same space, so hide the earlier version when comparing. It does not
+silently replace hand edits. Geometry is deterministic on the same source.
 
-## Try it on your Windows desktop
+## Geometry and rig contract
 
-1. Ensure the Gauntlands checkout is on `human-prototype-01` and pull this commit safely (check `git status` first; do not discard local changes).
-2. Open **Human-Male.blend** in Blender.
-3. **Save As** a separate test file such as `Human-Male-Briefs-test.blend` **before** experimenting, rather than overwriting the committed original.
-4. In **Object Mode**, click the main human **body mesh** in the Outliner. Do not select the armature or an eye.
-5. Open Blender's **Scripting** workspace, then **Text → Open** and choose `tools/blender/generate_briefs.py` from your cloned checkout.
-6. Click **Run Script** (Alt+P when the script editor has focus).
-7. Return to **Layout**, enable **Material Preview**, and inspect the new object **Gauntlands_Boxer_Briefs**. The generator does not save the scene automatically.
-8. Check front, back and side views plus a raised-knee / walking pose if the rig is available. If satisfactory, save the **test copy**, then commit it to the **prototype branch only** after review.
+- Source skin: current shape-key mix evaluated with the helper mask, without
+  armature deformation. A temporary object is removed after sampling; original
+  mesh, modifiers, shape keys and rig remain unchanged.
+- Coordinate frame: hip separation gives left/right; pelvis-to-head gives up;
+  foot direction identifies front. Object transforms are carried into the rig
+  frame. This is an MPFB default-rig-specific tool, not a universal clothes fitter.
+- Waist follows the `spine04` head (lower abdomen/hip line); hem follows the upper
+  thigh landmark with a short extension. No full-body-height percentage is used.
+- A 64-point torso ring transitions into two 44-point leg rings, sharing a sewn
+  front-to-back crotch bridge. This is one connected all-quad surface with exactly
+  three boundary loops: waist and two legs. The crotch has no opening.
+- Ray samples exit the torso or the corresponding thigh, avoiding hands and the
+  opposite leg. Fabric ease is 0.016 rig units at the measured hip width, with
+  extra crotch clearance; Solidify adds 0.0015 units outward thickness.
+- Deform weights are interpolated on evaluated skin triangles, normalised, then
+  smoothed below the waistband to avoid sudden left/right-thigh changes.
+  A four-pass Smooth modifier after the armature softens compressed cloth folds
+  before thickness is added.
+  The garment uses the original `Human.rig` and its preserve-volume setting.
+- Packed UV islands, two opaque rough materials, smooth normals. UVs are usable
+  for painting but are not a tailored sewing-pattern atlas. No image textures.
+- Task budgets: <=5,000 base triangles; <=6,000 after thickness; two materials.
+  Actual: 1,355 vertices / 1,280 quads / 2,560 base triangles; 5,424 solidified
+  triangles; two materials, one UV layer. These are task limits, not project-wide.
 
-## Expected results
+## Reproduce validation
 
-- One new, editable mesh with a charcoal material and darker waistband/leg edging.
-- It should sit just outside the source skin surface; a Solidify modifier adds minimal thickness.
-- Existing body rig deform weights are transferred to the matching cloth vertices. Where the source has an Armature modifier, the generated object references the same armature.
-- The body mesh and original file are not automatically altered or saved.
+From the repository root in PowerShell:
 
-## What to examine / known limitations
+```powershell
+& 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe' `
+  --background --factory-startup 'assets/Blender Models/Human-Male.blend' `
+  --python-exit-code 1 --python tools/blender/test_briefs.py
+```
 
-The first pass selects a pelvis/upper-thigh **surface patch** using height ratios and excludes likely arm/hand weights. It is deliberately simple: it does **not** yet rebuild a bespoke garment topology, bridge every crotch gap, add UVs, or prove weight deformations. It may need manual editing if the MPFB body proportions, anatomy or vertex distribution differ.
+The test writes six actual Blender Workbench renders and `validation.json` under
+[previews](previews/), plus an ignored test `.blend`. It saves and reopens that
+separate copy and checks that the source file SHA-256 is unchanged. Run against
+the pristine committed source; it deliberately asserts the inspected contract.
+The test script changes the disposable scene's camera/render settings and poses;
+the generator does not. Grey skin in previews is the source viewport material.
 
-Inspect closely for:
-- gaps across the crotch or exposed underlying anatomy;
-- uneven waistband or leg hem (surface patch boundaries follow source polygons);
-- intersections, especially when raising the leg or rotating the hip;
-- whether the shorts follow the armature correctly and materials export to GLB.
+## Acceptance and evidence
 
-If the wrong mesh is used, delete only the newly generated briefs, select the correct main body mesh and rerun. The script refuses to overwrite an existing `Gauntlands_Boxer_Briefs` object.
+| Criterion | Result |
+| --- | --- |
+| Waist at hips, short thigh coverage, closed crotch | Pass: front, side, back, underside renders reviewed |
+| One connected surface / three intended openings | Pass: boundary lengths 64, 44, 44; no invalid edges or degenerate faces |
+| Thickness closes the shell | Pass: zero boundary edges after Solidify |
+| Skin fit in standing, 45-degree left hip flexion, 20-degree left abduction | Pass: zero skin and non-adjacent self-intersection pairs in all three cases |
+| Normalised deform weights, rig link, UVs and two materials | Pass: automated checks |
+| Non-destructive rerun | Pass: different object name, identical generated coordinates, source data unchanged |
+| Save/reopen test copy | Pass: topology, rig, UVs and materials checked after reopen |
+| Source file preserved | Pass: SHA-256 unchanged; source asset not included in the change |
+| Full walk cycle, both legs together, deep squat, extreme poses | Not tested |
+| GLB export / Godot import / controller testing | Not tested; outside this generator repair |
+| Final character artistic approval | Pending user review |
 
-To change the fit, edit the constants at the top of the script: `WAIST_HEIGHT`, `LEG_HEM_HEIGHT`, `MAX_SIDE_REACH`, `MAX_FRONT_BACK_REACH` and `SURFACE_GAP`. Ratios are relative to the body's height. Rerun on a fresh test copy or remove the generated object first.
+[Front](previews/front.png) · [Side](previews/side.png) · [Back](previews/back.png) ·
+[Underside](previews/under.png) · [Raised leg](previews/hip_flex_45.png) ·
+[Sideways leg](previews/hip_abduct_20.png) · [Measurements](previews/validation.json)
 
-## Acceptance criteria
+The body is unusually tall (2.4308 scene units). Do not interpret its units as a
+new real-world character-height decision. No rescaling of the human is performed.
+After editing body shape keys, regenerate the garment in neutral pose; it does
+not inherit those shape keys automatically. Unsupported rigs or non-neutral poses
+are rejected. Animation clearance beyond the recorded poses is unverified.
 
-- [ ] Original human mesh remains unchanged.
-- [ ] Separate briefs object appears with suitable, opaque coverage from all angles.
-- [ ] Waist and leg openings sit acceptably without obvious clipping.
-- [ ] Mesh follows the existing rig during basic hip and knee poses.
-- [ ] Test .blend saves, closes and reopens.
-- [ ] User approves visual quality before declaring the garment finished.
-
-**Validation performed:** Python syntax check of the generated script outside Blender. **Not performed:** running against the committed `.blend`, MPFB evaluation, rig pose tests, GLB export, or Godot import. Keep failures and screenshots in the prototype review record.
-
-This experimental garment is restricted to the first-human prototype; approval of this test does not authorise an equipment system or additional branches.
+See [failure analysis and handoff](../../development/BRIEFS_V2_REVIEW.md).

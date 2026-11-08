@@ -1,0 +1,75 @@
+{
+  "vertices": 1355,
+  "faces": 1280,
+  "triangles": 2560,
+  "boundary_loops": [
+    44,
+    44,
+    64
+  ],
+  "components": 1,
+  "bad_edges": 0,
+  "degenerate_faces": 0,
+  "blender": "5.2.3 LTS",
+  "source_file_version": [
+    5,
+    2,
+    45
+  ],
+  "source_sha256": "19d185aaa3829b2c1b7a4b45309b7f9cc54c1804d5163d5d9907e9d5a6894ad9",
+  "source_mesh_vertices": 19158,
+  "evaluated_skin_vertices": 13380,
+  "materials": 2,
+  "uv_layers": 1,
+  "normalized_weights": true,
+  "rerun_identical_geometry": true,
+  "source_unchanged": true,
+  "rest_fit": {
+    "solidified_topology": {
+      "vertices": 2710,
+      "faces": 2712,
+      "triangles": 5424,
+      "boundary_loops": [],
+      "components": 1,
+      "bad_edges": 0,
+      "degenerate_faces": 0
+    },
+    "nonadjacent_self_intersections": 0,
+    "body_triangle_intersection_pairs": 0,
+    "vertices_inside_skin": 0,
+    "minimum_signed_skin_distance": 0.00645610096398741
+  },
+  "poses": {
+    "hip_flex_45": {
+      "solidified_topology": {
+        "vertices": 2710,
+        "faces": 2712,
+        "triangles": 5424,
+        "boundary_loops": [],
+        "components": 1,
+        "bad_edges": 0,
+        "degenerate_faces": 0
+      },
+      "nonadjacent_self_intersections": 0,
+      "body_triangle_intersection_pairs": 0,
+      "vertices_inside_skin": 0,
+      "minimum_signed_skin_distance": 0.0027761480305343866
+    },
+    "hip_abduct_20": {
+      "solidified_topology": {
+        "vertices": 2710,
+        "faces": 2712,
+        "triangles": 5424,
+        "boundary_loops": [],
+        "components": 1,
+        "bad_edges": 0,
+        "degenerate_faces": 0
+      },
+      "nonadjacent_self_intersections": 0,
+      "body_triangle_intersection_pairs": 0,
+      "vertices_inside_skin": 0,
+      "minimum_signed_skin_distance": 0.0066199160646647215
+    }
+  },
+  "saved_copy_reopened": true
+}

@@ -1,0 +1,3 @@
+# Local validation copies; source human is never overwritten.
+*.blend
+*.blend1
