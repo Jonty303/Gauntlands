@@ -1,7 +1,8 @@
 # Animation, systems reuse and production efficiency
 
-**Status:** Draft production principles  
-**Discussion date:** 7 November 2026
+**Status:** Approved production and reuse principles — proposed implementation architecture remains to be specified and tested  
+**Approved:** 8 November 2026  
+**Scope gate:** These principles guide future work but do not expand the single-human Prototype 01 or authorise Stage 02 development.
 
 ## Guiding rule
 

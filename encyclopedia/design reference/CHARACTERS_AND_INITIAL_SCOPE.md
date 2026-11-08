@@ -1,9 +1,12 @@
 # Characters and initial playable scope
 
-**Status:** Draft — initial scope agreed in discussion  
-**Last reviewed:** 7 November 2026
+**Status:** Approved design baseline — fixed first-playable roster and initial loadouts  
+**Approved:** 8 November 2026  
+**Remaining decisions:** Class display-name confirmation and detailed combat actions are explicitly deferred.
 
 ## Design intent
+
+**Milestone boundary:** This document governs the future five-class first playable release, **not** the current Prototype 01 task. Prototype 01 remains restricted to one believable underwear-only human with a reusable Blender/rig/animation pipeline and eight-direction walking on a flat Godot plane. Approval of this roster does not authorise implementation of all five characters now.
 
 The first playable version of Gauntlands uses **five fixed, recognisable poster characters**, one per class. Their appearance and starting equipment are predetermined. The intention is to minimise modelling, rigging, texturing and animation work while retaining a clear identity for each class.
 
@@ -13,15 +16,15 @@ The concept-art filenames in the current repository establish the class-to-chara
 
 | Class | Initial character | Starting weapons | Existing concept reference |
 | --- | --- | --- | --- |
-| Champion | Female dwarf | Mace and shield | [Dwarf Champion](../encyclopedia/concept%20art/02_Female_Dwarf_Champion.png) |
-| Hunter | Young, outdoors-weathered human male | Longbow and longsword | [Male Hunter](../encyclopedia/concept%20art/05_Human_Male_Hunter.png) |
-| Rogue | Female halfling | Shortsword and shortbow | [Halfling Rogue](../encyclopedia/concept%20art/04_Female_Halfling_Rogue.png) |
-| Evoker | Female elf | Staff | [Elf Evoker](../encyclopedia/concept%20art/01_Female_Elf_Evoker.png) |
-| Priest | Older / mature human male | Staff | [Human Priest](../encyclopedia/concept%20art/03_Middle_Aged_Human_Male_Priest.png) |
+| Champion | Female dwarf | Mace and shield | [Dwarf Champion](../concept%20art/02_Female_Dwarf_Champion.png) |
+| Hunter | Young, outdoors-weathered human male | Longbow and longsword | [Male Hunter](../concept%20art/05_Human_Male_Hunter.png) |
+| Rogue | Female halfling | Shortsword and shortbow | [Halfling Rogue](../concept%20art/04_Female_Halfling_Rogue.png) |
+| Evoker | Female elf | Staff | [Elf Evoker](../concept%20art/01_Female_Elf_Evoker.png) |
+| Priest | Older / mature human male | Staff | [Human Priest](../concept%20art/03_Middle_Aged_Human_Male_Priest.png) |
 
 **Hunter revision:** The **male** human Hunter is the current intended poster/playable character. The earlier `05_Female_Human_Hunter.png` remains in the concept-art library as an earlier concept; it should not be used as the initial Hunter reference.
 
-**Class terminology:** The current discussion calls the fifth class **Rogue**. Earlier Gauntlands material sometimes called it **Thief**; confirm the canonical label when consolidating the authoritative design.
+**Class terminology — open decision:** **Rogue** is the current working label. Earlier material sometimes used **Thief**; the final display name remains unconfirmed and must be decided before player-facing terminology is finalised. This does not block approval of the roster or starting loadout.
 
 ## Stage 01 visible equipment
 
@@ -35,7 +38,7 @@ The concept-art filenames in the current repository establish the class-to-chara
 
 Weapon overlap is intentional; abilities, timings, defensive tools and attack behaviour create class distinction.
 
-## In scope for the first playable prototype
+## In scope for the future first playable release (not Prototype 01)
 
 - Five fixed character appearances with the above loadouts.
 - Shared foundational movement, targeting, hit reactions, death and interaction systems, where appropriate.

@@ -12,10 +12,12 @@ The similarly named `Project-Gauntlands` checkout points to
 
 The existing local `development/` folder was empty. Git does not track empty
 directories; this document makes that folder visible on GitHub.
-The new repository has no configured agent roles. Do not copy the archive's
-role system, iteration contracts or 2D/3D architecture decisions into it.
-See the existing [design drafts](../drafts/README.md) for their explicitly
-provisional scope. Environment setup does not authorise gameplay or asset production.
+At the original environment inspection the repository had no agent roles; these
+were subsequently documented in [agent roles](AGENT_ROLES.md). Do not copy the
+archive's role system, iteration contracts or 2D/3D architecture decisions.
+See [approved design references](../encyclopedia/design%20reference/README.md) and
+the [drafts index](../drafts/README.md) for decision boundaries.
+Environment setup does not authorise gameplay or asset production.
 
 The referenced “Choose ChatGPT Models” conversation established the requested
 three-environment topic, but its assistant replies were available only as reference

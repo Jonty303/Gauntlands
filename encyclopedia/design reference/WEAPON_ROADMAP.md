@@ -1,7 +1,8 @@
 # Class weapons — staged roadmap
 
-**Status:** Draft — Stage 01 agreed, Stage 02 direction agreed, later additions tentative  
-**Discussion date:** 7 November 2026
+**Status:** Approved staged roadmap — Stage 01 fixed, Stage 02 direction agreed but unscheduled, later options provisional  
+**Approved:** 8 November 2026  
+**Scope gate:** Roadmap approval does not authorise development of Stage 02 or later weapons, nor expand the underwear-only human Prototype 01.
 
 ## Stage matrix
 

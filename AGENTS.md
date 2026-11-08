@@ -24,4 +24,4 @@ This file is the **Codex and repository-working entrypoint**. Read the detailed 
 
 One believable underwear-only human; reusable modelling/rigging/animation pipeline; single flat Godot test plane; eight-direction walking. No other prototypes, branches or merges until the first human is explicitly approved.
 
-The `drafts/` folder contains provisional design notes, not blanket authorisation to build those features.
+The approved first-playable scope, weapon roadmap and reuse principles live in `encyclopedia/design reference/` (see its `README.md`). They are **not** authorisation to build the five-class release during Prototype 01. Future unapproved proposals belong in `drafts/`.
