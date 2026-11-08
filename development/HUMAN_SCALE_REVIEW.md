@@ -127,3 +127,11 @@ Human remains the authority for artistic sign-off and merging.
 
 References: [Godot 3D units](https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html),
 [glTF 2.0 metre/axis contract](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html).
+
+## User acceptance — 8 November 2026
+
+The user accepted `assets/Blender Models/Human-Male-180cm.blend` as the test
+model: “We can commit this as our test model.” This is the selected character
+for subsequent prototype testing on `human-prototype-01`. The original source
+remains preserved. This acceptance does not certify the unverified Godot,
+materials or animation checks above, authorise a merge, or expand prototype scope.
