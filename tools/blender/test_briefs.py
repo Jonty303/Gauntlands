@@ -12,7 +12,7 @@ from mathutils import Vector, Quaternion
 from mathutils.bvhtree import BVHTree
 
 ROOT = Path(__file__).resolve().parent
-OUT = ROOT / 'previews'
+OUT = ROOT / ('scale_previews' if Path(bpy.data.filepath).stem == 'Human-Male-180cm' else 'previews')
 OUT.mkdir(exist_ok=True)
 source = Path(bpy.data.filepath).resolve()
 source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
@@ -26,9 +26,15 @@ def fingerprint():
             [(m.name,m.type,m.show_viewport,m.show_render) for m in body.modifiers],
             [tuple(row) for row in body.matrix_world])
 
+# Validate saved production garment by comparing it to a fresh deterministic build.
+existing = bpy.data.objects.get(ns['GARMENT_NAME'])
+existing_coords = [tuple(v.co) for v in existing.data.vertices] if existing else None
+if existing:
+    bpy.data.objects.remove(existing, do_unlink=True)
 before = fingerprint()
 garment = ns['build_briefs']()
 assert fingerprint() == before
+assert existing_coords is None or existing_coords == [tuple(v.co) for v in garment.data.vertices]
 report = ns['topology_report'](garment.data)
 assert report['boundary_loops'] == [44,44,64]
 assert report['components']==1 and not report['bad_edges'] and not report['degenerate_faces']
@@ -51,11 +57,12 @@ scene.render.resolution_x=800;scene.render.resolution_y=900;scene.render.resolut
 scene.display.shading.light='STUDIO';scene.display.shading.color_type='MATERIAL'
 scene.display.shading.show_shadows=True;scene.display.shading.show_cavity=True
 scene.display.shading.background_type='WORLD';scene.world.color=(.12,.12,.12)
-cam=scene.camera;cam.data.type='ORTHO';cam.data.ortho_scale=1.05
+view_scale = body.dimensions.z / 2.4308013916015625
+cam=scene.camera;cam.data.type='ORTHO';cam.data.ortho_scale=1.05*view_scale
 
 def render(name,position,target=(0,0,1.34)):
-    cam.location=position
-    cam.rotation_euler=(Vector(target)-cam.location).to_track_quat('-Z','Y').to_euler()
+    cam.location=Vector(position)*view_scale
+    cam.rotation_euler=(Vector(target)*view_scale-cam.location).to_track_quat('-Z','Y').to_euler()
     scene.render.filepath=str(OUT/(name+'.png'))
     bpy.ops.render.render(write_still=True)
 
@@ -88,6 +95,9 @@ report.update(blender=bpy.app.version_string,source_file_version=list(bpy.data.v
               rerun_identical_geometry=True,source_unchanged=True,rest_fit=fit_report())
 for name,position in [('front',(0,-4,1.36)),('side',(4,0,1.36)),('back',(0,4,1.36)),('under',(0,-3,.4))]:
     render(name,position)
+cam.data.ortho_scale=2.8*view_scale
+render('full_body',(0,-5,1.2),(0,0,1.2154))
+cam.data.ortho_scale=1.05*view_scale
 report['poses']={}
 for name,axis,angle in [('hip_flex_45',(1,0,0),-45),('hip_abduct_20',(0,1,0),-20)]:
     p=rig.pose.bones['upperleg01.L'];p.rotation_mode='QUATERNION'

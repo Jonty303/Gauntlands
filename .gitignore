@@ -1,0 +1,3 @@
+# Disposable scale validation artifacts
+/tools/blender/scale_previews/*.blend*
+/tools/blender/scale_previews/*.glb

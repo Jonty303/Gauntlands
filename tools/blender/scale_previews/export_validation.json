@@ -1,0 +1,15 @@
+{
+  "export_policy": "Apply non-armature modifiers; baked shape mix, no editable morphs; all joint influences",
+  "glb_bytes": 5981556,
+  "roundtrip_height_m": 1.7999996948706212,
+  "armature": "Human.rig",
+  "shape_keys": 0,
+  "objects": [
+    "Human.rig",
+    "Gauntlands_Boxer_Briefs",
+    "Human",
+    "Human.high-poly",
+    "Icosphere"
+  ],
+  "godot_import": "not run"
+}

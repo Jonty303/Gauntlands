@@ -121,6 +121,12 @@ def build_briefs():
     skin = [inverse @ v for v in skin]
     landmark = lambda name, end='head_local': inverse @ getattr(bones[name],end)
     scale = (left-right).length / .27784133
+    if not math.isfinite(scale) or scale <= 0:
+        raise RuntimeError('Invalid hip scale.')
+    world_skin = [arm.matrix_world @ (frame @ v) for v in skin]
+    height = max(v.z for v in world_skin)-min(v.z for v in world_skin)
+    print('BODY_HEIGHT_Z', height, 'scene units;',
+          height*bpy.context.scene.unit_settings.scale_length, 'metres at scene unit scale')
     gap = GAP*scale
     waist = landmark('spine04').z
     hem = landmark('upperleg02.L').z - .12*scale

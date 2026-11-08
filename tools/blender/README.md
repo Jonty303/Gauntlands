@@ -94,3 +94,10 @@ not inherit those shape keys automatically. Unsupported rigs or non-neutral pose
 are rejected. Animation clearance beyond the recorded poses is unverified.
 
 See [failure analysis and handoff](../../development/BRIEFS_V2_REVIEW.md).
+
+## Corrected metre-scale character
+
+Use `assets/Blender Models/Human-Male-180cm.blend` for the proportion-preserving
+1.80 m derivative, including regenerated briefs. Original source is preserved.
+The original 2.4308 units were confirmed as metres, not a rig-axis artefact.
+See [scale contract, reproduction and validation](../../development/HUMAN_SCALE_REVIEW.md).
