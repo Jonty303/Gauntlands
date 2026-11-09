@@ -100,3 +100,6 @@ uses the same GLB with phase-synchronised runtime blends and model-specific vert
 sole clearance. It implements steering/joypad control, not dedicated turning clips.
 Its runtime blend quality has separate evidence and is pending owner feel approval;
 this does not supersede the accepted v0.3 source checkpoint.
+
+Runtime follow-up: [run-up pass](../../RUN_UP_REVIEW.md) adds a travelling walk step
+and eased run-speed ceiling from rest; the same source clips and interfaces remain.

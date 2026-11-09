@@ -24,6 +24,17 @@ its feel and requested its commit. Original v0.1/v0.2 manifests remain preserved
 The latest checkpoint import/test rerun passed before commit. See the run review
 for exact commands, limits, counts, captures and known restrictions.
 
+## Run-up pass — 9 November 2026
+
+User requested at least a clear walking step before running. R2 lead with same-agent
+R3/R6 review. Baseline 69e9ea7. [Full record](../RUN_UP_REVIEW.md) names changed code,
+commands, timing, captures and limitations. From rest, first travelling step ends
+at 1.30 s, Run begins blending around 1.43 s and reaches full speed around 1.85 s.
+Release and steering remain interruptible; established walking keeps its phase.
+Import, focused run-up suite and full motion regression pass. Three-view rendered
+poses reviewed. Owner feel approval and physical-controller testing remain pending.
+No source asset or stance-width change. Replay test now demonstrates this lead-up.
+
 ## Motion demo pass — 9 November 2026
 
 User authorised the proposed joypad/motion demo. R2 lead; R3/R6 reviewed interfaces

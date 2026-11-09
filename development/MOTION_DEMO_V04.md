@@ -4,6 +4,10 @@
 one agent. User authorised the bounded demo with “please proceed”. Baseline:
 905160c, accepted v0.3 animation asset at 5161379. Human feel sign-off is pending.
 
+Current runtime follow-up: [run-up polish](RUN_UP_REVIEW.md). It supersedes the
+initial full-stick acceleration timing and Replay test sequence described below.
+Original results/previews remain historical evidence for the first demo pass.
+
 ## Scope and interface
 
 Separate playable scene on human-prototype-01 in Jonty303/Gauntlands; no changes

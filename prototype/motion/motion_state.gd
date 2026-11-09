@@ -5,6 +5,8 @@ const RUN_SPEED := 2.2
 const ACCELERATION := 3.2
 const BRAKING := 5.5
 const START_DURATION := 0.7
+const FIRST_WALK_STEP_DISTANCE := 0.54 # Half the accepted 1.08 m walk cycle.
+const RUN_BUILD_DURATION := 0.55
 var position := Vector3.ZERO
 var speed := 0.0
 var heading := 0.0
@@ -13,6 +15,8 @@ var desired_speed := 0.0
 var turning_error := 0.0
 var starting := false
 var start_time := 0.0
+var first_step_remaining := 0.0
+var run_build_time := RUN_BUILD_DURATION
 var input_vector := Vector2.ZERO
 
 static func speed_for_tilt(amount: float) -> float:
@@ -34,6 +38,8 @@ func reset() -> void:
 	turning_error = 0.0
 	starting = false
 	start_time = 0.0
+	first_step_remaining = 0.0
+	run_build_time = RUN_BUILD_DURATION
 	input_vector = Vector2.ZERO
 
 func step(delta: float, direction: Vector3, magnitude: float) -> float:
@@ -42,6 +48,8 @@ func step(delta: float, direction: Vector3, magnitude: float) -> float:
 	if moving and desired_speed == 0.0 and speed < 0.03:
 		starting = true
 		start_time = 0.0
+		first_step_remaining = FIRST_WALK_STEP_DISTANCE
+		run_build_time = 0.0
 	if not moving: starting = false
 	desired_speed = speed_for_tilt(magnitude) if moving else 0.0
 	var target := desired_speed
@@ -68,9 +76,19 @@ func step(delta: float, direction: Vector3, magnitude: float) -> float:
 		var ramp := smoothstep(0.1, START_DURATION, start_time)
 		target = minf(target, WALK_SPEED * ramp)
 		if start_time >= START_DURATION: starting = false
+	# A run request never skips the first travelling walk step. Count actual
+	# distance so a turn or light tilt cannot expire the lead-up while stationary.
+	# This only caps acceleration; release and steering still act this tick.
+	if first_step_remaining > 0.0:
+		target = minf(target, WALK_SPEED)
+	elif run_build_time < RUN_BUILD_DURATION:
+		run_build_time = minf(run_build_time + delta, RUN_BUILD_DURATION)
+		var run_limit := lerpf(WALK_SPEED, RUN_SPEED, smoothstep(0.0, RUN_BUILD_DURATION, run_build_time))
+		target = minf(target, run_limit)
 	var old_speed := speed
 	speed = move_toward(speed, target, (ACCELERATION if target > speed else BRAKING) * delta)
 	var distance := (old_speed + speed) * 0.5 * delta
+	if not starting: first_step_remaining = maxf(0.0, first_step_remaining - distance)
 	var middle_heading := old_heading + angle_difference(old_heading, heading) * 0.5
 	position += Vector3(sin(middle_heading), 0.0, cos(middle_heading)) * distance
 	return distance

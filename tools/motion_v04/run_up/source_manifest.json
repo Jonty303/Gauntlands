@@ -1,0 +1,11 @@
+{
+  "baseline": "69e9ea7",
+  "asset_sha256": "98e80de0c02fd70007d7949a861b012bf1b9b349df59b914c72585a3a79171c7",
+  "files": {
+    "prototype/motion/motion_state.gd": "210c98ac50c75af78f0eca067de4591707191476f726d0d56997c4f57ab8f315",
+    "prototype/motion/motion_animation.gd": "c214c496464a145a4eaeeacfa312dc9685b09f247e0e1241bf505b5ecab72827",
+    "prototype/motion_demo.gd": "38e6b724277ca7da16a1944c79f7618679ef7a92117816ce664edf2d7ccc9e62",
+    "prototype/tests/test_run_up.gd": "89bd490514f9b940532e0bbb4052579f7778813de5cb27772c79ec0273413380",
+    "prototype/tests/test_motion_demo.gd": "9afc6944c823912c0c2010661f49274bfeb86b9f89e133ff954a69aab06a84f8"
+  }
+}

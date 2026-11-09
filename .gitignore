@@ -21,3 +21,6 @@
 
 /tools/motion_v04/*.log
 /tools/motion_v04/initial-review.png
+
+/tools/motion_v04/run_up/frames/
+/tools/motion_v04/run_up/*.log

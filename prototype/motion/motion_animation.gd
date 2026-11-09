@@ -95,7 +95,7 @@ func step(delta: float, motion: RefCounted, distance: float) -> void:
 	start_mix = move_toward(start_mix, 1.0 if motion.starting else 0.0, delta / 0.14)
 	stop_mix = move_toward(stop_mix, 1.0 if stopping else 0.0, delta / 0.22)
 	idle_mix = move_toward(idle_mix, 1.0 if not requested and motion.speed < 0.015 and stop_time >= 0.65 else 0.0, delta / 0.18)
-	state = "Starting" if motion.starting else "Stopping" if stopping else "Idle" if idle_mix > 0.99 else "Run" if run_mix > 0.95 else "Walk / run" if run_mix > 0.05 else "Walk"
+	state = "Starting" if motion.starting else "Stopping" if stopping else "Idle" if idle_mix > 0.99 else "Walk lead-in" if requested and motion.first_step_remaining > 0.0 else "Run" if run_mix > 0.95 else "Walk / run" if run_mix > 0.05 else "Walk"
 	was_starting = motion.starting
 	was_requested = requested
 	apply_pose(delta)

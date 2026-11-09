@@ -274,8 +274,8 @@ func reset_demo() -> void:
 
 static func rehearsal(time: float) -> Vector2:
 	if time < 0.6: return Vector2.ZERO
-	if time < 2.8: return Vector2(0, -0.55)
-	if time < 4.5: return Vector2(0, -1)
+	if time < 3.4: return Vector2(0, -1)
+	if time < 4.5: return Vector2(0, -0.55)
 	if time < 6.2: return Vector2(1, 0)
 	if time < 7.6: return Vector2(-1, 0)
 	if time < 8.8: return Vector2.ZERO
