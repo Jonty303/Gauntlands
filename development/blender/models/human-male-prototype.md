@@ -79,7 +79,8 @@ unchanged. The v0.3 garment fit is therefore a deliberate derivative difference.
 
 ## Runtime and validation
 
-F5 opens [locomotion_v03.tscn](../../../prototype/locomotion_v03.tscn).
+The accepted review remains [locomotion_v03.tscn](../../../prototype/locomotion_v03.tscn),
+opened with F6. F5 now opens the separate [motion demo](../../../prototype/motion_demo.tscn).
 The [viewer](../../../prototype/locomotion_v03.gd) waits for matching contacts,
 finishes authored bridges and retains latest intent. Idle -> Run uses WalkStart
 then WalkToRun; Run -> Idle uses RunToWalk then WalkStop. Direct run starts/stops,
@@ -94,6 +95,8 @@ checks, not continuous collision guarantees. Rig anchors and actual sole skin
 are different measurements; sampled sole heights approach 10 mm during toe roll.
 
 Review cameras and acceptance remain the [three-view contract](../../HUMAN_MODEL_REVIEW.md).
-The owner approved v0.3 in this chat. Proposed next work is a joypad locomotion
-and turning demo; control mappings and responsiveness targets still need a concrete
-implementation brief. No v0.4 code or turning clips exist from this work.
+The owner approved v0.3 in this chat. The subsequently authorised [v0.4 motion demo](../../MOTION_DEMO_V04.md)
+uses the same GLB with phase-synchronised runtime blends and model-specific vertical
+sole clearance. It implements steering/joypad control, not dedicated turning clips.
+Its runtime blend quality has separate evidence and is pending owner feel approval;
+this does not supersede the accepted v0.3 source checkpoint.

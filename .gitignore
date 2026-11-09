@@ -16,3 +16,8 @@
 /tools/blender/locomotion_v02/frames/
 /tools/blender/__pycache__/
 /tools/blender/locomotion_v03/frames/
+
+/tools/motion_v04/frames/
+
+/tools/motion_v04/*.log
+/tools/motion_v04/initial-review.png

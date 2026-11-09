@@ -117,6 +117,17 @@ from another chat about documenting its connection troubleshooting, but not the
 underlying diagnostic transcript. Earlier connection symptoms/root causes/fixes
 remain unverified here. Do not manufacture a connection recipe from that summary.
 
+## Runtime gait blends penetrate the floor
+
+**Verified in motion demo v0.4:** individually valid v0.3 clips produced up to
+8.665 mm sampled sole penetration when combined at runtime. Source validation
+does not certify arbitrary runtime blends. A model-specific root-height correction
+uses exported foot skin vertices/weights; sampled full-body bounds then reached
+only -0.000000133 m (float noise), with at most 9.961 mm correction in the rehearsal.
+**Limits:** no X/Z contact locking, IK or source edits; sharp-turn pivoting and
+runtime cloth collision remain separate questions. Preserve source hashes and
+retest the full skin after changing probe selection. [Evidence](../MOTION_DEMO_V04.md).
+
 ## Entry template
 
 Record symptom; model/export/version; verified measurements; working diagnosis;

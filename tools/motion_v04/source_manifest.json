@@ -1,0 +1,14 @@
+{
+  "baseline": "905160c",
+  "asset_sha256": "98e80de0c02fd70007d7949a861b012bf1b9b349df59b914c72585a3a79171c7",
+  "files": {
+    "prototype/motion_demo.gd": "73d79f7f3b959d8eef6d37c6f8d155889364e61532ff929839136b2e3a6209f6",
+    "prototype/motion_demo.tscn": "053949b71490654891dd3f1e252b08b0c8fbc9a515178640cf59268ca934069c",
+    "prototype/project.godot": "5f820ea0f320ab15c177434868038549a481dfc18e90cd8a397af5748530dfa2",
+    "prototype/tests/test_motion_demo.gd": "9afc6944c823912c0c2010661f49274bfeb86b9f89e133ff954a69aab06a84f8",
+    "prototype/motion/motion_animation.gd": "01c8cb662ad5d47060c42452a45bd23d1b7f11e4a7bb0889aa412801e9d958a0",
+    "prototype/motion/motion_input.gd": "e8cfdf4400883ac14413193b45779c882375df9c0b2eb3a5a922695b4cb75251",
+    "prototype/motion/motion_state.gd": "456aefe2d522724c9e9187848fc94ff1e52e9980c5daffbe73d7d6fbcf007c14",
+    "prototype/motion/stick_display.gd": "d576116a63a7cef71dc1e67147e8af981e79a5c52bfc2b6159bd6d16193e7c4c"
+  }
+}

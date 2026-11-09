@@ -1,10 +1,21 @@
-# Human male prototype — run review
+# Human male prototype — motion demo
+
+F5 opens the **v0.4 joypad motion demo**, ready for feel review. Left stick tilt
+controls walking/running. WASD/arrows walk; Shift runs on keyboard. 1/2/3 change
+review view, P pauses, R resets. **Replay test** repeats the same motion scenario;
+**Close view** restores the model-inspection framing.
+
+See [implementation, evidence and limitations](../development/MOTION_DEMO_V04.md).
+The v0.3 source/export remain frozen. Physical joypad feel and sharp-turn foot
+pivoting still need owner review.
+
+## Accepted run review
 
 The approved walk is frozen at `human_male_prototype_v0.1` (`f4579d0`).
 The accepted Idle/WalkStart/Walk/WalkStop set is checkpointed locally at
 `human_male_prototype_v0.2` (`12b2b0b`).
 
-Open the project in **Godot 4.5.2 stable** and press **F5** for the new run review.
+Open `locomotion_v03.tscn` in **Godot 4.5.2 stable** and press **F6** for the accepted run review.
 **Idle / Walk / Run** request the authored sequence. Gait changes enter at the
 next matching foot contact; requests made during a transition are retained.
 Running from Idle goes through WalkStart and WalkToRun. Stopping from Run goes
@@ -32,8 +43,8 @@ Open `locomotion.tscn` in **Godot 4.5.2 stable** and press **F6**.
 - **Isometric / Raised 3/4 / Top-down**: the required model review views; isometric is the default.
 - **Facing selector**: inspect eight facings without changing the animation.
 
-This is animation review, not a controllable character. Gamepad movement and
-turning are the next implementation stage. The relaxed unarmed walk is approved as
+This older scene is animation review. The new motion demo supplies gamepad
+movement and steering; dedicated turn clips remain future work. The relaxed unarmed walk is approved as
 [human_male_prototype_v0.1](../development/HUMAN_MALE_PROTOTYPE_V01.md). The original diagnostic is still available by
 opening `proof.tscn` and pressing **F6**.
 
