@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "hz": 30,
+      "offsets": [
+        0.0000000284782265200234,
+        0.000000425464381632185
+      ],
+      "travel_m": 6.82677651167325
+    },
+    {
+      "hz": 60,
+      "offsets": [
+        0.0000000284782265200234,
+        0.000000425464381632185
+      ],
+      "travel_m": 6.82677651167325
+    },
+    {
+      "hz": 120,
+      "offsets": [
+        0.0000000284782265200234,
+        0.000000425464381632185
+      ],
+      "travel_m": 6.82677651167325
+    }
+  ],
+  "failures": [],
+  "max_lateral_change_m_at_60hz": 0.00191666666666667,
+  "max_lateral_change_with_sole_below_1mm_m": 0.00000344848576140644,
+  "maximum_knee_step_deg_at_60hz": 6.07967005476518,
+  "maximum_length_error_m": 0.000000268220901489258,
+  "minimum_bend_alignment": 0.999999761581421,
+  "minimum_skin_height_m": -0.000000150688833855384,
+  "passed": true,
+  "physical_controller_tested": false,
+  "restart_cases": 5,
+  "stop_cases": 16,
+  "support_offset_drift_m": 0.0
+}

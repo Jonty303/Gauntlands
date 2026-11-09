@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "distance_3s_m": 4.18677651167323,
+      "first_step_s": 1.3,
+      "full_speed_s": 1.86666666666667,
+      "hz": 30,
+      "phase_at_step": 0.506942453662027,
+      "run_blend_s": 1.43333333333333
+    },
+    {
+      "distance_3s_m": 4.18677651167323,
+      "first_step_s": 1.3,
+      "full_speed_s": 1.85,
+      "hz": 60,
+      "phase_at_step": 0.506942453662027,
+      "run_blend_s": 1.43333333333333
+    },
+    {
+      "distance_3s_m": 4.18677651167323,
+      "first_step_s": 1.3,
+      "full_speed_s": 1.85,
+      "hz": 120,
+      "phase_at_step": 0.506942453662027,
+      "run_blend_s": 1.425
+    }
+  ],
+  "failures": [],
+  "minimum_sampled_skin_height_m": -0.000000187500518222805,
+  "passed": true,
+  "physical_controller_tested": false,
+  "release_cases": 5,
+  "steering_restart_established_walk_pause": true
+}

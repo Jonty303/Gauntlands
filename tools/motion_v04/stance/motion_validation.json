@@ -1,0 +1,32 @@
+{
+  "arbitrary_phase_stop_cases": 16,
+  "connected_devices": [],
+  "direction_cases": 24,
+  "direction_distance_difference_m": 0.000000370928584736419,
+  "failures": [],
+  "frame_rates": [
+    30,
+    60,
+    120
+  ],
+  "maximum_bone_rotation_step_deg_at_60hz": 7.78953790403888,
+  "maximum_ground_lift_m": 0.0280106645077467,
+  "maximum_yaw_step_deg_at_60hz": 6.97973678355971,
+  "minimum_sampled_skin_height_m": -0.000000427362465416081,
+  "passed": true,
+  "path_difference_m": 0.0,
+  "peak_bone": "toe1-1.L",
+  "peak_bone_frame": 165,
+  "physical_controller_tested": false,
+  "sole_probe_count": 2220,
+  "states": [
+    "Idle",
+    "Starting",
+    "Walk lead-in",
+    "Walk",
+    "Walk / run",
+    "Run",
+    "Stopping",
+    "Settling stance"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source_frames_per_view": 180,
+  "source_fps": 30,
+  "preview_frames": 90,
+  "duration_seconds": 6.0,
+  "preview_fps": 15,
+  "views": [
+    "isometric",
+    "three_quarter",
+    "top_down"
+  ]
+}

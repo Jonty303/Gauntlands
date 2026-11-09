@@ -6,7 +6,7 @@ var player: AnimationPlayer
 var phase := 0.0
 var idle_time := 0.0
 var start_time := 0.0
-var stop_time := 0.8
+var stop_time := 1.0
 var stop_right := false
 var state := "Idle"
 var run_mix := 0.0
@@ -22,6 +22,7 @@ var probes: Array = []
 var bind_bones: Array[int] = []
 var ground_lift := 0.0
 var maximum_ground_lift := 0.0
+var stance := preload("res://motion/foot_stance.gd").new()
 
 func setup(actor: Node3D) -> void:
 	player = actor.find_child("AnimationPlayer", true, false) as AnimationPlayer
@@ -30,6 +31,7 @@ func setup(actor: Node3D) -> void:
 	skeleton = actor.find_child("Skeleton3D", true, false) as Skeleton3D
 	body = actor.find_child("Human", true, false) as MeshInstance3D
 	cache_sole_probes()
+	stance.setup(skeleton)
 	var graph := AnimationNodeBlendTree.new()
 	for clip in CLIPS:
 		var animation := player.get_animation(clip)
@@ -56,10 +58,11 @@ func setup(actor: Node3D) -> void:
 	apply_pose(0.0)
 
 func reset() -> void:
+	stance.reset()
 	phase = 0.0
 	idle_time = 0.0
 	start_time = 0.0
-	stop_time = 0.8
+	stop_time = 1.0
 	state = "Idle"
 	run_mix = 0.0
 	start_mix = 0.0
@@ -79,11 +82,11 @@ func step(delta: float, motion: RefCounted, distance: float) -> void:
 	if not requested and was_requested:
 		stop_right = phase >= 0.25 and phase < 0.75
 		# A tap cancelled before lift-off should settle, not invent a full step.
-		stop_time = 0.8 if was_starting and start_time < 0.15 else 0.0
+		stop_time = 1.0 if was_starting and start_time < 0.15 else 0.0
 	if was_starting and not motion.starting and requested: phase = 0.0
 	if motion.starting: start_time = motion.start_time
 	else: start_time = minf(start_time + delta, 0.7)
-	stop_time = minf(stop_time + delta, 0.8)
+	stop_time = minf(stop_time + delta, 1.0)
 	idle_time = fposmod(idle_time + delta, 4.0)
 	var gait_target := smoothstep(1.05, 1.65, motion.speed)
 	run_mix = move_toward(run_mix, gait_target, delta / 0.22)
@@ -98,12 +101,15 @@ func step(delta: float, motion: RefCounted, distance: float) -> void:
 	state = "Starting" if motion.starting else "Stopping" if stopping else "Idle" if idle_mix > 0.99 else "Walk lead-in" if requested and motion.first_step_remaining > 0.0 else "Run" if run_mix > 0.95 else "Walk / run" if run_mix > 0.05 else "Walk"
 	was_starting = motion.starting
 	was_requested = requested
+	stance.update(delta,self,requested)
+	if not requested and stop_time >= 0.64 and stance.settling: state = "Settling stance"
 	apply_pose(delta)
+	stance.apply()
 	correct_ground_height(delta)
 
 func apply_pose(delta: float) -> void:
 	if not tree: return
-	var times := [idle_time, phase * 1.2, phase * 0.8, start_time, stop_time, stop_time]
+	var times := [idle_time, phase * 1.2, phase * 0.8, start_time, minf(stop_time,0.8), minf(stop_time,0.8)]
 	for i in range(CLIPS.size()): tree.set("parameters/" + CLIPS[i] + "Time/seek_request", times[i])
 	tree.set("parameters/Gait/blend_amount", run_mix)
 	tree.set("parameters/Start/blend_amount", smoothstep(0.0, 1.0, start_mix))

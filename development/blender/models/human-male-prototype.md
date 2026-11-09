@@ -103,3 +103,9 @@ this does not supersede the accepted v0.3 source checkpoint.
 
 Runtime follow-up: [run-up pass](../../RUN_UP_REVIEW.md) adds a travelling walk step
 and eased run-speed ceiling from rest; the same source clips and interfaces remain.
+
+Runtime follow-up: [moving stance](../../STANCE_REVIEW.md) adds a rig-specific
+two-bone leg adjustment after clip blending: 20 mm inward landings during swing,
+then sequential outward recovery to wide Idle by 0.96 s after release. Source
+actions and frozen exports remain unchanged. Runtime IK/settling is a separate
+interface from the source rig, which still has no pose-bone constraints.

@@ -24,3 +24,8 @@
 
 /tools/motion_v04/run_up/frames/
 /tools/motion_v04/run_up/*.log
+
+/tools/motion_v04/stance/frames/
+/tools/motion_v04/stance/*.log
+
+/tools/motion_v04/stance/geometry_samples.json

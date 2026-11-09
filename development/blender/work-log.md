@@ -24,6 +24,16 @@ its feel and requested its commit. Original v0.1/v0.2 manifests remain preserved
 The latest checkpoint import/test rerun passed before commit. See the run review
 for exact commands, limits, counts, captures and known restrictions.
 
+## Moving stance / return to idle — 9 November 2026
+
+User requested inward moving landings and a wide idle, explicitly including the
+transition back to idle. R3 lead; R2/R6 same-agent integration and checks. Baseline
+7bbeff5. [Full record](../STANCE_REVIEW.md) covers the runtime two-bone stance adapter,
+20 mm inward placement per foot, trailing-foot recovery then leading-foot settling,
+interruption safeguards and actual results. Frozen Blender source/exports retained.
+Stance, motion and run-up suites pass; sixteen sampled body/garment pairs are clear.
+Three-view rendered poses reviewed; owner feel approval remains pending.
+
 ## Run-up pass — 9 November 2026
 
 User requested at least a clear walking step before running. R2 lead with same-agent

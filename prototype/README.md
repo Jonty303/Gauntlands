@@ -8,6 +8,10 @@ review view, P pauses, R resets. **Replay test** repeats the same motion scenari
 The latest [run-up polish](../development/RUN_UP_REVIEW.md) completes one clear
 walking step before building running speed from rest. Replay test demonstrates it.
 
+The [stance pass](../development/STANCE_REVIEW.md) brings moving landings inward
+and uses two sequential placements to return to wide idle. Release the stick after
+running to review the settling step; movement can interrupt it.
+
 See [implementation, evidence and limitations](../development/MOTION_DEMO_V04.md).
 The v0.3 source/export remain frozen. Physical joypad feel and sharp-turn foot
 pivoting still need owner review.

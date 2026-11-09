@@ -1,0 +1,231 @@
+{
+  "passed": true,
+  "criterion": "No added body/cloth overlap pairs or >0.1 mm added penetration depth versus same sampled unmodified pose",
+  "samples": [
+    {
+      "frame": 24,
+      "state": "Starting",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 60,
+      "state": "Walk lead-in",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 90,
+      "state": "Walk / run",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 120,
+      "state": "Run",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 150,
+      "state": "Run",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 180,
+      "state": "Run",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 210,
+      "state": "Run",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 240,
+      "state": "Stopping",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 252,
+      "state": "Stopping",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 270,
+      "state": "Stopping",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 280,
+      "state": "Settling stance",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 284,
+      "state": "Settling stance",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 288,
+      "state": "Settling stance",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 294,
+      "state": "Settling stance",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 300,
+      "state": "Idle",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    },
+    {
+      "frame": 329,
+      "state": "Idle",
+      "baseline": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      },
+      "stance": {
+        "triangle_overlaps": 0,
+        "inside_vertices": 0,
+        "maximum_depth_m": 0.0
+      }
+    }
+  ],
+  "failures": []
+}

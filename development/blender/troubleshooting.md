@@ -128,6 +128,19 @@ only -0.000000133 m (float noise), with at most 9.961 mm correction in the rehea
 runtime cloth collision remain separate questions. Preserve source hashes and
 retest the full skin after changing probe selection. [Evidence](../MOTION_DEMO_V04.md).
 
+## Narrow motion cannot blend directly to wide idle without foot drift
+
+**Verified in this human's stop generator:** only the trailing foot lifts during
+WalkStopL/R; the leading foot remains planted. Narrowing both moving feet and
+cross-fading straight to wide Idle would require the support foot to move sideways.
+**Implemented:** retain lateral placement per foot, widen the trailing foot during
+its existing recovery, then give the leading foot a small outward settling step.
+Keep corrections interruptible, capped in speed and attached to swing timing.
+The runtime leg solve preserves source foot orientation and knee bend plane.
+**Checks:** both leads/eight release phases, restarts during settling, actual sole
+height while lateral correction changes, body/garment geometry and three views.
+[Evidence](../STANCE_REVIEW.md). This model-specific adapter is not a universal rig rule.
+
 ## Entry template
 
 Record symptom; model/export/version; verified measurements; working diagnosis;
