@@ -1,19 +1,23 @@
-# Human male prototype — v0.2 animation work
+# Human male prototype — run review
 
-The approved walk is frozen at local tag `human_male_prototype_v0.1` (commit
-`f4579d0`). [Approval record](../development/HUMAN_MALE_PROTOTYPE_V01.md).
+The approved walk is frozen at `human_male_prototype_v0.1` (`f4579d0`).
+The accepted Idle/WalkStart/Walk/WalkStop set is checkpointed locally at
+`human_male_prototype_v0.2` (`12b2b0b`).
 
-The next iteration is in `locomotion_v02.tscn`: planted Idle, WalkStart, unchanged
-Walk, and WalkStopL/WalkStopR. Open the project and press **F5** to review it.
-**Walk / Idle** request the full authored transition sequence; the single-clip
-selector, pause and timeline allow pose inspection. Isometric, raised three-quarter,
-top-down and eight facings remain the review views. This is a first v0.2 pass,
-not an approved replacement for the v0.1 walk checkpoint.
+Open the project in **Godot 4.5.2 stable** and press **F5** for the new run review.
+**Idle / Walk / Run** request the authored sequence. Gait changes enter at the
+next matching foot contact; requests made during a transition are retained.
+Running from Idle goes through WalkStart and WalkToRun. Stopping from Run goes
+through RunToWalk and the existing stop. This is an animation review, not a
+responsive gameplay-controller contract or a direct sprint-start animation.
 
-The current start is 0.7 seconds, with earlier hip movement and a small forward lean.
-See [the chest-entry correction](../development/WALK_START_CHEST_REVIEW.md),
-[the setting-off pass](../development/WALK_START_REVIEW.md) and
-[the v0.2 first-pass record](../development/HUMAN_MALE_PROTOTYPE_V02.md).
+The single-clip selector, pause and timeline allow pose inspection. Isometric,
+raised three-quarter, top-down and eight facings remain the review views.
+See [running review and reproduction](../development/RUN_REVIEW.md).
+
+For the v0.2 checkpoint, open `locomotion_v02.tscn` and press **F6**.
+Its current start is 0.7 seconds. See [the chest-entry correction](../development/WALK_START_CHEST_REVIEW.md)
+and [the v0.2 record](../development/HUMAN_MALE_PROTOTYPE_V02.md).
 
 ## Approved v0.1 review
 

@@ -1,0 +1,218 @@
+{
+  "cases": [
+    {
+      "bridge": "WalkToRunL",
+      "distance": 3.75,
+      "from": "Walk",
+      "hz": 30,
+      "phase": 0.0
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.12599997520447,
+      "from": "Walk",
+      "hz": 30,
+      "phase": 0.1
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.73439999938011,
+      "from": "Walk",
+      "hz": 30,
+      "phase": 0.49
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.75,
+      "from": "Walk",
+      "hz": 30,
+      "phase": 0.5
+    },
+    {
+      "bridge": "WalkToRunL",
+      "distance": 3.59399999380112,
+      "from": "Walk",
+      "hz": 30,
+      "phase": 0.9
+    },
+    {
+      "bridge": "RunToWalkL",
+      "distance": 2.45,
+      "from": "Run",
+      "hz": 30,
+      "phase": 0.0
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.86600000619888,
+      "from": "Run",
+      "hz": 30,
+      "phase": 0.1
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.46040000015497,
+      "from": "Run",
+      "hz": 30,
+      "phase": 0.49
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.45,
+      "from": "Run",
+      "hz": 30,
+      "phase": 0.5
+    },
+    {
+      "bridge": "RunToWalkL",
+      "distance": 2.55400000154972,
+      "from": "Run",
+      "hz": 30,
+      "phase": 0.9
+    },
+    {
+      "bridge": "WalkToRunL",
+      "distance": 3.75,
+      "from": "Walk",
+      "hz": 60,
+      "phase": 0.0
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.12599997520447,
+      "from": "Walk",
+      "hz": 60,
+      "phase": 0.1
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.73439999938012,
+      "from": "Walk",
+      "hz": 60,
+      "phase": 0.49
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.75,
+      "from": "Walk",
+      "hz": 60,
+      "phase": 0.5
+    },
+    {
+      "bridge": "WalkToRunL",
+      "distance": 3.59399999380112,
+      "from": "Walk",
+      "hz": 60,
+      "phase": 0.9
+    },
+    {
+      "bridge": "RunToWalkL",
+      "distance": 2.45,
+      "from": "Run",
+      "hz": 60,
+      "phase": 0.0
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.86600000619889,
+      "from": "Run",
+      "hz": 60,
+      "phase": 0.1
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.46040000015498,
+      "from": "Run",
+      "hz": 60,
+      "phase": 0.49
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.45,
+      "from": "Run",
+      "hz": 60,
+      "phase": 0.5
+    },
+    {
+      "bridge": "RunToWalkL",
+      "distance": 2.55400000154973,
+      "from": "Run",
+      "hz": 60,
+      "phase": 0.9
+    },
+    {
+      "bridge": "WalkToRunL",
+      "distance": 3.75000000000001,
+      "from": "Walk",
+      "hz": 120,
+      "phase": 0.0
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.12599997520447,
+      "from": "Walk",
+      "hz": 120,
+      "phase": 0.1
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.73439999938012,
+      "from": "Walk",
+      "hz": 120,
+      "phase": 0.49
+    },
+    {
+      "bridge": "WalkToRunR",
+      "distance": 3.75000000000001,
+      "from": "Walk",
+      "hz": 120,
+      "phase": 0.5
+    },
+    {
+      "bridge": "WalkToRunL",
+      "distance": 3.59399999380113,
+      "from": "Walk",
+      "hz": 120,
+      "phase": 0.9
+    },
+    {
+      "bridge": "RunToWalkL",
+      "distance": 2.45,
+      "from": "Run",
+      "hz": 120,
+      "phase": 0.0
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.86600000619888,
+      "from": "Run",
+      "hz": 120,
+      "phase": 0.1
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.46040000015496,
+      "from": "Run",
+      "hz": 120,
+      "phase": 0.49
+    },
+    {
+      "bridge": "RunToWalkR",
+      "distance": 2.44999999999999,
+      "from": "Run",
+      "hz": 120,
+      "phase": 0.5
+    },
+    {
+      "bridge": "RunToWalkL",
+      "distance": 2.55400000154972,
+      "from": "Run",
+      "hz": 120,
+      "phase": 0.9
+    }
+  ],
+  "failures": [],
+  "maximum_bounds_error_m": 0.0000503063201904297,
+  "passed": true,
+  "pause_large_delta_changed_intent": true
+}

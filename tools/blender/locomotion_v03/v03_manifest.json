@@ -1,0 +1,9 @@
+{
+  "version": "human_male_prototype_v0.3",
+  "approved": "2026-11-09",
+  "files": {
+    "assets/Blender Models/Human-Male-Locomotion-v0.3.blend": "2ad75a570d9514e6a938b7443d3bc4bc6b70f11edacb771ed5f398427a9f91b4",
+    "prototype/assets/human_locomotion_v03.glb": "98e80de0c02fd70007d7949a861b012bf1b9b349df59b914c72585a3a79171c7",
+    "tools/blender/build_run.py": "becdfcaf318cf362779aaccdfc8ebad6a564b3c17f500c89d5378fd0c8d58e04"
+  }
+}
