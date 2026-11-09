@@ -81,3 +81,30 @@ Owner narrowed and authorised test 01 to the male dummy and one forward walk.
 [Test record](../tools/kevin_walk/README.md) contains the local setup, commands,
 validation and review limits. F5 launches it. The broader idle/run/sprint and
 retargeting evaluation above remains proposed.
+
+## Test 02: idle and run/walk
+
+Owner accepted the dummy walk and authorised adding idle and run/walk, excluding
+sprint. [Implementation and evidence](../tools/kevin_locomotion/README.md).
+The first test is checkpointed at 426f7e2; F5 now opens the separate second test.
+
+## Test 03: selectable animation viewer
+
+Owner approved test 02 as excellent, then authorised an animation viewer before
+retiring Prototype 02. The later instruction allows sprint only as a selectable
+preview; joystick locomotion still ends at Run, 4 m/s.
+
+F5 now opens dummy_actions.tscn: 113 entries from all five supplied human packs,
+A to play, LB/RB or dropdown to select, B to return, appropriate action props,
+and the three review cameras. [Build, controls and evidence](../tools/kevin_actions/README.md).
+This is a motion viewer, not combat/inventory implementation or v3.
+Automated checks and sampled three-view review pass; owner feel/controller
+acceptance remains pending. No push or merge is authorised by this pass.
+
+## Resource evaluation accepted — checkpoint
+
+On 9 November 2026 the owner confirmed that the resources are sufficient for the
+initial prototype game structures and authorised committing the work to date.
+The animation demo was accepted with an explicit arrow-firing exception.
+[Checkpoint and open issue P02-ARCHERY-01](PROTOTYPE_02_CHECKPOINT.md) are the
+current acceptance/handoff record. Earlier pending notes are historical.

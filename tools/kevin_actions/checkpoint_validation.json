@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-09",
+  "branch": "human-prototype-02",
+  "engine": "4.5.2-stable (official)",
+  "checks": {
+    "editor_import": "pass",
+    "action_catalogue": "pass",
+    "entries": 113,
+    "locomotion_regression": "pass",
+    "documentation_links": "pass",
+    "approved_exports": "hashes preserved"
+  },
+  "commands": [
+    "godot --headless --editor --path prototype --quit",
+    "godot --headless --path prototype --script res://tests/test_dummy_actions.gd",
+    "godot --headless --path prototype --script res://tests/test_dummy_locomotion.gd"
+  ],
+  "approved_export_sha256": {
+    "dummy_walk.glb": "ad2499a0e8409c6506fcafa82bfad285f3d1ffbeaccc74077e6f6003f009b8a5",
+    "dummy_idle.glb": "f612cdcb370d5f6d823837bfd97bd643810afe05ad459a38767d26c9bc2cfab1",
+    "dummy_run.glb": "4483b2803fd0ca89cafadb4fa244da2a00bd4d9bde6912cc5fae4019721aee4d"
+  },
+  "owner_acceptance": "Resource sufficiency accepted; arrow firing excepted",
+  "open_issue": "P02-ARCHERY-01",
+  "arrow_fix_performed": false,
+  "fresh_complete_asset_rebuild": "not performed for this checkpoint",
+  "physical_controller_by_agent": "not performed"
+}

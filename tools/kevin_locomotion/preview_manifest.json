@@ -1,0 +1,8 @@
+{
+  "source_frames_per_view": 270,
+  "source_fps": 30,
+  "preview_frames": 135,
+  "duration_s": 9,
+  "views": 3,
+  "new_clip_facing_poses": 48
+}

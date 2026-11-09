@@ -100,3 +100,68 @@ owner feel approval remain pending. Prototype 01 and source downloads unchanged.
 
 Owner approved dummy walk test 01 as perfect on 9 November 2026. Next authorised
 slice: idle and run/walk transitions, explicitly excluding sprint.
+
+## Prototype 02 idle/run pass — 9 November 2026
+
+Approved walk saved as 426f7e2. Owner requested run/walk and idle, no sprint.
+R2 lead with same-agent R3/R6 review. [Test 02 record](../../tools/kevin_locomotion/README.md)
+contains source ranges, hashes, reproducible builds, blend timing, actual checks,
+source idle evaluation fix, import-cache failure and remaining limits.
+F5 opens the new dummy_locomotion.tscn; the approved walk scene/GLB are unchanged.
+Idle and 4 m/s Run are added, with shared walk/run phase and three review views.
+Physical controller operation and owner feel approval remain pending.
+
+## Prototype 02 animation viewer — 9 November 2026
+
+Owner approved idle/walk/run as excellent and requested joypad action playback,
+LB/RB or dropdown selection, matching weapons and as many available animations
+as practical. Subsequent instruction explicitly adds sprint to selection only.
+R2 lead; same-agent R3/R6 work. Baseline walk commit 426f7e2 plus the approved
+uncommitted test-02 files; those locomotion scripts/exports are preserved.
+
+Added dummy_actions scene/script, action_catalogue, builder, tests/capture tooling
+and [full execution record](../../tools/kevin_actions/README.md). Five native packs
+provide 113 selectable entries with sword, shield, polearm, bow and crafting
+props. No gameplay combat or v3 work. Headless editor import, 113-entry
+validation, actual synthetic Godot input dispatch and locomotion regression pass.
+Rendered and inspected all 15 catalogue sheets, 11 sequences and three eight-facing
+sheets across the three cameras (675 rendered frames).
+
+Resolved suffix-based missing clips, insufficient floor samples, reversed arrow
+and hand-only sheathing; scope and measured corrections are recorded in the
+README and troubleshooting. Physical controller operation, normal-speed owner
+feel approval and a fresh whole-catalogue repeat-build remain unverified.
+Licensed generated assets remain local/gitignored. No push or merge performed.
+Final handoff checks: documentation links and git diff --check passed; Walk,
+Idle and Run GLB SHA-256 hashes still match the approved test-02 exports.
+Only incidental import-file rewrites from this run were restored. The completed
+viewer launched in the owned Prototype 02 Godot process with a visible window
+and no startup errors. Other projects/editors were left alone. Work remains
+local on human-prototype-02; this pass made no commit, push or merge.
+
+## Owner acceptance and checkpoint commit — 9 November 2026
+
+Owner: viewer was great except arrow firing; resources are sufficient for initial
+prototype game structures. Explicit request: document and commit all work to this
+stage. R5 lead, same-agent R6 verification; no animation/code fix in this pass.
+[Checkpoint](../PROTOTYPE_02_CHECKPOINT.md) records accepted scope, preserved
+artifacts, reproduction dependencies, v3 boundary and open P02-ARCHERY-01.
+
+Reviewed 12 sampled frames from the supplied 24-second recording using background
+Blender VSE. Saved a review sheet and video hash/metadata; preserved a local full
+copy. Arrow presentation can appear detached/misaligned; exact cause/timing is
+unverified. Code inspection confirms fixed-delay hiding and no projectile flight.
+The earlier orientation correction is not sign-off of firing. No arrow fix was
+attempted. Owner acceptance now supersedes historical pending resource-review
+notes, while archery remains an explicit exception.
+
+Checkpoint verification: Godot headless editor import, all 113 action tests and
+locomotion regression passed again. Documentation links and approved export
+hashes passed. [Machine-readable checkpoint evidence](../../tools/kevin_actions/checkpoint_validation.json).
+This checkpoint includes the approved locomotion and animation-viewer code,
+builders, manifests, rendered evidence and documentation. Licensed source/export
+assets and the full owner video remain local. No push or merge.
+The initial checkpoint import exited successfully but logged get_multiple_md5
+file-hash diagnostics while refreshing historical Prototype 01 texture imports.
+A second editor import completed with no ERROR/WARNING entries. This was an
+import-cache refresh observation; no historical source assets were changed.

@@ -87,3 +87,27 @@ left-stick/WASD movement and three cameras. 1/2/3: views; Space: auto-walk;
 P: pause; R: reset. Release holds pose. Transitions/retargeting are not in test 01.
 [Local asset rebuild and tests](../tools/kevin_walk/README.md).
 Licensed assets are local and gitignored; rebuild them on a fresh checkout.
+
+### Dummy test 02: idle / walk / run
+
+F5 now opens dummy_locomotion.tscn. Left stick walks/runs; WASD walks,
+Shift runs; release returns to idle. Space replays the transition sequence.
+1/2/3 changes views, P pauses, R resets. Sprint is excluded.
+[Test 02 build, controls and evidence](../tools/kevin_locomotion/README.md).
+The approved dummy_walk.tscn remains available with F6.
+
+### Dummy test 03: animation viewer (current F5 scene)
+
+F5 opens dummy_actions.tscn, with 113 selectable clips. A/Space plays; LB/RB,
+[ / ] or dropdown selects; B/Esc returns to movement. Weapons/tools equip during
+playback. Y or 1/2/3 selects the review camera; D-pad left/right or Q/E rotates
+the facing; Start/P pauses. Sprint appears only in the selection catalogue.
+Left-stick/WASD walk/run behaviour remains unchanged.
+[Rebuild, full controls and validation](../tools/kevin_actions/README.md).
+
+### Prototype 02 checkpoint status
+
+Owner accepted the resource evaluation on 9 November 2026, with arrow firing
+explicitly excepted. [Checkpoint and known issue](../development/PROTOTYPE_02_CHECKPOINT.md).
+The available resources are sufficient to plan the initial game prototype; v3
+implementation is a separate stage.

@@ -1,0 +1,138 @@
+{
+  "source_archive": "HumanArcherAnimationsFREE_BlenderFiles.zip",
+  "source_sha256": "698e7a07455e77a3dcd9dd3e7ff598e5561613ced89a06999b420040b1a0256b",
+  "blend": "HumanM_ArcherAnimationsFREE_2.0.blend",
+  "blender": "5.2.3 LTS",
+  "output_sha256": "0ae675d682b1c5be3a8abe44d248b7ac78788a65d55b6a3b5b6adcd5fc064d2c",
+  "bytes": 2434396,
+  "bones": 64,
+  "props": [
+    "SwordL",
+    "SwordR",
+    "Bow",
+    "BowString",
+    "Arrow"
+  ],
+  "checks": [
+    {
+      "id": "BowIdle01",
+      "frames": 81,
+      "source_bake_error_m": 1.8484186184123323e-05,
+      "sampled_min_y": 0.00032875058241188526
+    },
+    {
+      "id": "BowIdle02",
+      "frames": 81,
+      "source_bake_error_m": 1.722795620375021e-05,
+      "sampled_min_y": 0.0003386941971257329
+    },
+    {
+      "id": "BowShot01_Hold",
+      "frames": 81,
+      "source_bake_error_m": 1.4652372245880516e-05,
+      "sampled_min_y": 0.00034421778400428593
+    },
+    {
+      "id": "BowShot01_Load",
+      "frames": 51,
+      "source_bake_error_m": 1.5102130162972027e-05,
+      "sampled_min_y": 0.0003406425239518285
+    },
+    {
+      "id": "BowShot01_Release",
+      "frames": 49,
+      "source_bake_error_m": 1.7741942242402674e-05,
+      "sampled_min_y": 0.0003387134347576648
+    },
+    {
+      "id": "Idle01_Idle03",
+      "frames": 61,
+      "source_bake_error_m": 0.0005499902058725551,
+      "sampled_min_y": 0.0003245955449528992
+    },
+    {
+      "id": "Idle01_Idle04",
+      "frames": 53,
+      "source_bake_error_m": 1.365863727013717e-05,
+      "sampled_min_y": 0.00033804072882048786
+    },
+    {
+      "id": "Idle03",
+      "frames": 161,
+      "source_bake_error_m": 0.0005903571642425895,
+      "sampled_min_y": 0.00034037494333460927
+    },
+    {
+      "id": "Idle03_Idle01",
+      "frames": 61,
+      "source_bake_error_m": 0.0005499902058725551,
+      "sampled_min_y": 0.00032841190113686025
+    },
+    {
+      "id": "Idle04",
+      "frames": 201,
+      "source_bake_error_m": 1.2329318677922875e-05,
+      "sampled_min_y": 0.0003442186862230301
+    },
+    {
+      "id": "Idle04_Idle01",
+      "frames": 53,
+      "source_bake_error_m": 1.365863727013717e-05,
+      "sampled_min_y": 0.00034175964538007975
+    },
+    {
+      "id": "SheatheBack01_L",
+      "frames": 45,
+      "source_bake_error_m": 0.00016422195156531004,
+      "sampled_min_y": 0.00034175964538007975
+    },
+    {
+      "id": "SheatheBack01_R",
+      "frames": 45,
+      "source_bake_error_m": 0.0005142216064940668,
+      "sampled_min_y": 0.00034175964538007975
+    },
+    {
+      "id": "SheatheBack02_L",
+      "frames": 67,
+      "source_bake_error_m": 1.9210770526168705e-05,
+      "sampled_min_y": 0.00033841654658317566
+    },
+    {
+      "id": "SheatheBack02_R",
+      "frames": 67,
+      "source_bake_error_m": 1.365863727013717e-05,
+      "sampled_min_y": 0.00032440986251458526
+    },
+    {
+      "id": "UnsheatheBack01_L",
+      "frames": 45,
+      "source_bake_error_m": 0.00016409796851504823,
+      "sampled_min_y": 0.00034175964538007975
+    },
+    {
+      "id": "UnsheatheBack01_R",
+      "frames": 45,
+      "source_bake_error_m": 0.0005142394242787052,
+      "sampled_min_y": 0.00034175964538007975
+    },
+    {
+      "id": "UnsheatheBack02_L",
+      "frames": 39,
+      "source_bake_error_m": 1.365863727013717e-05,
+      "sampled_min_y": 0.00034175964538007975
+    },
+    {
+      "id": "UnsheatheBack02_R",
+      "frames": 39,
+      "source_bake_error_m": 1.3734390545765626e-05,
+      "sampled_min_y": 0.0003270936431363225
+    },
+    {
+      "id": "BowShotComplete",
+      "frames": 117,
+      "composite": true,
+      "join_error_m": 0.010390388160849686
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "source_archive": "HumanCraftingAnimationsFREE_BlenderFiles.zip",
+  "source_sha256": "5f30f23fc61a9de77390019f1422cca36659802f5a661a09f308b25e99ce0f8b",
+  "blend": "HumanM_CraftingAnimationsFREE_2.2.1.blend",
+  "blender": "5.2.3 LTS",
+  "output_sha256": "f6e7550bb5ab9873479d4737db01181e7e34a6a4b293204a34b08f95207a58f6",
+  "bytes": 2563684,
+  "bones": 56,
+  "props": [
+    "HammerL",
+    "HammerR",
+    "PickaxeL",
+    "PickaxeR",
+    "Plow",
+    "FishingPole"
+  ],
+  "checks": [
+    {
+      "id": "FarmingWithPlow01_R_Begin",
+      "frames": 41,
+      "source_bake_error_m": 1.3563981834377545e-05,
+      "sampled_min_y": 0.0003338669193908572
+    },
+    {
+      "id": "FarmingWithPlow01_R_Loop",
+      "frames": 95,
+      "source_bake_error_m": 1.3207948582346275e-05,
+      "sampled_min_y": 0.0003114696010015905
+    },
+    {
+      "id": "FarmingWithPlow01_R_Stop",
+      "frames": 41,
+      "source_bake_error_m": 1.3563882333486043e-05,
+      "sampled_min_y": 0.0003267984720878303
+    },
+    {
+      "id": "Fishing01_Begin",
+      "frames": 31,
+      "source_bake_error_m": 1.5275390321612388e-05,
+      "sampled_min_y": 0.0003366089367773384
+    },
+    {
+      "id": "Fishing01_Loop",
+      "frames": 241,
+      "source_bake_error_m": 1.5275390321612388e-05,
+      "sampled_min_y": 0.000326760666212067
+    },
+    {
+      "id": "Fishing01_Stop",
+      "frames": 31,
+      "source_bake_error_m": 1.5275390321612388e-05,
+      "sampled_min_y": 0.0003327404847368598
+    },
+    {
+      "id": "FishingFighting01",
+      "frames": 125,
+      "source_bake_error_m": 1.5275390321612388e-05,
+      "sampled_min_y": 0.00032571947667747736
+    },
+    {
+      "id": "FishingPullOut01",
+      "frames": 95,
+      "source_bake_error_m": 1.8322195075119746e-05,
+      "sampled_min_y": 0.00033671973505988717
+    },
+    {
+      "id": "FishingPullOut02_Begin",
+      "frames": 95,
+      "source_bake_error_m": 1.856457414650798e-05,
+      "sampled_min_y": 0.00033902909490279853
+    },
+    {
+      "id": "FishingPullOut02_Loop",
+      "frames": 121,
+      "source_bake_error_m": 1.7587180007865807e-05,
+      "sampled_min_y": 0.00031870053499005735
+    },
+    {
+      "id": "FishingPullOut02_Stop",
+      "frames": 37,
+      "source_bake_error_m": 1.5820236651717168e-05,
+      "sampled_min_y": 0.0003401600115466863
+    },
+    {
+      "id": "FishingThrow01",
+      "frames": 79,
+      "source_bake_error_m": 1.5275390321612388e-05,
+      "sampled_min_y": 0.00033356036874465644
+    },
+    {
+      "id": "Gathering01",
+      "frames": 61,
+      "source_bake_error_m": 1.3658151933505342e-05,
+      "sampled_min_y": 0.0003289442101959139
+    },
+    {
+      "id": "Gathering02",
+      "frames": 61,
+      "source_bake_error_m": 1.1467738481990193e-05,
+      "sampled_min_y": 0.00025389110669493675
+    },
+    {
+      "id": "Gathering03",
+      "frames": 61,
+      "source_bake_error_m": 1.0665786526000634e-05,
+      "sampled_min_y": -0.005043536424636841
+    },
+    {
+      "id": "HammeringGround01_L_Begin",
+      "frames": 65,
+      "source_bake_error_m": 1.9606898975702664e-05,
+      "sampled_min_y": 5.173683166503906e-05
+    },
+    {
+      "id": "HammeringGround01_L_Loop",
+      "frames": 61,
+      "source_bake_error_m": 1.9606898975702664e-05,
+      "sampled_min_y": -0.001208871603012085
+    },
+    {
+      "id": "HammeringGround01_L_Stop",
+      "frames": 69,
+      "source_bake_error_m": 1.9606898975702664e-05,
+      "sampled_min_y": 5.173683166503906e-05
+    },
+    {
+      "id": "HammeringGround01_R_Begin",
+      "frames": 65,
+      "source_bake_error_m": 1.3563882333486043e-05,
+      "sampled_min_y": 5.885958671569824e-05
+    },
+    {
+      "id": "HammeringGround01_R_Loop",
+      "frames": 61,
+      "source_bake_error_m": 1.1413083311549993e-05,
+      "sampled_min_y": -0.0012016892433166504
+    },
+    {
+      "id": "HammeringGround01_R_Stop",
+      "frames": 69,
+      "source_bake_error_m": 1.3563882333486043e-05,
+      "sampled_min_y": 5.885958671569824e-05
+    },
+    {
+      "id": "MiningOneHand01_L_Ground",
+      "frames": 59,
+      "source_bake_error_m": 1.450484776137587e-05,
+      "sampled_min_y": 0.0003094815765507519
+    },
+    {
+      "id": "MiningOneHand01_L_Wall",
+      "frames": 59,
+      "source_bake_error_m": 1.4988369635377024e-05,
+      "sampled_min_y": 0.0003301400865893811
+    },
+    {
+      "id": "MiningOneHand01_R_Ground",
+      "frames": 59,
+      "source_bake_error_m": 1.2135352880287062e-05,
+      "sampled_min_y": 0.00030578611767850816
+    },
+    {
+      "id": "MiningOneHand01_R_Wall",
+      "frames": 59,
+      "source_bake_error_m": 1.2162137307599349e-05,
+      "sampled_min_y": 0.0003317215887364
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "engine": "4.5.2-stable (official)",
+  "failures": [],
+  "max_knee_step_degrees_60hz": 15.0111626540641,
+  "maximum_floor_correction_m": 0.0357943986654282,
+  "minimum_floor_m": 0.00049999263137579,
+  "passed": true,
+  "physical_joypad": "not tested",
+  "rehearsal_cases": [
+    {
+      "hz": 30,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 0
+    },
+    {
+      "hz": 30,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 1
+    },
+    {
+      "hz": 30,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 2
+    },
+    {
+      "hz": 60,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 0
+    },
+    {
+      "hz": 60,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 1
+    },
+    {
+      "hz": 60,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 2
+    },
+    {
+      "hz": 120,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 0
+    },
+    {
+      "hz": 120,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 1
+    },
+    {
+      "hz": 120,
+      "phase": 0.893593042460359,
+      "travel": 17.4666663879004,
+      "view": 2
+    }
+  ],
+  "run_to_walk_to_idle_phases": 8,
+  "walk_pose_max_error_m": 0.0
+}

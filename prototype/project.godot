@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Gauntlands — Animated Rig Proof"
-run/main_scene="res://dummy_walk.tscn"
+config/name="Gauntlands - Prototype 02 Animation Viewer"
+run/main_scene="res://dummy_actions.tscn"
 config/features=PackedStringArray("4.5")
 
 [display]

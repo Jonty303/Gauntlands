@@ -1,0 +1,4391 @@
+[
+  {
+    "category": "Combat",
+    "file": "0_000.png",
+    "index": 0,
+    "name": "Attack1H01_L",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_001.png",
+    "index": 1,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_002.png",
+    "index": 2,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_003.png",
+    "index": 3,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_004.png",
+    "index": 4,
+    "name": "AttackShield01",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_005.png",
+    "index": 5,
+    "name": "CombatDamage01",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_006.png",
+    "index": 6,
+    "name": "CombatIdle01",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_007.png",
+    "index": 7,
+    "name": "CombatIdle1H01",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_008.png",
+    "index": 8,
+    "name": "CombatIdle2H01",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_009.png",
+    "index": 9,
+    "name": "CombatIdlePolearm01",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "0_010.png",
+    "index": 10,
+    "name": "Death01",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_011.png",
+    "index": 11,
+    "name": "BowIdle01",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_012.png",
+    "index": 12,
+    "name": "BowIdle02",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_013.png",
+    "index": 13,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_014.png",
+    "index": 14,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_015.png",
+    "index": 15,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_016.png",
+    "index": 16,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_017.png",
+    "index": 17,
+    "name": "SheatheBack01_L",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_018.png",
+    "index": 18,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_019.png",
+    "index": 19,
+    "name": "SheatheBack02_L",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_020.png",
+    "index": 20,
+    "name": "SheatheBack02_R",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_021.png",
+    "index": 21,
+    "name": "UnsheatheBack01_L",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_022.png",
+    "index": 22,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_023.png",
+    "index": 23,
+    "name": "UnsheatheBack02_L",
+    "view": 0
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "0_024.png",
+    "index": 24,
+    "name": "UnsheatheBack02_R",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_025.png",
+    "index": 25,
+    "name": "CastingDamage01",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_026.png",
+    "index": 26,
+    "name": "CastingEnter01",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_027.png",
+    "index": 27,
+    "name": "CastingExit01",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_028.png",
+    "index": 28,
+    "name": "CastingIdle01",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_029.png",
+    "index": 29,
+    "name": "MagicAttackCall1H01_L",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_030.png",
+    "index": 30,
+    "name": "MagicAttackCall1H01_L - Cast",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_031.png",
+    "index": 31,
+    "name": "MagicAttackCall1H01_L - Load",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_032.png",
+    "index": 32,
+    "name": "MagicAttackDirect1H01_L",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_033.png",
+    "index": 33,
+    "name": "MagicAttackDirect1H01_L - Cast",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_034.png",
+    "index": 34,
+    "name": "MagicAttackDirect1H01_L - Load",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_035.png",
+    "index": 35,
+    "name": "MagicAttackDirect1H01_R",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_036.png",
+    "index": 36,
+    "name": "MagicAttackDirect1H01_R - Cast",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_037.png",
+    "index": 37,
+    "name": "MagicAttackDirect1H01_R - Load",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_038.png",
+    "index": 38,
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_039.png",
+    "index": 39,
+    "name": "MagicAttackDirect2H01 - Cast",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_040.png",
+    "index": 40,
+    "name": "MagicAttackDirect2H01 - Load",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_041.png",
+    "index": 41,
+    "name": "MagicAttackOmni01",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_042.png",
+    "index": 42,
+    "name": "MagicAttackOmni01 - Cast",
+    "view": 0
+  },
+  {
+    "category": "Spellcasting",
+    "file": "0_043.png",
+    "index": 43,
+    "name": "MagicAttackOmni01 - Load",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_044.png",
+    "index": 44,
+    "name": "Idle01",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_045.png",
+    "index": 45,
+    "name": "Idle01-Idle02",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_046.png",
+    "index": 46,
+    "name": "Idle01-Idle03",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_047.png",
+    "index": 47,
+    "name": "Idle01-Idle04",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_048.png",
+    "index": 48,
+    "name": "Idle02",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_049.png",
+    "index": 49,
+    "name": "Idle02-Idle01",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_050.png",
+    "index": 50,
+    "name": "Idle03",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_051.png",
+    "index": 51,
+    "name": "Idle03-Idle01",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_052.png",
+    "index": 52,
+    "name": "Idle04",
+    "view": 0
+  },
+  {
+    "category": "Idle",
+    "file": "0_053.png",
+    "index": 53,
+    "name": "Idle04-Idle01",
+    "view": 0
+  },
+  {
+    "category": "General",
+    "file": "0_054.png",
+    "index": 54,
+    "name": "Fall01",
+    "view": 0
+  },
+  {
+    "category": "General",
+    "file": "0_055.png",
+    "index": 55,
+    "name": "Jump01",
+    "view": 0
+  },
+  {
+    "category": "General",
+    "file": "0_056.png",
+    "index": 56,
+    "name": "Jump01 - Begin",
+    "view": 0
+  },
+  {
+    "category": "General",
+    "file": "0_057.png",
+    "index": 57,
+    "name": "Jump01 - Land",
+    "view": 0
+  },
+  {
+    "category": "General",
+    "file": "0_058.png",
+    "index": 58,
+    "name": "Talk01",
+    "view": 0
+  },
+  {
+    "category": "General",
+    "file": "0_059.png",
+    "index": 59,
+    "name": "Turn01_Left",
+    "view": 0
+  },
+  {
+    "category": "General",
+    "file": "0_060.png",
+    "index": 60,
+    "name": "Turn01_Right",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_061.png",
+    "index": 61,
+    "name": "Run01_Backward",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_062.png",
+    "index": 62,
+    "name": "Run01_BackwardLeft",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_063.png",
+    "index": 63,
+    "name": "Run01_BackwardRight",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_064.png",
+    "index": 64,
+    "name": "Run01_Forward",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_065.png",
+    "index": 65,
+    "name": "Run01_ForwardLeft",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_066.png",
+    "index": 66,
+    "name": "Run01_ForwardRight",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_067.png",
+    "index": 67,
+    "name": "Run01_Left",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_068.png",
+    "index": 68,
+    "name": "Run01_Right",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_069.png",
+    "index": 69,
+    "name": "Sprint01_Forward",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_070.png",
+    "index": 70,
+    "name": "Sprint01_ForwardLeft",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_071.png",
+    "index": 71,
+    "name": "Sprint01_ForwardRight",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_072.png",
+    "index": 72,
+    "name": "Sprint01_Left",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_073.png",
+    "index": 73,
+    "name": "Sprint01_Right",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_074.png",
+    "index": 74,
+    "name": "StrafeRun01_BackwardLeft",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_075.png",
+    "index": 75,
+    "name": "StrafeRun01_BackwardRight",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_076.png",
+    "index": 76,
+    "name": "StrafeRun01_ForwardLeft",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_077.png",
+    "index": 77,
+    "name": "StrafeRun01_ForwardRight",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_078.png",
+    "index": 78,
+    "name": "StrafeRun01_Left",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_079.png",
+    "index": 79,
+    "name": "StrafeRun01_Right",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_080.png",
+    "index": 80,
+    "name": "Walk01_Backward",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_081.png",
+    "index": 81,
+    "name": "Walk01_BackwardLeft",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_082.png",
+    "index": 82,
+    "name": "Walk01_BackwardRight",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_083.png",
+    "index": 83,
+    "name": "Walk01_Forward",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_084.png",
+    "index": 84,
+    "name": "Walk01_ForwardLeft",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_085.png",
+    "index": 85,
+    "name": "Walk01_ForwardRight",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_086.png",
+    "index": 86,
+    "name": "Walk01_Left",
+    "view": 0
+  },
+  {
+    "category": "Movement",
+    "file": "0_087.png",
+    "index": 87,
+    "name": "Walk01_Right",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_088.png",
+    "index": 88,
+    "name": "FarmingWithPlow01_R - Begin",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_089.png",
+    "index": 89,
+    "name": "FarmingWithPlow01_R - Loop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_090.png",
+    "index": 90,
+    "name": "FarmingWithPlow01_R - Stop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_091.png",
+    "index": 91,
+    "name": "Fishing01 - Begin",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_092.png",
+    "index": 92,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_093.png",
+    "index": 93,
+    "name": "Fishing01 - Stop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_094.png",
+    "index": 94,
+    "name": "FishingFighting01",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_095.png",
+    "index": 95,
+    "name": "FishingPullOut01",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_096.png",
+    "index": 96,
+    "name": "FishingPullOut02 - Begin",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_097.png",
+    "index": 97,
+    "name": "FishingPullOut02 - Loop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_098.png",
+    "index": 98,
+    "name": "FishingPullOut02 - Stop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_099.png",
+    "index": 99,
+    "name": "FishingThrow01",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_100.png",
+    "index": 100,
+    "name": "Gathering01",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_101.png",
+    "index": 101,
+    "name": "Gathering02",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_102.png",
+    "index": 102,
+    "name": "Gathering03",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_103.png",
+    "index": 103,
+    "name": "HammeringGround01_L - Begin",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_104.png",
+    "index": 104,
+    "name": "HammeringGround01_L - Loop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_105.png",
+    "index": 105,
+    "name": "HammeringGround01_L - Stop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_106.png",
+    "index": 106,
+    "name": "HammeringGround01_R - Begin",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_107.png",
+    "index": 107,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_108.png",
+    "index": 108,
+    "name": "HammeringGround01_R - Stop",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_109.png",
+    "index": 109,
+    "name": "MiningOneHand01_L - Ground",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_110.png",
+    "index": 110,
+    "name": "MiningOneHand01_L - Wall",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_111.png",
+    "index": 111,
+    "name": "MiningOneHand01_R - Ground",
+    "view": 0
+  },
+  {
+    "category": "Crafting",
+    "file": "0_112.png",
+    "index": 112,
+    "name": "MiningOneHand01_R - Wall",
+    "view": 0
+  },
+  {
+    "category": "Combat",
+    "file": "1_000.png",
+    "index": 0,
+    "name": "Attack1H01_L",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_001.png",
+    "index": 1,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_002.png",
+    "index": 2,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_003.png",
+    "index": 3,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_004.png",
+    "index": 4,
+    "name": "AttackShield01",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_005.png",
+    "index": 5,
+    "name": "CombatDamage01",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_006.png",
+    "index": 6,
+    "name": "CombatIdle01",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_007.png",
+    "index": 7,
+    "name": "CombatIdle1H01",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_008.png",
+    "index": 8,
+    "name": "CombatIdle2H01",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_009.png",
+    "index": 9,
+    "name": "CombatIdlePolearm01",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "1_010.png",
+    "index": 10,
+    "name": "Death01",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_011.png",
+    "index": 11,
+    "name": "BowIdle01",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_012.png",
+    "index": 12,
+    "name": "BowIdle02",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_013.png",
+    "index": 13,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_014.png",
+    "index": 14,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_015.png",
+    "index": 15,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_016.png",
+    "index": 16,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_017.png",
+    "index": 17,
+    "name": "SheatheBack01_L",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_018.png",
+    "index": 18,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_019.png",
+    "index": 19,
+    "name": "SheatheBack02_L",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_020.png",
+    "index": 20,
+    "name": "SheatheBack02_R",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_021.png",
+    "index": 21,
+    "name": "UnsheatheBack01_L",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_022.png",
+    "index": 22,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_023.png",
+    "index": 23,
+    "name": "UnsheatheBack02_L",
+    "view": 1
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "1_024.png",
+    "index": 24,
+    "name": "UnsheatheBack02_R",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_025.png",
+    "index": 25,
+    "name": "CastingDamage01",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_026.png",
+    "index": 26,
+    "name": "CastingEnter01",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_027.png",
+    "index": 27,
+    "name": "CastingExit01",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_028.png",
+    "index": 28,
+    "name": "CastingIdle01",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_029.png",
+    "index": 29,
+    "name": "MagicAttackCall1H01_L",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_030.png",
+    "index": 30,
+    "name": "MagicAttackCall1H01_L - Cast",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_031.png",
+    "index": 31,
+    "name": "MagicAttackCall1H01_L - Load",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_032.png",
+    "index": 32,
+    "name": "MagicAttackDirect1H01_L",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_033.png",
+    "index": 33,
+    "name": "MagicAttackDirect1H01_L - Cast",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_034.png",
+    "index": 34,
+    "name": "MagicAttackDirect1H01_L - Load",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_035.png",
+    "index": 35,
+    "name": "MagicAttackDirect1H01_R",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_036.png",
+    "index": 36,
+    "name": "MagicAttackDirect1H01_R - Cast",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_037.png",
+    "index": 37,
+    "name": "MagicAttackDirect1H01_R - Load",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_038.png",
+    "index": 38,
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_039.png",
+    "index": 39,
+    "name": "MagicAttackDirect2H01 - Cast",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_040.png",
+    "index": 40,
+    "name": "MagicAttackDirect2H01 - Load",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_041.png",
+    "index": 41,
+    "name": "MagicAttackOmni01",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_042.png",
+    "index": 42,
+    "name": "MagicAttackOmni01 - Cast",
+    "view": 1
+  },
+  {
+    "category": "Spellcasting",
+    "file": "1_043.png",
+    "index": 43,
+    "name": "MagicAttackOmni01 - Load",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_044.png",
+    "index": 44,
+    "name": "Idle01",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_045.png",
+    "index": 45,
+    "name": "Idle01-Idle02",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_046.png",
+    "index": 46,
+    "name": "Idle01-Idle03",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_047.png",
+    "index": 47,
+    "name": "Idle01-Idle04",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_048.png",
+    "index": 48,
+    "name": "Idle02",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_049.png",
+    "index": 49,
+    "name": "Idle02-Idle01",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_050.png",
+    "index": 50,
+    "name": "Idle03",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_051.png",
+    "index": 51,
+    "name": "Idle03-Idle01",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_052.png",
+    "index": 52,
+    "name": "Idle04",
+    "view": 1
+  },
+  {
+    "category": "Idle",
+    "file": "1_053.png",
+    "index": 53,
+    "name": "Idle04-Idle01",
+    "view": 1
+  },
+  {
+    "category": "General",
+    "file": "1_054.png",
+    "index": 54,
+    "name": "Fall01",
+    "view": 1
+  },
+  {
+    "category": "General",
+    "file": "1_055.png",
+    "index": 55,
+    "name": "Jump01",
+    "view": 1
+  },
+  {
+    "category": "General",
+    "file": "1_056.png",
+    "index": 56,
+    "name": "Jump01 - Begin",
+    "view": 1
+  },
+  {
+    "category": "General",
+    "file": "1_057.png",
+    "index": 57,
+    "name": "Jump01 - Land",
+    "view": 1
+  },
+  {
+    "category": "General",
+    "file": "1_058.png",
+    "index": 58,
+    "name": "Talk01",
+    "view": 1
+  },
+  {
+    "category": "General",
+    "file": "1_059.png",
+    "index": 59,
+    "name": "Turn01_Left",
+    "view": 1
+  },
+  {
+    "category": "General",
+    "file": "1_060.png",
+    "index": 60,
+    "name": "Turn01_Right",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_061.png",
+    "index": 61,
+    "name": "Run01_Backward",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_062.png",
+    "index": 62,
+    "name": "Run01_BackwardLeft",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_063.png",
+    "index": 63,
+    "name": "Run01_BackwardRight",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_064.png",
+    "index": 64,
+    "name": "Run01_Forward",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_065.png",
+    "index": 65,
+    "name": "Run01_ForwardLeft",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_066.png",
+    "index": 66,
+    "name": "Run01_ForwardRight",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_067.png",
+    "index": 67,
+    "name": "Run01_Left",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_068.png",
+    "index": 68,
+    "name": "Run01_Right",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_069.png",
+    "index": 69,
+    "name": "Sprint01_Forward",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_070.png",
+    "index": 70,
+    "name": "Sprint01_ForwardLeft",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_071.png",
+    "index": 71,
+    "name": "Sprint01_ForwardRight",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_072.png",
+    "index": 72,
+    "name": "Sprint01_Left",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_073.png",
+    "index": 73,
+    "name": "Sprint01_Right",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_074.png",
+    "index": 74,
+    "name": "StrafeRun01_BackwardLeft",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_075.png",
+    "index": 75,
+    "name": "StrafeRun01_BackwardRight",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_076.png",
+    "index": 76,
+    "name": "StrafeRun01_ForwardLeft",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_077.png",
+    "index": 77,
+    "name": "StrafeRun01_ForwardRight",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_078.png",
+    "index": 78,
+    "name": "StrafeRun01_Left",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_079.png",
+    "index": 79,
+    "name": "StrafeRun01_Right",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_080.png",
+    "index": 80,
+    "name": "Walk01_Backward",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_081.png",
+    "index": 81,
+    "name": "Walk01_BackwardLeft",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_082.png",
+    "index": 82,
+    "name": "Walk01_BackwardRight",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_083.png",
+    "index": 83,
+    "name": "Walk01_Forward",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_084.png",
+    "index": 84,
+    "name": "Walk01_ForwardLeft",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_085.png",
+    "index": 85,
+    "name": "Walk01_ForwardRight",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_086.png",
+    "index": 86,
+    "name": "Walk01_Left",
+    "view": 1
+  },
+  {
+    "category": "Movement",
+    "file": "1_087.png",
+    "index": 87,
+    "name": "Walk01_Right",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_088.png",
+    "index": 88,
+    "name": "FarmingWithPlow01_R - Begin",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_089.png",
+    "index": 89,
+    "name": "FarmingWithPlow01_R - Loop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_090.png",
+    "index": 90,
+    "name": "FarmingWithPlow01_R - Stop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_091.png",
+    "index": 91,
+    "name": "Fishing01 - Begin",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_092.png",
+    "index": 92,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_093.png",
+    "index": 93,
+    "name": "Fishing01 - Stop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_094.png",
+    "index": 94,
+    "name": "FishingFighting01",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_095.png",
+    "index": 95,
+    "name": "FishingPullOut01",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_096.png",
+    "index": 96,
+    "name": "FishingPullOut02 - Begin",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_097.png",
+    "index": 97,
+    "name": "FishingPullOut02 - Loop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_098.png",
+    "index": 98,
+    "name": "FishingPullOut02 - Stop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_099.png",
+    "index": 99,
+    "name": "FishingThrow01",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_100.png",
+    "index": 100,
+    "name": "Gathering01",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_101.png",
+    "index": 101,
+    "name": "Gathering02",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_102.png",
+    "index": 102,
+    "name": "Gathering03",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_103.png",
+    "index": 103,
+    "name": "HammeringGround01_L - Begin",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_104.png",
+    "index": 104,
+    "name": "HammeringGround01_L - Loop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_105.png",
+    "index": 105,
+    "name": "HammeringGround01_L - Stop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_106.png",
+    "index": 106,
+    "name": "HammeringGround01_R - Begin",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_107.png",
+    "index": 107,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_108.png",
+    "index": 108,
+    "name": "HammeringGround01_R - Stop",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_109.png",
+    "index": 109,
+    "name": "MiningOneHand01_L - Ground",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_110.png",
+    "index": 110,
+    "name": "MiningOneHand01_L - Wall",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_111.png",
+    "index": 111,
+    "name": "MiningOneHand01_R - Ground",
+    "view": 1
+  },
+  {
+    "category": "Crafting",
+    "file": "1_112.png",
+    "index": 112,
+    "name": "MiningOneHand01_R - Wall",
+    "view": 1
+  },
+  {
+    "category": "Combat",
+    "file": "2_000.png",
+    "index": 0,
+    "name": "Attack1H01_L",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_001.png",
+    "index": 1,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_002.png",
+    "index": 2,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_003.png",
+    "index": 3,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_004.png",
+    "index": 4,
+    "name": "AttackShield01",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_005.png",
+    "index": 5,
+    "name": "CombatDamage01",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_006.png",
+    "index": 6,
+    "name": "CombatIdle01",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_007.png",
+    "index": 7,
+    "name": "CombatIdle1H01",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_008.png",
+    "index": 8,
+    "name": "CombatIdle2H01",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_009.png",
+    "index": 9,
+    "name": "CombatIdlePolearm01",
+    "view": 2
+  },
+  {
+    "category": "Combat",
+    "file": "2_010.png",
+    "index": 10,
+    "name": "Death01",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_011.png",
+    "index": 11,
+    "name": "BowIdle01",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_012.png",
+    "index": 12,
+    "name": "BowIdle02",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_013.png",
+    "index": 13,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_014.png",
+    "index": 14,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_015.png",
+    "index": 15,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_016.png",
+    "index": 16,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_017.png",
+    "index": 17,
+    "name": "SheatheBack01_L",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_018.png",
+    "index": 18,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_019.png",
+    "index": 19,
+    "name": "SheatheBack02_L",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_020.png",
+    "index": 20,
+    "name": "SheatheBack02_R",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_021.png",
+    "index": 21,
+    "name": "UnsheatheBack01_L",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_022.png",
+    "index": 22,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_023.png",
+    "index": 23,
+    "name": "UnsheatheBack02_L",
+    "view": 2
+  },
+  {
+    "category": "Archery / equipment",
+    "file": "2_024.png",
+    "index": 24,
+    "name": "UnsheatheBack02_R",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_025.png",
+    "index": 25,
+    "name": "CastingDamage01",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_026.png",
+    "index": 26,
+    "name": "CastingEnter01",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_027.png",
+    "index": 27,
+    "name": "CastingExit01",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_028.png",
+    "index": 28,
+    "name": "CastingIdle01",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_029.png",
+    "index": 29,
+    "name": "MagicAttackCall1H01_L",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_030.png",
+    "index": 30,
+    "name": "MagicAttackCall1H01_L - Cast",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_031.png",
+    "index": 31,
+    "name": "MagicAttackCall1H01_L - Load",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_032.png",
+    "index": 32,
+    "name": "MagicAttackDirect1H01_L",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_033.png",
+    "index": 33,
+    "name": "MagicAttackDirect1H01_L - Cast",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_034.png",
+    "index": 34,
+    "name": "MagicAttackDirect1H01_L - Load",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_035.png",
+    "index": 35,
+    "name": "MagicAttackDirect1H01_R",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_036.png",
+    "index": 36,
+    "name": "MagicAttackDirect1H01_R - Cast",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_037.png",
+    "index": 37,
+    "name": "MagicAttackDirect1H01_R - Load",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_038.png",
+    "index": 38,
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_039.png",
+    "index": 39,
+    "name": "MagicAttackDirect2H01 - Cast",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_040.png",
+    "index": 40,
+    "name": "MagicAttackDirect2H01 - Load",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_041.png",
+    "index": 41,
+    "name": "MagicAttackOmni01",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_042.png",
+    "index": 42,
+    "name": "MagicAttackOmni01 - Cast",
+    "view": 2
+  },
+  {
+    "category": "Spellcasting",
+    "file": "2_043.png",
+    "index": 43,
+    "name": "MagicAttackOmni01 - Load",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_044.png",
+    "index": 44,
+    "name": "Idle01",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_045.png",
+    "index": 45,
+    "name": "Idle01-Idle02",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_046.png",
+    "index": 46,
+    "name": "Idle01-Idle03",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_047.png",
+    "index": 47,
+    "name": "Idle01-Idle04",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_048.png",
+    "index": 48,
+    "name": "Idle02",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_049.png",
+    "index": 49,
+    "name": "Idle02-Idle01",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_050.png",
+    "index": 50,
+    "name": "Idle03",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_051.png",
+    "index": 51,
+    "name": "Idle03-Idle01",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_052.png",
+    "index": 52,
+    "name": "Idle04",
+    "view": 2
+  },
+  {
+    "category": "Idle",
+    "file": "2_053.png",
+    "index": 53,
+    "name": "Idle04-Idle01",
+    "view": 2
+  },
+  {
+    "category": "General",
+    "file": "2_054.png",
+    "index": 54,
+    "name": "Fall01",
+    "view": 2
+  },
+  {
+    "category": "General",
+    "file": "2_055.png",
+    "index": 55,
+    "name": "Jump01",
+    "view": 2
+  },
+  {
+    "category": "General",
+    "file": "2_056.png",
+    "index": 56,
+    "name": "Jump01 - Begin",
+    "view": 2
+  },
+  {
+    "category": "General",
+    "file": "2_057.png",
+    "index": 57,
+    "name": "Jump01 - Land",
+    "view": 2
+  },
+  {
+    "category": "General",
+    "file": "2_058.png",
+    "index": 58,
+    "name": "Talk01",
+    "view": 2
+  },
+  {
+    "category": "General",
+    "file": "2_059.png",
+    "index": 59,
+    "name": "Turn01_Left",
+    "view": 2
+  },
+  {
+    "category": "General",
+    "file": "2_060.png",
+    "index": 60,
+    "name": "Turn01_Right",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_061.png",
+    "index": 61,
+    "name": "Run01_Backward",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_062.png",
+    "index": 62,
+    "name": "Run01_BackwardLeft",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_063.png",
+    "index": 63,
+    "name": "Run01_BackwardRight",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_064.png",
+    "index": 64,
+    "name": "Run01_Forward",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_065.png",
+    "index": 65,
+    "name": "Run01_ForwardLeft",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_066.png",
+    "index": 66,
+    "name": "Run01_ForwardRight",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_067.png",
+    "index": 67,
+    "name": "Run01_Left",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_068.png",
+    "index": 68,
+    "name": "Run01_Right",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_069.png",
+    "index": 69,
+    "name": "Sprint01_Forward",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_070.png",
+    "index": 70,
+    "name": "Sprint01_ForwardLeft",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_071.png",
+    "index": 71,
+    "name": "Sprint01_ForwardRight",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_072.png",
+    "index": 72,
+    "name": "Sprint01_Left",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_073.png",
+    "index": 73,
+    "name": "Sprint01_Right",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_074.png",
+    "index": 74,
+    "name": "StrafeRun01_BackwardLeft",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_075.png",
+    "index": 75,
+    "name": "StrafeRun01_BackwardRight",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_076.png",
+    "index": 76,
+    "name": "StrafeRun01_ForwardLeft",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_077.png",
+    "index": 77,
+    "name": "StrafeRun01_ForwardRight",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_078.png",
+    "index": 78,
+    "name": "StrafeRun01_Left",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_079.png",
+    "index": 79,
+    "name": "StrafeRun01_Right",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_080.png",
+    "index": 80,
+    "name": "Walk01_Backward",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_081.png",
+    "index": 81,
+    "name": "Walk01_BackwardLeft",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_082.png",
+    "index": 82,
+    "name": "Walk01_BackwardRight",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_083.png",
+    "index": 83,
+    "name": "Walk01_Forward",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_084.png",
+    "index": 84,
+    "name": "Walk01_ForwardLeft",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_085.png",
+    "index": 85,
+    "name": "Walk01_ForwardRight",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_086.png",
+    "index": 86,
+    "name": "Walk01_Left",
+    "view": 2
+  },
+  {
+    "category": "Movement",
+    "file": "2_087.png",
+    "index": 87,
+    "name": "Walk01_Right",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_088.png",
+    "index": 88,
+    "name": "FarmingWithPlow01_R - Begin",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_089.png",
+    "index": 89,
+    "name": "FarmingWithPlow01_R - Loop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_090.png",
+    "index": 90,
+    "name": "FarmingWithPlow01_R - Stop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_091.png",
+    "index": 91,
+    "name": "Fishing01 - Begin",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_092.png",
+    "index": 92,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_093.png",
+    "index": 93,
+    "name": "Fishing01 - Stop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_094.png",
+    "index": 94,
+    "name": "FishingFighting01",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_095.png",
+    "index": 95,
+    "name": "FishingPullOut01",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_096.png",
+    "index": 96,
+    "name": "FishingPullOut02 - Begin",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_097.png",
+    "index": 97,
+    "name": "FishingPullOut02 - Loop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_098.png",
+    "index": 98,
+    "name": "FishingPullOut02 - Stop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_099.png",
+    "index": 99,
+    "name": "FishingThrow01",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_100.png",
+    "index": 100,
+    "name": "Gathering01",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_101.png",
+    "index": 101,
+    "name": "Gathering02",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_102.png",
+    "index": 102,
+    "name": "Gathering03",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_103.png",
+    "index": 103,
+    "name": "HammeringGround01_L - Begin",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_104.png",
+    "index": 104,
+    "name": "HammeringGround01_L - Loop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_105.png",
+    "index": 105,
+    "name": "HammeringGround01_L - Stop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_106.png",
+    "index": 106,
+    "name": "HammeringGround01_R - Begin",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_107.png",
+    "index": 107,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_108.png",
+    "index": 108,
+    "name": "HammeringGround01_R - Stop",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_109.png",
+    "index": 109,
+    "name": "MiningOneHand01_L - Ground",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_110.png",
+    "index": 110,
+    "name": "MiningOneHand01_L - Wall",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_111.png",
+    "index": 111,
+    "name": "MiningOneHand01_R - Ground",
+    "view": 2
+  },
+  {
+    "category": "Crafting",
+    "file": "2_112.png",
+    "index": 112,
+    "name": "MiningOneHand01_R - Wall",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack1H01_R_0_0.png",
+    "frame": 0,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack1H01_R_0_1.png",
+    "frame": 1,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack1H01_R_0_2.png",
+    "frame": 2,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack1H01_R_0_3.png",
+    "frame": 3,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack1H01_R_0_4.png",
+    "frame": 4,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack1H01_R_0_5.png",
+    "frame": 5,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack1H01_R_0_6.png",
+    "frame": 6,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack1H01_R_0_7.png",
+    "frame": 7,
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack1H01_R_1_0.png",
+    "frame": 0,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack1H01_R_1_1.png",
+    "frame": 1,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack1H01_R_1_2.png",
+    "frame": 2,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack1H01_R_1_3.png",
+    "frame": 3,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack1H01_R_1_4.png",
+    "frame": 4,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack1H01_R_1_5.png",
+    "frame": 5,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack1H01_R_1_6.png",
+    "frame": 6,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack1H01_R_1_7.png",
+    "frame": 7,
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack1H01_R_2_0.png",
+    "frame": 0,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack1H01_R_2_1.png",
+    "frame": 1,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack1H01_R_2_2.png",
+    "frame": 2,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack1H01_R_2_3.png",
+    "frame": 3,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack1H01_R_2_4.png",
+    "frame": 4,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack1H01_R_2_5.png",
+    "frame": 5,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack1H01_R_2_6.png",
+    "frame": 6,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack1H01_R_2_7.png",
+    "frame": 7,
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack2H01_0_0.png",
+    "frame": 0,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack2H01_0_1.png",
+    "frame": 1,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack2H01_0_2.png",
+    "frame": 2,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack2H01_0_3.png",
+    "frame": 3,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack2H01_0_4.png",
+    "frame": 4,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack2H01_0_5.png",
+    "frame": 5,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack2H01_0_6.png",
+    "frame": 6,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack2H01_0_7.png",
+    "frame": 7,
+    "name": "Attack2H01",
+    "view": 0
+  },
+  {
+    "file": "sequence_Attack2H01_1_0.png",
+    "frame": 0,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack2H01_1_1.png",
+    "frame": 1,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack2H01_1_2.png",
+    "frame": 2,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack2H01_1_3.png",
+    "frame": 3,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack2H01_1_4.png",
+    "frame": 4,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack2H01_1_5.png",
+    "frame": 5,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack2H01_1_6.png",
+    "frame": 6,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack2H01_1_7.png",
+    "frame": 7,
+    "name": "Attack2H01",
+    "view": 1
+  },
+  {
+    "file": "sequence_Attack2H01_2_0.png",
+    "frame": 0,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack2H01_2_1.png",
+    "frame": 1,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack2H01_2_2.png",
+    "frame": 2,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack2H01_2_3.png",
+    "frame": 3,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack2H01_2_4.png",
+    "frame": 4,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack2H01_2_5.png",
+    "frame": 5,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack2H01_2_6.png",
+    "frame": 6,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "file": "sequence_Attack2H01_2_7.png",
+    "frame": 7,
+    "name": "Attack2H01",
+    "view": 2
+  },
+  {
+    "file": "sequence_AttackPolearm01_0_0.png",
+    "frame": 0,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "file": "sequence_AttackPolearm01_0_1.png",
+    "frame": 1,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "file": "sequence_AttackPolearm01_0_2.png",
+    "frame": 2,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "file": "sequence_AttackPolearm01_0_3.png",
+    "frame": 3,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "file": "sequence_AttackPolearm01_0_4.png",
+    "frame": 4,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "file": "sequence_AttackPolearm01_0_5.png",
+    "frame": 5,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "file": "sequence_AttackPolearm01_0_6.png",
+    "frame": 6,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "file": "sequence_AttackPolearm01_0_7.png",
+    "frame": 7,
+    "name": "AttackPolearm01",
+    "view": 0
+  },
+  {
+    "file": "sequence_AttackPolearm01_1_0.png",
+    "frame": 0,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "file": "sequence_AttackPolearm01_1_1.png",
+    "frame": 1,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "file": "sequence_AttackPolearm01_1_2.png",
+    "frame": 2,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "file": "sequence_AttackPolearm01_1_3.png",
+    "frame": 3,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "file": "sequence_AttackPolearm01_1_4.png",
+    "frame": 4,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "file": "sequence_AttackPolearm01_1_5.png",
+    "frame": 5,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "file": "sequence_AttackPolearm01_1_6.png",
+    "frame": 6,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "file": "sequence_AttackPolearm01_1_7.png",
+    "frame": 7,
+    "name": "AttackPolearm01",
+    "view": 1
+  },
+  {
+    "file": "sequence_AttackPolearm01_2_0.png",
+    "frame": 0,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "file": "sequence_AttackPolearm01_2_1.png",
+    "frame": 1,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "file": "sequence_AttackPolearm01_2_2.png",
+    "frame": 2,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "file": "sequence_AttackPolearm01_2_3.png",
+    "frame": 3,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "file": "sequence_AttackPolearm01_2_4.png",
+    "frame": 4,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "file": "sequence_AttackPolearm01_2_5.png",
+    "frame": 5,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "file": "sequence_AttackPolearm01_2_6.png",
+    "frame": 6,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "file": "sequence_AttackPolearm01_2_7.png",
+    "frame": 7,
+    "name": "AttackPolearm01",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShotComplete_0_0.png",
+    "frame": 0,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShotComplete_0_1.png",
+    "frame": 1,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShotComplete_0_2.png",
+    "frame": 2,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShotComplete_0_3.png",
+    "frame": 3,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShotComplete_0_4.png",
+    "frame": 4,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShotComplete_0_5.png",
+    "frame": 5,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShotComplete_0_6.png",
+    "frame": 6,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShotComplete_0_7.png",
+    "frame": 7,
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShotComplete_1_0.png",
+    "frame": 0,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShotComplete_1_1.png",
+    "frame": 1,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShotComplete_1_2.png",
+    "frame": 2,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShotComplete_1_3.png",
+    "frame": 3,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShotComplete_1_4.png",
+    "frame": 4,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShotComplete_1_5.png",
+    "frame": 5,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShotComplete_1_6.png",
+    "frame": 6,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShotComplete_1_7.png",
+    "frame": 7,
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShotComplete_2_0.png",
+    "frame": 0,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShotComplete_2_1.png",
+    "frame": 1,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShotComplete_2_2.png",
+    "frame": 2,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShotComplete_2_3.png",
+    "frame": 3,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShotComplete_2_4.png",
+    "frame": 4,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShotComplete_2_5.png",
+    "frame": 5,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShotComplete_2_6.png",
+    "frame": 6,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShotComplete_2_7.png",
+    "frame": 7,
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Load_0_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Load_0_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Load_0_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Load_0_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Load_0_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Load_0_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Load_0_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Load_0_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Load",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Load_1_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Load_1_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Load_1_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Load_1_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Load_1_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Load_1_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Load_1_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Load_1_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Load",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Load_2_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Load_2_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Load_2_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Load_2_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Load_2_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Load_2_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Load_2_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Load_2_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Load",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Hold_0_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Hold_0_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Hold_0_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Hold_0_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Hold_0_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Hold_0_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Hold_0_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Hold_0_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Hold",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Hold_1_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Hold_1_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Hold_1_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Hold_1_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Hold_1_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Hold_1_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Hold_1_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Hold_1_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Hold",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Hold_2_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Hold_2_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Hold_2_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Hold_2_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Hold_2_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Hold_2_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Hold_2_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Hold_2_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Hold",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Release_0_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Release_0_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Release_0_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Release_0_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Release_0_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Release_0_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Release_0_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Release_0_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Release",
+    "view": 0
+  },
+  {
+    "file": "sequence_BowShot01_Release_1_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Release_1_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Release_1_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Release_1_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Release_1_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Release_1_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Release_1_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Release_1_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Release",
+    "view": 1
+  },
+  {
+    "file": "sequence_BowShot01_Release_2_0.png",
+    "frame": 0,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Release_2_1.png",
+    "frame": 1,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Release_2_2.png",
+    "frame": 2,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Release_2_3.png",
+    "frame": 3,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Release_2_4.png",
+    "frame": 4,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Release_2_5.png",
+    "frame": 5,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Release_2_6.png",
+    "frame": 6,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "file": "sequence_BowShot01_Release_2_7.png",
+    "frame": 7,
+    "name": "BowShot01 - Release",
+    "view": 2
+  },
+  {
+    "file": "sequence_SheatheBack01_R_0_0.png",
+    "frame": 0,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_SheatheBack01_R_0_1.png",
+    "frame": 1,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_SheatheBack01_R_0_2.png",
+    "frame": 2,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_SheatheBack01_R_0_3.png",
+    "frame": 3,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_SheatheBack01_R_0_4.png",
+    "frame": 4,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_SheatheBack01_R_0_5.png",
+    "frame": 5,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_SheatheBack01_R_0_6.png",
+    "frame": 6,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_SheatheBack01_R_0_7.png",
+    "frame": 7,
+    "name": "SheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_SheatheBack01_R_1_0.png",
+    "frame": 0,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_SheatheBack01_R_1_1.png",
+    "frame": 1,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_SheatheBack01_R_1_2.png",
+    "frame": 2,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_SheatheBack01_R_1_3.png",
+    "frame": 3,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_SheatheBack01_R_1_4.png",
+    "frame": 4,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_SheatheBack01_R_1_5.png",
+    "frame": 5,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_SheatheBack01_R_1_6.png",
+    "frame": 6,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_SheatheBack01_R_1_7.png",
+    "frame": 7,
+    "name": "SheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_SheatheBack01_R_2_0.png",
+    "frame": 0,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_SheatheBack01_R_2_1.png",
+    "frame": 1,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_SheatheBack01_R_2_2.png",
+    "frame": 2,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_SheatheBack01_R_2_3.png",
+    "frame": 3,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_SheatheBack01_R_2_4.png",
+    "frame": 4,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_SheatheBack01_R_2_5.png",
+    "frame": 5,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_SheatheBack01_R_2_6.png",
+    "frame": 6,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_SheatheBack01_R_2_7.png",
+    "frame": 7,
+    "name": "SheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_0_0.png",
+    "frame": 0,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_0_1.png",
+    "frame": 1,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_0_2.png",
+    "frame": 2,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_0_3.png",
+    "frame": 3,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_0_4.png",
+    "frame": 4,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_0_5.png",
+    "frame": 5,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_0_6.png",
+    "frame": 6,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_0_7.png",
+    "frame": 7,
+    "name": "UnsheatheBack01_R",
+    "view": 0
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_1_0.png",
+    "frame": 0,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_1_1.png",
+    "frame": 1,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_1_2.png",
+    "frame": 2,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_1_3.png",
+    "frame": 3,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_1_4.png",
+    "frame": 4,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_1_5.png",
+    "frame": 5,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_1_6.png",
+    "frame": 6,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_1_7.png",
+    "frame": 7,
+    "name": "UnsheatheBack01_R",
+    "view": 1
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_2_0.png",
+    "frame": 0,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_2_1.png",
+    "frame": 1,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_2_2.png",
+    "frame": 2,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_2_3.png",
+    "frame": 3,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_2_4.png",
+    "frame": 4,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_2_5.png",
+    "frame": 5,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_2_6.png",
+    "frame": 6,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_UnsheatheBack01_R_2_7.png",
+    "frame": 7,
+    "name": "UnsheatheBack01_R",
+    "view": 2
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_0_0.png",
+    "frame": 0,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_0_1.png",
+    "frame": 1,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_0_2.png",
+    "frame": 2,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_0_3.png",
+    "frame": 3,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_0_4.png",
+    "frame": 4,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_0_5.png",
+    "frame": 5,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_0_6.png",
+    "frame": 6,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_0_7.png",
+    "frame": 7,
+    "name": "HammeringGround01_R - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_1_0.png",
+    "frame": 0,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_1_1.png",
+    "frame": 1,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_1_2.png",
+    "frame": 2,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_1_3.png",
+    "frame": 3,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_1_4.png",
+    "frame": 4,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_1_5.png",
+    "frame": 5,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_1_6.png",
+    "frame": 6,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_1_7.png",
+    "frame": 7,
+    "name": "HammeringGround01_R - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_2_0.png",
+    "frame": 0,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_2_1.png",
+    "frame": 1,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_2_2.png",
+    "frame": 2,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_2_3.png",
+    "frame": 3,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_2_4.png",
+    "frame": 4,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_2_5.png",
+    "frame": 5,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_2_6.png",
+    "frame": 6,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_HammeringGround01_R_Loop_2_7.png",
+    "frame": 7,
+    "name": "HammeringGround01_R - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_Fishing01_Loop_0_0.png",
+    "frame": 0,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_Fishing01_Loop_0_1.png",
+    "frame": 1,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_Fishing01_Loop_0_2.png",
+    "frame": 2,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_Fishing01_Loop_0_3.png",
+    "frame": 3,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_Fishing01_Loop_0_4.png",
+    "frame": 4,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_Fishing01_Loop_0_5.png",
+    "frame": 5,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_Fishing01_Loop_0_6.png",
+    "frame": 6,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_Fishing01_Loop_0_7.png",
+    "frame": 7,
+    "name": "Fishing01 - Loop",
+    "view": 0
+  },
+  {
+    "file": "sequence_Fishing01_Loop_1_0.png",
+    "frame": 0,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_Fishing01_Loop_1_1.png",
+    "frame": 1,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_Fishing01_Loop_1_2.png",
+    "frame": 2,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_Fishing01_Loop_1_3.png",
+    "frame": 3,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_Fishing01_Loop_1_4.png",
+    "frame": 4,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_Fishing01_Loop_1_5.png",
+    "frame": 5,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_Fishing01_Loop_1_6.png",
+    "frame": 6,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_Fishing01_Loop_1_7.png",
+    "frame": 7,
+    "name": "Fishing01 - Loop",
+    "view": 1
+  },
+  {
+    "file": "sequence_Fishing01_Loop_2_0.png",
+    "frame": 0,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_Fishing01_Loop_2_1.png",
+    "frame": 1,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_Fishing01_Loop_2_2.png",
+    "frame": 2,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_Fishing01_Loop_2_3.png",
+    "frame": 3,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_Fishing01_Loop_2_4.png",
+    "frame": 4,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_Fishing01_Loop_2_5.png",
+    "frame": 5,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_Fishing01_Loop_2_6.png",
+    "frame": 6,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "file": "sequence_Fishing01_Loop_2_7.png",
+    "frame": 7,
+    "name": "Fishing01 - Loop",
+    "view": 2
+  },
+  {
+    "facing": 0,
+    "file": "facing_Attack1H01_R_0_0.png",
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "facing": 1,
+    "file": "facing_Attack1H01_R_0_1.png",
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "facing": 2,
+    "file": "facing_Attack1H01_R_0_2.png",
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "facing": 3,
+    "file": "facing_Attack1H01_R_0_3.png",
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "facing": 4,
+    "file": "facing_Attack1H01_R_0_4.png",
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "facing": 5,
+    "file": "facing_Attack1H01_R_0_5.png",
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "facing": 6,
+    "file": "facing_Attack1H01_R_0_6.png",
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "facing": 7,
+    "file": "facing_Attack1H01_R_0_7.png",
+    "name": "Attack1H01_R",
+    "view": 0
+  },
+  {
+    "facing": 0,
+    "file": "facing_Attack1H01_R_1_0.png",
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "facing": 1,
+    "file": "facing_Attack1H01_R_1_1.png",
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "facing": 2,
+    "file": "facing_Attack1H01_R_1_2.png",
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "facing": 3,
+    "file": "facing_Attack1H01_R_1_3.png",
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "facing": 4,
+    "file": "facing_Attack1H01_R_1_4.png",
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "facing": 5,
+    "file": "facing_Attack1H01_R_1_5.png",
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "facing": 6,
+    "file": "facing_Attack1H01_R_1_6.png",
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "facing": 7,
+    "file": "facing_Attack1H01_R_1_7.png",
+    "name": "Attack1H01_R",
+    "view": 1
+  },
+  {
+    "facing": 0,
+    "file": "facing_Attack1H01_R_2_0.png",
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "facing": 1,
+    "file": "facing_Attack1H01_R_2_1.png",
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "facing": 2,
+    "file": "facing_Attack1H01_R_2_2.png",
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "facing": 3,
+    "file": "facing_Attack1H01_R_2_3.png",
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "facing": 4,
+    "file": "facing_Attack1H01_R_2_4.png",
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "facing": 5,
+    "file": "facing_Attack1H01_R_2_5.png",
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "facing": 6,
+    "file": "facing_Attack1H01_R_2_6.png",
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "facing": 7,
+    "file": "facing_Attack1H01_R_2_7.png",
+    "name": "Attack1H01_R",
+    "view": 2
+  },
+  {
+    "facing": 0,
+    "file": "facing_BowShotComplete_0_0.png",
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "facing": 1,
+    "file": "facing_BowShotComplete_0_1.png",
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "facing": 2,
+    "file": "facing_BowShotComplete_0_2.png",
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "facing": 3,
+    "file": "facing_BowShotComplete_0_3.png",
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "facing": 4,
+    "file": "facing_BowShotComplete_0_4.png",
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "facing": 5,
+    "file": "facing_BowShotComplete_0_5.png",
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "facing": 6,
+    "file": "facing_BowShotComplete_0_6.png",
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "facing": 7,
+    "file": "facing_BowShotComplete_0_7.png",
+    "name": "BowShot - Complete",
+    "view": 0
+  },
+  {
+    "facing": 0,
+    "file": "facing_BowShotComplete_1_0.png",
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "facing": 1,
+    "file": "facing_BowShotComplete_1_1.png",
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "facing": 2,
+    "file": "facing_BowShotComplete_1_2.png",
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "facing": 3,
+    "file": "facing_BowShotComplete_1_3.png",
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "facing": 4,
+    "file": "facing_BowShotComplete_1_4.png",
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "facing": 5,
+    "file": "facing_BowShotComplete_1_5.png",
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "facing": 6,
+    "file": "facing_BowShotComplete_1_6.png",
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "facing": 7,
+    "file": "facing_BowShotComplete_1_7.png",
+    "name": "BowShot - Complete",
+    "view": 1
+  },
+  {
+    "facing": 0,
+    "file": "facing_BowShotComplete_2_0.png",
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "facing": 1,
+    "file": "facing_BowShotComplete_2_1.png",
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "facing": 2,
+    "file": "facing_BowShotComplete_2_2.png",
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "facing": 3,
+    "file": "facing_BowShotComplete_2_3.png",
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "facing": 4,
+    "file": "facing_BowShotComplete_2_4.png",
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "facing": 5,
+    "file": "facing_BowShotComplete_2_5.png",
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "facing": 6,
+    "file": "facing_BowShotComplete_2_6.png",
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "facing": 7,
+    "file": "facing_BowShotComplete_2_7.png",
+    "name": "BowShot - Complete",
+    "view": 2
+  },
+  {
+    "facing": 0,
+    "file": "facing_MagicAttackDirect2H01_0_0.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "facing": 1,
+    "file": "facing_MagicAttackDirect2H01_0_1.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "facing": 2,
+    "file": "facing_MagicAttackDirect2H01_0_2.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "facing": 3,
+    "file": "facing_MagicAttackDirect2H01_0_3.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "facing": 4,
+    "file": "facing_MagicAttackDirect2H01_0_4.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "facing": 5,
+    "file": "facing_MagicAttackDirect2H01_0_5.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "facing": 6,
+    "file": "facing_MagicAttackDirect2H01_0_6.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "facing": 7,
+    "file": "facing_MagicAttackDirect2H01_0_7.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 0
+  },
+  {
+    "facing": 0,
+    "file": "facing_MagicAttackDirect2H01_1_0.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "facing": 1,
+    "file": "facing_MagicAttackDirect2H01_1_1.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "facing": 2,
+    "file": "facing_MagicAttackDirect2H01_1_2.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "facing": 3,
+    "file": "facing_MagicAttackDirect2H01_1_3.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "facing": 4,
+    "file": "facing_MagicAttackDirect2H01_1_4.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "facing": 5,
+    "file": "facing_MagicAttackDirect2H01_1_5.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "facing": 6,
+    "file": "facing_MagicAttackDirect2H01_1_6.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "facing": 7,
+    "file": "facing_MagicAttackDirect2H01_1_7.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 1
+  },
+  {
+    "facing": 0,
+    "file": "facing_MagicAttackDirect2H01_2_0.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  },
+  {
+    "facing": 1,
+    "file": "facing_MagicAttackDirect2H01_2_1.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  },
+  {
+    "facing": 2,
+    "file": "facing_MagicAttackDirect2H01_2_2.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  },
+  {
+    "facing": 3,
+    "file": "facing_MagicAttackDirect2H01_2_3.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  },
+  {
+    "facing": 4,
+    "file": "facing_MagicAttackDirect2H01_2_4.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  },
+  {
+    "facing": 5,
+    "file": "facing_MagicAttackDirect2H01_2_5.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  },
+  {
+    "facing": 6,
+    "file": "facing_MagicAttackDirect2H01_2_6.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  },
+  {
+    "facing": 7,
+    "file": "facing_MagicAttackDirect2H01_2_7.png",
+    "name": "MagicAttackDirect2H01",
+    "view": 2
+  }
+]

@@ -157,3 +157,39 @@ preservation, repeat-hash and Godot floor tests. Set quaternion rotation mode
 before assigning baked matrix_basis. Details, source hand-control warnings
 and remaining limitations: [test 01 record](../../tools/kevin_walk/README.md).
 This is not a universal judgement about the publisher's FBX files.
+
+## Dummy Idle01 needs source evaluation priming
+
+Verified for Kevin Iglesias Basic Motions FREE 2.4 in Blender 5.2.3:
+selecting Idle01 then sampling its first frame immediately retained stale
+constraint state and failed surface preservation by 0.891 m. Evaluating the
+loop end and beginning first resolved that initial state; the final closed
+bake differs by at most 1.044 mm and repeats to the same GLB hash.
+[Test 02 evidence](../../tools/kevin_locomotion/README.md).
+Retain Godot-generated import metadata on subsequent clip builds and run editor
+import before launching the game; a stale generated cache path is not a rig fault.
+
+## Kevin multi-pack action viewer (Blender 5.2.3 / Godot 4.5.2)
+
+Verified in the Prototype 02 test-03 [execution record](../../tools/kevin_actions/README.md):
+Godot's name-suffix import processing strips _Loop and broke five exact catalogue
+IDs. Set nodes/use_name_suffixes=false for these packs. Native padded action
+frame ranges are not clip boundaries; FBX Take/LocalTime ticks provide durations.
+Three-point floor sampling missed the in-place jump dip; 60 Hz source skin minima
+plus a measured 4 mm import/interpolation allowance passed the final 113-entry
+sampled floor check. This is not a universal floor margin.
+
+The supplied arrow's +Z shaft maps into the right hand-prop socket with -90
+degrees around X; +90 pointed it backwards. Separate bow-rig bones and a visible
+string are baked onto the preview rig. Hand-only swords do not remain sheathed;
+viewer prop bones transfer them to a back mount. Keep these adapters separate
+from any future inventory or production equipment implementation.
+
+## Open P02-ARCHERY-01: owner-reported firing defect
+
+The 9 November owner recording shows an unacceptable arrow-firing presentation;
+sampled frames can show the arrow detached/misaligned. The exact cause and clip
+phase have not been isolated. Verified: current code hides a hand-attached arrow
+on a fixed delay and has no projectile flight. Earlier orientation and static
+pose fixes do not resolve or validate this. See the [checkpoint issue](../PROTOTYPE_02_CHECKPOINT.md#p02-archery-01--arrow-firing-open)
+for evidence, scope and future checks. Left open at the owner's requested checkpoint.

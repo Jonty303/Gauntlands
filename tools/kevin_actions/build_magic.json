@@ -1,0 +1,126 @@
+{
+  "source_archive": "HumanSpellcastingAnimationsFREE_BlenderFiles.zip",
+  "source_sha256": "4cc2dc218b0417d436eb95dd7b3da5bf90e92ee860c416e0f3c6cd3874675911",
+  "blend": "HumanM_SpellcastingAnimationsFREE_2.0.blend",
+  "blender": "5.2.3 LTS",
+  "output_sha256": "e3882b3037cce6a808f603ab06df9dda470222200e5bc3e9085f5ff3fcf7ba7c",
+  "bytes": 2516168,
+  "bones": 56,
+  "props": [],
+  "checks": [
+    {
+      "id": "CastingDamage01",
+      "frames": 67,
+      "source_bake_error_m": 1.8759178561805483e-05,
+      "sampled_min_y": 0.0003293065237812698
+    },
+    {
+      "id": "CastingEnter01",
+      "frames": 43,
+      "source_bake_error_m": 1.569314442097926e-05,
+      "sampled_min_y": 0.0003386387834325433
+    },
+    {
+      "id": "CastingExit01",
+      "frames": 73,
+      "source_bake_error_m": 1.5243676125371817e-05,
+      "sampled_min_y": 0.0003196994657628238
+    },
+    {
+      "id": "CastingIdle01",
+      "frames": 101,
+      "source_bake_error_m": 1.5243676125371817e-05,
+      "sampled_min_y": 0.00032554654171690345
+    },
+    {
+      "id": "MagicAttackCall1H01_L",
+      "frames": 83,
+      "source_bake_error_m": 2.1151105237174136e-05,
+      "sampled_min_y": 0.00031720963306725025
+    },
+    {
+      "id": "MagicAttackCall1H01_L_Cast",
+      "frames": 55,
+      "source_bake_error_m": 2.1976713517305872e-05,
+      "sampled_min_y": 0.0003184881352353841
+    },
+    {
+      "id": "MagicAttackCall1H01_L_Load",
+      "frames": 101,
+      "source_bake_error_m": 1.9674743082540563e-05,
+      "sampled_min_y": 0.00032663290039636195
+    },
+    {
+      "id": "MagicAttackDirect1H01_L",
+      "frames": 73,
+      "source_bake_error_m": 1.533614024279987e-05,
+      "sampled_min_y": 0.00031206567655317485
+    },
+    {
+      "id": "MagicAttackDirect1H01_L_Cast",
+      "frames": 57,
+      "source_bake_error_m": 1.547559072255533e-05,
+      "sampled_min_y": 0.00030558439902961254
+    },
+    {
+      "id": "MagicAttackDirect1H01_L_Load",
+      "frames": 101,
+      "source_bake_error_m": 2.0737349187449505e-05,
+      "sampled_min_y": 0.0003192958247382194
+    },
+    {
+      "id": "MagicAttackDirect1H01_R",
+      "frames": 73,
+      "source_bake_error_m": 1.533614024279987e-05,
+      "sampled_min_y": 0.00032693950925022364
+    },
+    {
+      "id": "MagicAttackDirect1H01_R_Cast",
+      "frames": 57,
+      "source_bake_error_m": 1.5243676125371817e-05,
+      "sampled_min_y": 0.00031212676549330354
+    },
+    {
+      "id": "MagicAttackDirect1H01_R_Load",
+      "frames": 101,
+      "source_bake_error_m": 1.778760275051822e-05,
+      "sampled_min_y": 0.0003248769207857549
+    },
+    {
+      "id": "MagicAttackDirect2H01",
+      "frames": 97,
+      "source_bake_error_m": 1.533614024279987e-05,
+      "sampled_min_y": 0.0003236220218241215
+    },
+    {
+      "id": "MagicAttackDirect2H01_Cast",
+      "frames": 59,
+      "source_bake_error_m": 1.6217121088416902e-05,
+      "sampled_min_y": 0.0003150681732222438
+    },
+    {
+      "id": "MagicAttackDirect2H01_Load",
+      "frames": 101,
+      "source_bake_error_m": 0.0007959994379848243,
+      "sampled_min_y": 0.00033685428206808865
+    },
+    {
+      "id": "MagicAttackOmni01",
+      "frames": 95,
+      "source_bake_error_m": 1.533614024279987e-05,
+      "sampled_min_y": 0.000326171750202775
+    },
+    {
+      "id": "MagicAttackOmni01_Cast",
+      "frames": 79,
+      "source_bake_error_m": 1.636148347283319e-05,
+      "sampled_min_y": 0.0003274846530985087
+    },
+    {
+      "id": "MagicAttackOmni01_Load",
+      "frames": 99,
+      "source_bake_error_m": 1.7065596737239832e-05,
+      "sampled_min_y": 0.00033199324388988316
+    }
+  ]
+}

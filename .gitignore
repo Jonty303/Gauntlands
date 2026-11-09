@@ -35,3 +35,10 @@
 /prototype/assets/kevin_local/
 /tools/kevin_walk/frames/
 /tools/kevin_walk/*.log
+/tools/kevin_locomotion/frames/
+/tools/kevin_locomotion/*.log
+
+/tools/kevin_actions/*.log
+/tools/kevin_actions/frames/
+
+/tools/kevin_actions/*_initial.jpg

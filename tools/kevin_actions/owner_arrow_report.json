@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\jonat\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\TempState\\Recordings\\20261109-1955-27.3039084.mp4",
+  "sha256": "3dc5e4f223162ae64411561cbb8d4fb19c6f6877f2a0614e590aa1aabefc8afa",
+  "frames": 720,
+  "fps": 30.0,
+  "size": [
+    472,
+    378
+  ],
+  "local_copy": ".local/kevin/owner_video/source.mp4",
+  "review_sheet": "tools/kevin_actions/owner_arrow_review.jpg",
+  "review_method": "12 evenly spaced frames extracted with Blender VSE; sampled visual review, not full frame-by-frame analysis",
+  "owner_status": "Resource evaluation accepted; arrow firing explicitly excepted",
+  "issue": "P02-ARCHERY-01"
+}

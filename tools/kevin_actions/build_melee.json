@@ -1,0 +1,120 @@
+{
+  "source_archive": "HumanMeleeAnimationsFREE_BlenderFiles.zip",
+  "source_sha256": "c6d1faa8b1c0e72a532e68ecd24fed2c51427d15cca2ce10e62012eb5aaa4027",
+  "blend": "HumanM_MeleeAnimationsFREE_2.0.2.blend",
+  "blender": "5.2.3 LTS",
+  "output_sha256": "838ee6f4f85799aa0ba08041fb386d50c7a32c38fa7c11370d548faa1c891a07",
+  "bytes": 1665028,
+  "bones": 56,
+  "props": [
+    "SwordR",
+    "SwordL",
+    "Shield",
+    "Greatsword",
+    "Polearm"
+  ],
+  "checks": [
+    {
+      "id": "Attack1H01_L",
+      "frames": 67,
+      "source_bake_error_m": 2.883539869693045e-05,
+      "sampled_min_y": 0.0003069068188779056
+    },
+    {
+      "id": "Attack1H01_R",
+      "frames": 67,
+      "source_bake_error_m": 2.537348576892279e-05,
+      "sampled_min_y": 0.0003184070228599012
+    },
+    {
+      "id": "Attack2H01",
+      "frames": 97,
+      "source_bake_error_m": 2.1670021030916775e-05,
+      "sampled_min_y": 0.00029112680931575596
+    },
+    {
+      "id": "AttackPolearm01",
+      "frames": 83,
+      "source_bake_error_m": 2.1321944808979406e-05,
+      "sampled_min_y": 0.0003214322787243873
+    },
+    {
+      "id": "AttackShield01",
+      "frames": 55,
+      "source_bake_error_m": 2.475339381221924e-05,
+      "sampled_min_y": 0.00033382431138306856
+    },
+    {
+      "id": "CombatDamage01",
+      "frames": 61,
+      "source_bake_error_m": 2.177072877583851e-05,
+      "sampled_min_y": 0.0003244905383326113
+    },
+    {
+      "id": "CombatIdle01",
+      "frames": 81,
+      "source_bake_error_m": 2.1670021030916775e-05,
+      "sampled_min_y": 0.00032178006949834526
+    },
+    {
+      "id": "CombatIdle1H01",
+      "frames": 81,
+      "source_bake_error_m": 2.1670021030916775e-05,
+      "sampled_min_y": 0.00032178006949834526
+    },
+    {
+      "id": "CombatIdle2H01",
+      "frames": 81,
+      "source_bake_error_m": 2.1670021030916775e-05,
+      "sampled_min_y": 0.00032178006949834526
+    },
+    {
+      "id": "CombatIdlePolearm01",
+      "frames": 81,
+      "source_bake_error_m": 2.1670021030916775e-05,
+      "sampled_min_y": 0.00032178006949834526
+    },
+    {
+      "id": "Death01",
+      "frames": 45,
+      "source_bake_error_m": 1.365871557627828e-05,
+      "sampled_min_y": -0.03249233961105347
+    },
+    {
+      "id": "StrafeRun01_BackwardLeft",
+      "frames": 37,
+      "source_bake_error_m": 0.0003670166783136942,
+      "sampled_min_y": -0.005621664691716433
+    },
+    {
+      "id": "StrafeRun01_BackwardRight",
+      "frames": 37,
+      "source_bake_error_m": 0.00035168580031366583,
+      "sampled_min_y": -0.005621858406811953
+    },
+    {
+      "id": "StrafeRun01_ForwardLeft",
+      "frames": 37,
+      "source_bake_error_m": 0.00036678840787483227,
+      "sampled_min_y": -0.00560779869556427
+    },
+    {
+      "id": "StrafeRun01_ForwardRight",
+      "frames": 37,
+      "source_bake_error_m": 0.0003514621679244101,
+      "sampled_min_y": -0.005605184007436037
+    },
+    {
+      "id": "StrafeRun01_Left",
+      "frames": 37,
+      "source_bake_error_m": 0.0003668860624770806,
+      "sampled_min_y": -0.005613788962364197
+    },
+    {
+      "id": "StrafeRun01_Right",
+      "frames": 37,
+      "source_bake_error_m": 0.000351642010669064,
+      "sampled_min_y": -0.0056110103614628315
+    }
+  ]
+}
