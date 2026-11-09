@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "walk_export_maximum_channel_error": 0.0,
+  "clips": {
+    "Idle": {
+      "floor_min_m": 0.0030002817511558533,
+      "knee_min_degrees": 12.469434226629062,
+      "knee_max_degrees": 14.73317748362473,
+      "knee_max_step_degrees_60hz": 0.02980694553792773,
+      "knee_max_acceleration_degrees_frame2": 0.0012021132938855317,
+      "hand_core_clearance_m": 0.056359224021434784,
+      "hand_core_intersections": 0,
+      "body_cloth_intersections": 0,
+      "cloth_inside_vertices": 0,
+      "cloth_self_intersections": 0,
+      "contact_anchor_step_m": 5.595920683902709e-07,
+      "contact_skin_step_m": 5.487950144139648e-07,
+      "sampled_contact_height_m": 0.00595279224216938,
+      "authored_frames": 241,
+      "half_frames": 240
+    },
+    "WalkStart": {
+      "floor_min_m": 0.002414057496935129,
+      "knee_min_degrees": 13.635989555732209,
+      "knee_max_degrees": 56.05027584859583,
+      "knee_max_step_degrees_60hz": 4.224608605436288,
+      "knee_max_acceleration_degrees_frame2": 2.0923464899633473,
+      "hand_core_clearance_m": 0.045990001410245895,
+      "hand_core_intersections": 0,
+      "body_cloth_intersections": 0,
+      "cloth_inside_vertices": 0,
+      "cloth_self_intersections": 0,
+      "contact_anchor_step_m": 6.226572712765387e-07,
+      "contact_skin_step_m": 6.162062578468441e-07,
+      "sampled_contact_height_m": 0.007948603481054306,
+      "authored_frames": 43,
+      "half_frames": 42,
+      "maximum_backward_hip_excursion_m": 0.0
+    },
+    "WalkStopL": {
+      "floor_min_m": 0.001954007428139448,
+      "knee_min_degrees": 11.925191093184111,
+      "knee_max_degrees": 53.87742874907468,
+      "knee_max_step_degrees_60hz": 3.432634510794969,
+      "knee_max_acceleration_degrees_frame2": 1.267860694872752,
+      "hand_core_clearance_m": 0.03834373131394386,
+      "hand_core_intersections": 0,
+      "body_cloth_intersections": 0,
+      "cloth_inside_vertices": 0,
+      "cloth_self_intersections": 0,
+      "contact_anchor_step_m": 7.090118222270949e-07,
+      "contact_skin_step_m": 0.0002179036376016723,
+      "sampled_contact_height_m": 0.010056094266474247,
+      "authored_frames": 49,
+      "half_frames": 48
+    },
+    "WalkStopR": {
+      "floor_min_m": 0.0019541876390576363,
+      "knee_min_degrees": 11.929234565172749,
+      "knee_max_degrees": 53.862511615927374,
+      "knee_max_step_degrees_60hz": 3.4326071900383113,
+      "knee_max_acceleration_degrees_frame2": 1.2678470344944515,
+      "hand_core_clearance_m": 0.03858933970332146,
+      "hand_core_intersections": 0,
+      "body_cloth_intersections": 0,
+      "cloth_inside_vertices": 0,
+      "cloth_self_intersections": 0,
+      "contact_anchor_step_m": 7.345278399238529e-07,
+      "contact_skin_step_m": 0.0002180054683190573,
+      "sampled_contact_height_m": 0.010055925697088242,
+      "authored_frames": 49,
+      "half_frames": 48
+    }
+  },
+  "joins": {
+    "('Idle', 0) -> ('Idle', 240)": 0.0,
+    "('Idle', 0) -> ('WalkStart', 0)": 5.067227620607175e-06,
+    "('WalkStart', 42) -> ('Walk', 0)": 1.9260003037065112e-06,
+    "('Walk', 0) -> ('WalkStopL', 0)": 1.9414955387738257e-06,
+    "('Walk', 36) -> ('WalkStopR', 0)": 2.0374851983949196e-06,
+    "('WalkStopL', 48) -> ('Idle', 0)": 4.999400303509347e-06,
+    "('WalkStopR', 48) -> ('Idle', 0)": 4.999400303509347e-06
+  },
+  "failures": [],
+  "glb_sha256": "32ef2886fa1319f382fcd03271ab95c67e2b60d30d4a0c1530490cb4ae070d24",
+  "join_knee_acceleration_degrees_frame2": {
+    "('Idle', 0) -> ('Idle', 240)": 0.00021856605349057645,
+    "('Idle', 0) -> ('WalkStart', 0)": 0.041691474693777764,
+    "('WalkStart', 42) -> ('Walk', 0)": 2.0923464899633473,
+    "('Walk', 0) -> ('WalkStopL', 0)": 1.7868731095236967,
+    "('Walk', 36) -> ('WalkStopR', 0)": 1.7868321283886814,
+    "('WalkStopL', 48) -> ('Idle', 0)": 0.39134251868506453,
+    "('WalkStopR', 48) -> ('Idle', 0)": 0.39167036776524355
+  },
+  "baseline_glb_sha256": "d36aec4b6050305ad16f801d3825db7099c8bb852579693571b6ea8fafb530d3",
+  "preserved_clips": {
+    "Idle": 8.344650268554688e-07,
+    "Walk": 0.0,
+    "WalkStopL": 1.125037670135498e-06,
+    "WalkStopR": 1.125037670135498e-06
+  },
+  "preserved_clip_surface_error_m": {
+    "Idle": 1.7945848962455508e-06,
+    "Walk": 0.0,
+    "WalkStopL": 4.953515582189758e-07,
+    "WalkStopR": 5.308244565295242e-07
+  }
+}

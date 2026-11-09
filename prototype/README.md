@@ -1,6 +1,23 @@
-# Idle and walk — first locomotion clips
+# Human male prototype — v0.2 animation work
 
-Open `project.godot` in **Godot 4.5.2 stable** and press **F5**.
+The approved walk is frozen at local tag `human_male_prototype_v0.1` (commit
+`f4579d0`). [Approval record](../development/HUMAN_MALE_PROTOTYPE_V01.md).
+
+The next iteration is in `locomotion_v02.tscn`: planted Idle, WalkStart, unchanged
+Walk, and WalkStopL/WalkStopR. Open the project and press **F5** to review it.
+**Walk / Idle** request the full authored transition sequence; the single-clip
+selector, pause and timeline allow pose inspection. Isometric, raised three-quarter,
+top-down and eight facings remain the review views. This is a first v0.2 pass,
+not an approved replacement for the v0.1 walk checkpoint.
+
+The current start is 0.7 seconds, with earlier hip movement and a small forward lean.
+See [the chest-entry correction](../development/WALK_START_CHEST_REVIEW.md),
+[the setting-off pass](../development/WALK_START_REVIEW.md) and
+[the v0.2 first-pass record](../development/HUMAN_MALE_PROTOTYPE_V02.md).
+
+## Approved v0.1 review
+
+Open `locomotion.tscn` in **Godot 4.5.2 stable** and press **F6**.
 
 - **Idle**: relaxed four-second standing loop with subtle body movement.
 - **Walk**: in-place 1.2-second loop, intended for travel at **0.9 m/s**.

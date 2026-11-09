@@ -1,0 +1,8 @@
+{
+  "version": "human_male_prototype_v0.2",
+  "files": {
+    "assets/Blender Models/Human-Male-Locomotion-v0.2.blend": "f6fda8da456ea34b5f83aaffea4d318a4164c9699f0edfe2f8471a8094594117",
+    "prototype/assets/human_locomotion_v02.glb": "32ef2886fa1319f382fcd03271ab95c67e2b60d30d4a0c1530490cb4ae070d24",
+    "tools/blender/build_transitions.py": "aa4c793735abc3afc25bbb6432556fe335d4164301aa2faa2cc6371a1f74fead"
+  }
+}

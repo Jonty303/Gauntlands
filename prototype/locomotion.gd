@@ -10,11 +10,7 @@ var review_view := "isometric"
 
 func _ready() -> void:
 	get_viewport().msaa_3d = Viewport.MSAA_4X
-	character = preload("res://assets/human_locomotion.glb")
-	initial_animation = &"Idle"
-	heading = "GAUNTLANDS  /  IDLE & WALK"
-	description = "Relaxed idle · 1.2-second walk · reference travel 0.9 m/s"
-	instructions = "Choose Idle or Walk. Stopping finishes the current step. Ground marks show travel speed."
+	configure_viewer()
 	super._ready()
 	for name in ["Idle", "Walk"]:
 		player.get_animation(name).loop_mode = Animation.LOOP_LINEAR
@@ -61,6 +57,13 @@ func _ready() -> void:
 		mark.position = Vector3(0, 0.006, index * 0.54 - 3.24)
 		add_child(mark)
 		marks.append(mark)
+
+func configure_viewer() -> void:
+	character = preload("res://assets/human_locomotion.glb")
+	initial_animation = &"Idle"
+	heading = "GAUNTLANDS  /  IDLE & WALK"
+	description = "Relaxed idle · 1.2-second walk · reference travel 0.9 m/s"
+	instructions = "Choose Idle or Walk. Stopping finishes the current step. Ground marks show travel speed."
 
 func set_review_view(view_name: String) -> void:
 	assert(view_name in REVIEW_VIEWS)

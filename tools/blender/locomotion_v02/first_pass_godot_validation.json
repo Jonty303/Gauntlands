@@ -1,0 +1,33 @@
+{
+  "failures": [],
+  "maximum_bounds_error_m": 0.0000501871109008789,
+  "passed": true,
+  "pause_restart_large_delta_checks": true,
+  "runtime_floor_min_m": 0.00207652291283011,
+  "stop_cases": [
+    {
+      "request_phase_s": 0.0,
+      "stop_clip": "WalkStopL"
+    },
+    {
+      "request_phase_s": 0.1,
+      "stop_clip": "WalkStopR"
+    },
+    {
+      "request_phase_s": 0.59,
+      "stop_clip": "WalkStopR"
+    },
+    {
+      "request_phase_s": 0.6,
+      "stop_clip": "WalkStopR"
+    },
+    {
+      "request_phase_s": 0.8,
+      "stop_clip": "WalkStopL"
+    },
+    {
+      "request_phase_s": 1.19,
+      "stop_clip": "WalkStopL"
+    }
+  ]
+}

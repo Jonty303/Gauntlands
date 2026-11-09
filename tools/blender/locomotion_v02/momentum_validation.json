@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "walk_export_maximum_channel_error": 0.0,
+  "clips": {
+    "Idle": {
+      "floor_min_m": 0.0030002284329384565,
+      "knee_min_degrees": 12.469434226629062,
+      "knee_max_degrees": 14.73317748362473,
+      "knee_max_step_degrees_60hz": 0.029834266294642475,
+      "knee_max_acceleration_degrees_frame2": 0.0012021132938855317,
+      "hand_core_clearance_m": 0.056359078735113144,
+      "hand_core_intersections": 0,
+      "body_cloth_intersections": 0,
+      "cloth_inside_vertices": 0,
+      "cloth_self_intersections": 0,
+      "contact_anchor_step_m": 7.04911067773559e-07,
+      "contact_skin_step_m": 7.067475912265328e-07,
+      "sampled_contact_height_m": 0.005952773615717888,
+      "authored_frames": 241,
+      "half_frames": 240
+    },
+    "WalkStart": {
+      "floor_min_m": 0.002413751557469368,
+      "knee_min_degrees": 13.637137027512779,
+      "knee_max_degrees": 57.552890145241946,
+      "knee_max_step_degrees_60hz": 4.647451956573434,
+      "knee_max_acceleration_degrees_frame2": 2.092223546558273,
+      "hand_core_clearance_m": 0.045672133564949036,
+      "hand_core_intersections": 0,
+      "body_cloth_intersections": 0,
+      "cloth_inside_vertices": 0,
+      "cloth_self_intersections": 0,
+      "contact_anchor_step_m": 4.841547944036924e-07,
+      "contact_skin_step_m": 4.6042882328042214e-07,
+      "sampled_contact_height_m": 0.007948318496346474,
+      "authored_frames": 43,
+      "half_frames": 42,
+      "maximum_backward_hip_excursion_m": 6.700260189157481e-05
+    },
+    "WalkStopL": {
+      "floor_min_m": 0.0019537510816007853,
+      "knee_min_degrees": 11.925191093184111,
+      "knee_max_degrees": 53.87742874907468,
+      "knee_max_step_degrees_60hz": 3.4326071900383113,
+      "knee_max_acceleration_degrees_frame2": 1.2678880156294383,
+      "hand_core_clearance_m": 0.038343705236911774,
+      "hand_core_intersections": 0,
+      "body_cloth_intersections": 0,
+      "cloth_inside_vertices": 0,
+      "cloth_self_intersections": 0,
+      "contact_anchor_step_m": 7.2787253509878e-07,
+      "contact_skin_step_m": 0.00021772454136201008,
+      "sampled_contact_height_m": 0.010055847465991974,
+      "authored_frames": 49,
+      "half_frames": 48
+    },
+    "WalkStopR": {
+      "floor_min_m": 0.0019539485219866037,
+      "knee_min_degrees": 11.92922090479442,
+      "knee_max_degrees": 53.862511615927374,
+      "knee_max_step_degrees_60hz": 3.432634510794969,
+      "knee_max_acceleration_degrees_frame2": 1.2678197137377651,
+      "hand_core_clearance_m": 0.03858938068151474,
+      "hand_core_intersections": 0,
+      "body_cloth_intersections": 0,
+      "cloth_inside_vertices": 0,
+      "cloth_self_intersections": 0,
+      "contact_anchor_step_m": 9.161487906539081e-07,
+      "contact_skin_step_m": 0.00021797977227945592,
+      "sampled_contact_height_m": 0.010055683553218842,
+      "authored_frames": 49,
+      "half_frames": 48
+    }
+  },
+  "joins": {
+    "('Idle', 0) -> ('Idle', 240)": 0.0,
+    "('Idle', 0) -> ('WalkStart', 0)": 5.071362106684727e-06,
+    "('WalkStart', 42) -> ('Walk', 0)": 1.8187506675516088e-06,
+    "('Walk', 0) -> ('WalkStopL', 0)": 1.8069770102086482e-06,
+    "('Walk', 36) -> ('WalkStopR', 0)": 1.8936937135372465e-06,
+    "('WalkStopL', 48) -> ('Idle', 0)": 5.033391077988846e-06,
+    "('WalkStopR', 48) -> ('Idle', 0)": 5.033391077988846e-06
+  },
+  "failures": [],
+  "glb_sha256": "d36aec4b6050305ad16f801d3825db7099c8bb852579693571b6ea8fafb530d3",
+  "join_knee_acceleration_degrees_frame2": {
+    "('Idle', 0) -> ('Idle', 240)": 0.00021856605349057645,
+    "('Idle', 0) -> ('WalkStart', 0)": 0.04234717285407896,
+    "('WalkStart', 42) -> ('Walk', 0)": 2.092223546558273,
+    "('Walk', 0) -> ('WalkStopL', 0)": 1.7868731095236967,
+    "('Walk', 36) -> ('WalkStopR', 0)": 1.7868321283886814,
+    "('WalkStopL', 48) -> ('Idle', 0)": 0.3913151979283782,
+    "('WalkStopR', 48) -> ('Idle', 0)": 0.3916840281436009
+  },
+  "baseline_glb_sha256": "294bf776a2a62b415faa145198739a8319c0d4e78b5319c119bb5f1df21581a1",
+  "preserved_clips": {
+    "Idle": 3.724221784295878e-07,
+    "Walk": 0.0,
+    "WalkStopL": 3.129243850708008e-07,
+    "WalkStopR": 2.980232238769531e-07
+  }
+}
