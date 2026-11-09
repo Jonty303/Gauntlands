@@ -1,0 +1,124 @@
+# Blender troubleshooting and lessons
+
+Recorded 9 November 2026. All entries below apply to this human prototype using
+Blender 5.2.3 LTS / Godot 4.5.2 unless explicitly marked otherwise. R5 compilation,
+R3/R6 review by the same agent. These are scoped findings, not universal rules.
+
+## Oversized character
+
+**Verified finding:** evaluated masked skin was 2.430801340 m despite metre units;
+this was not just a display-unit issue. The original cause of that size is unknown.
+**Confirmed correction:** normalise mesh data, every shape-key block and armature
+rest data together to the task's 1.80 m target; preserve original source.
+**Regression:** evaluated skin bounds, hierarchy/transforms, shape keys and export.
+[Evidence](../HUMAN_SCALE_REVIEW.md). Do not use head-bone tail as stature.
+
+## Stiff push-off / source and GLB anchors disagree
+
+**Verified finding:** the first toe-tip candidate used a Blender bone tail, which
+was not preserved as the same endpoint through GLB. Held/zero-speed foot rotation
+also made the release read stiff in the reviewed pass.
+**Confirmed approach:** explicit foot/toe pose phases and slopes, ankle compensation
+around heel/ball/sole-tip anchors; select the low front sole from each mesh.
+**Regression:** contact drift including travel, actual skin height, loop and knee
+continuity. Selection bands and anchors are model-specific.
+[Evidence](../WALK_PUSHOFF_REVIEW.md).
+
+## Dip reads as a limp
+
+**Verified measurement:** the reviewed vertical cycle was symmetric to 0.00012 mm.
+**Working diagnosis then:** prolonged low pose followed by abrupt rise/descent,
+rather than left/right asymmetry. A symmetry check alone did not establish feel.
+**Correction:** shallower, shorter settling with a continuous rise/fall. Later
+landing work superseded those exact height values.
+[Historical dip review](../WALK_DIP_REVIEW.md); [successor](../WALK_KNEE_REVIEW.md).
+
+## Knee wobble / snap near contact
+
+**Verified finding:** the sampled knee bend plane stayed forward, while extension
+reversed into loading too rapidly. Moving the bend plane was not justified by that
+measurement. Soft reach corrections can themselves create sudden changes when
+switching on, or leave a residual offset at touchdown.
+**Confirmed approach:** match late-swing flexion/velocity into contact, release
+correction offsets smoothly and check cyclic second differences across joins.
+For Run, continuous recovery curves, support-height planning and matching airborne
+recovery to the actual support pose replaced abrupt reach corrections.
+**Regression:** authored and half-frame knee measurements, loop and both lead joins.
+Walk and Run limits differ; use their task-local tests, not one universal threshold.
+[Walk evidence](../WALK_KNEE_REVIEW.md), [run implementation](../../tools/blender/build_run.py),
+[run results](../RUN_REVIEW.md).
+
+## Chest surges when leaving Idle
+
+**Verified finding:** no instantaneous pose jump, but the actual 0.12 s Godot blend
+produced 1.061 m/s early chest speed. The authored 2.5-degree lean reached full
+amount in 0.18 s, alongside 12 mm hip translation over 0.12 s.
+**Confirmed correction:** 1.25-degree lean, onset 0.06 s and rise 0.30 s, following
+6 mm hip lead over 0.20 s. Early chest speed fell to 0.189 m/s (82% reduction).
+**Regression:** spine01 through real playback from four Idle phases, not just
+smooth source curves. [Evidence and before/after](../WALK_START_CHEST_REVIEW.md).
+
+## Source clothing looks acceptable but exported run intersects
+
+**Verified finding:** early run exports intersected at the centre-front crotch,
+including up to about 3.8 mm vertex penetration; some source samples appeared clear.
+The source has post-armature Smooth/Solidify modifiers. Attribution of every
+export difference to one modifier is not established by those observations.
+**Unsuccessful trials:** excessive high-knee recovery, greater local front inflation,
+and one linear subdivision did not resolve all folding; subdivision was removed.
+Do not repeat subdivision as a proven fix for this case.
+**Confirmed combined correction:** earlier recovery behind the body, unfolding
+before landing, smooth support and toe clearance, and up to 8 mm local front-seam
+ease in v0.3. Original topology retained; final new-clip body/cloth and cloth-self
+intersection counts zero. Older clips received 155 body/cloth-clearance samples.
+The final combined result does not isolate the causal contribution of each change.
+**Regression:** test exported mesh, all affected new clips and retained clips.
+[Evidence](../RUN_REVIEW.md), [validator](../../tools/blender/test_run.py).
+
+## Preservation checks and scale state
+
+**Verified in chest pass:** regenerated stop quaternion components differed by
+1.125e-6 against a 1e-6 cutoff. The validator retained component diagnostics and
+added an every-authored-pose skinned-surface comparison with a 0.01 mm limit.
+The largest preserved Idle/stop surface difference was 0.001795 mm.
+This was a documented measurement change, not proof that every numeric mismatch
+is harmless. [Evidence](../WALK_START_CHEST_REVIEW.md).
+
+**Verified in run pass:** exporting with Run active changed unkeyed Idle scale
+channels by about 4e-6. Restoring the predecessor's active Idle export state made
+all five predecessor action channels match exactly. The v0.3 file is saved with
+Run selected; the generator then selects Idle for export. Preserve that distinction.
+[Implementation](../../tools/blender/build_run.py), [preservation report](../../tools/blender/locomotion_v03/validation.json).
+
+## Right-lead metadata accidentally becomes phase zero
+
+**Verified defect during run development:** a temporary root-height variable reused
+`offset`, overwriting the right-lead phase in build metadata while poses remained
+right-led. Endpoint tests caught approximately 0.54/0.83 m mismatches.
+**Confirmed fix:** separate `height_offset` from lead phase. L = 0, R = 0.5.
+**Regression:** both lead endpoint surfaces and runtime lead-selection cases, not
+just left-lead previews. Final maximum endpoint mismatch is about 0.001208 mm.
+[Generator](../../tools/blender/build_run.py), [tests](../../prototype/tests/test_run.gd).
+
+## Preview dependency / text encoding
+
+**Verified incidents:** a new shell lacked the preview Pillow PYTHONPATH; packaging
+failed until the existing preview dependency was supplied. A document written using
+the Windows default encoding failed UTF-8 checks; naive newline conversion also
+introduced extra blank lines.
+**Practice:** explicitly select dependency environment and UTF-8/newline policy.
+Validate media frame counts/durations and document links after packaging. These
+are environment-specific lessons; temporary dependency paths are not portable.
+
+## MCP connection troubleshooting: incomplete history
+
+Read-only live inspection succeeded on 9 November 2026. The user supplied guidance
+from another chat about documenting its connection troubleshooting, but not the
+underlying diagnostic transcript. Earlier connection symptoms/root causes/fixes
+remain unverified here. Do not manufacture a connection recipe from that summary.
+
+## Entry template
+
+Record symptom; model/export/version; verified measurements; working diagnosis;
+failed trials; confirmed fix; reproduction/checks; evidence paths; scope and
+remaining uncertainty. Update the model/work log when the fix changes a contract.

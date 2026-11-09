@@ -25,3 +25,21 @@ This file is the **Codex and repository-working entrypoint**. Read the detailed 
 One believable underwear-only human; reusable modelling/rigging/animation pipeline; single flat Godot test plane; eight-direction walking. No other prototypes, branches or merges until the first human is explicitly approved.
 
 The approved first-playable scope, weapon roadmap and reuse principles live in `encyclopedia/design reference/` (see its `README.md`). They are **not** authorisation to build the five-class release during Prototype 01. Future unapproved proposals belong in `drafts/`.
+
+
+## Blender knowledge and work recording
+
+- Before modelling, rigging, animation, Blender export/import or connection troubleshooting,
+  read the [Blender playbook](development/blender/playbook.md), the applicable
+  [model record](development/blender/models/human-male-prototype.md), and
+  [troubleshooting](development/blender/troubleshooting.md). Check the
+  [work log](development/blender/work-log.md) for the latest accepted baseline.
+- After each relevant pass, update the work log and affected model/lesson records.
+  Record artifact paths/revisions, commands actually run, results, failed attempts,
+  remaining risks and owner approval separately from technical validation.
+- Label verified findings, working diagnoses, unverified assumptions and superseded
+  results. Include model/tool-version scope and evidence links; do not generalise a
+  workaround for this human to other assets without testing it.
+- Keep historical review records and frozen manifests. Chat history or temporary
+  files alone are not a durable handoff. This documentation requirement does not
+  expand production scope or authorise a push, merge, new branch or external skill.
