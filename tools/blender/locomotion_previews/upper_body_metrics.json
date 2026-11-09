@@ -1,0 +1,93 @@
+{
+  "source_pose_stats": {
+    "before": {
+      "chest_yaw_range_degrees": [
+        -3.199914670506519,
+        3.199914670506519
+      ],
+      "hands_in_chest_frame": {
+        "L": {
+          "lateral_range_m": [
+            0.28160399198532104,
+            0.2846740484237671
+          ],
+          "forward_back_range_m": [
+            -0.30718231201171875,
+            0.03327621892094612
+          ],
+          "lateral_at_front_back_m": [
+            0.2821418046951294,
+            0.28164437413215637
+          ]
+        },
+        "R": {
+          "lateral_range_m": [
+            0.28160399198532104,
+            0.2846740484237671
+          ],
+          "forward_back_range_m": [
+            -0.30718231201171875,
+            0.03327621892094612
+          ],
+          "lateral_at_front_back_m": [
+            0.2821418046951294,
+            0.28164437413215637
+          ]
+        }
+      }
+    },
+    "after": {
+      "chest_yaw_range_degrees": [
+        -4.499890551699525,
+        4.499890551699525
+      ],
+      "hands_in_chest_frame": {
+        "L": {
+          "lateral_range_m": [
+            0.23808176815509796,
+            0.2891544699668884
+          ],
+          "forward_back_range_m": [
+            -0.33545365929603577,
+            0.0637437254190445
+          ],
+          "lateral_at_front_back_m": [
+            0.23808176815509796,
+            0.28654730319976807
+          ]
+        },
+        "R": {
+          "lateral_range_m": [
+            0.23808176815509796,
+            0.2891544699668884
+          ],
+          "forward_back_range_m": [
+            -0.33545365929603577,
+            0.0637437254190445
+          ],
+          "lateral_at_front_back_m": [
+            0.23808176815509796,
+            0.28654730319976807
+          ]
+        }
+      }
+    }
+  },
+  "source_sha256": "a4bd547d659e928b132f530f166d96fd20e9001fedb09dcc424e7c65c0fc1d75",
+  "glb_sha256": "18a9fd0ee4a1c45b573840db23602b206d9badd8023ae136ae346899ba558043",
+  "profile": "relaxed_unarmed",
+  "baseline_backup": "C:\\Users\\jonat\\AppData\\Local\\Temp\\gauntlands-upper-before-20261109-101001",
+  "foot_targets_identical": true,
+  "exported_contact_samples_identical": true,
+  "lower_body_metrics_identical": true,
+  "idle_bounds_identical": true,
+  "hand_core_clearance_authored_m": 0.012846644967794418,
+  "hand_core_clearance_half_frame_m": 0.013052166439592838,
+  "hand_core_intersections_authored": 0,
+  "hand_core_intersections_half_frame": 0,
+  "changed_existing_build_fields": [
+    "chest_yaw_degrees",
+    "shoulder_bank_degrees",
+    "scapular_yaw_degrees"
+  ]
+}

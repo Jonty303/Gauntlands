@@ -1,0 +1,53 @@
+{
+  "before": {
+    "loop_max_vertex_error": 0.0,
+    "stance_step_error_m": 6.550550460809879e-07,
+    "skin_contact_step_error_m": 0.00018829047679901068,
+    "skin_contact_height_m": 0.008472103625535965,
+    "movement": {
+      "pelvis_range_m": [
+        0.05675628036260605,
+        0.00014452915638685226,
+        0.02399611473083496
+      ],
+      "head_range_m": [
+        0.027922293171286583,
+        0.00018291175365447998,
+        0.023854494094848633
+      ],
+      "knee_flex_range_degrees": [
+        21.122245716281384,
+        64.7553929269121
+      ],
+      "maximum_knee_change_per_60hz_frame_degrees": 4.96181824331245,
+      "passed": true
+    },
+    "floor_min_m": 0.001067159348167479
+  },
+  "after": {
+    "interpolated_floor_min_m": -9.287265129387379e-05,
+    "loop_max_vertex_error": 0.0,
+    "stance_step_error_m": 6.848573684686832e-07,
+    "skin_contact_step_error_m": 0.00018861830234527532,
+    "skin_contact_height_m": 0.00847221352159977,
+    "movement": {
+      "pelvis_range_m": [
+        0.05548166483640671,
+        0.00014452962204813957,
+        0.023996174335479736
+      ],
+      "head_range_m": [
+        0.027914026752114296,
+        0.00018291547894477844,
+        0.023854494094848633
+      ],
+      "knee_flex_range_degrees": [
+        14.328516096058166,
+        66.51773199693713
+      ],
+      "maximum_knee_change_per_60hz_frame_degrees": 5.747194375215514,
+      "passed": true
+    },
+    "floor_min_m": -4.701688885688782e-05
+  }
+}

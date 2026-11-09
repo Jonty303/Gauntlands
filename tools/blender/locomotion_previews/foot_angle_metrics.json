@@ -1,0 +1,50 @@
+{
+  "before": {
+    "pelvis_range_m": [
+      0.05548166483640671,
+      0.00014454033225774765,
+      0.04190874099731445
+    ],
+    "head_range_m": [
+      0.029115518555045128,
+      0.00035976991057395935,
+      0.04175126552581787
+    ],
+    "knee_flex_range_degrees": [
+      14.75777982501512,
+      59.76535234194915
+    ],
+    "maximum_knee_change_per_60hz_frame_degrees": 5.17983788161925,
+    "maximum_knee_acceleration_degrees_per_60hz_frame_squared": 1.7754393728531,
+    "passed": true
+  },
+  "after": {
+    "pelvis_range_m": [
+      0.05548166483640671,
+      0.00014454033225774765,
+      0.04190874099731445
+    ],
+    "head_range_m": [
+      0.029115518555045128,
+      0.00035976991057395935,
+      0.04175126552581787
+    ],
+    "knee_flex_range_degrees": [
+      14.757807145771807,
+      59.70847052654129
+    ],
+    "maximum_knee_change_per_60hz_frame_degrees": 5.176641353087689,
+    "maximum_knee_acceleration_degrees_per_60hz_frame_squared": 1.7868731095236967,
+    "maximum_foot_heading_error_degrees": 6.572126713422222e-05,
+    "passed": true
+  },
+  "idle_bounds_identical": true,
+  "pelvis_range_identical": true,
+  "changed_existing_build_fields": [
+    "foot_targets",
+    "samples"
+  ],
+  "source_sha256": "a4bd547d659e928b132f530f166d96fd20e9001fedb09dcc424e7c65c0fc1d75",
+  "glb_sha256": "9396ac7c44358db9cd9fb42e3d602a0fdb1e36df1566098388bb3c1152b26dd4",
+  "baseline_backup": "C:\\Users\\jonat\\AppData\\Local\\Temp\\gauntlands-views-before-20261109-092329"
+}

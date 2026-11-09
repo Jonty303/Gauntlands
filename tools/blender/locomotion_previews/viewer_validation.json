@@ -1,0 +1,41 @@
+{
+  "failures": [],
+  "minimum_floor_m": 0.00166841130703688,
+  "passed": true,
+  "paused_selection": true,
+  "review_views": [
+    {
+      "elevation_degrees": 35.2643889555958,
+      "size": 2.79999995231628,
+      "view": "isometric"
+    },
+    {
+      "elevation_degrees": 44.9999990194245,
+      "size": 2.79999995231628,
+      "view": "three_quarter"
+    },
+    {
+      "elevation_degrees": 90.0,
+      "size": 2.79999995231628,
+      "view": "top_down"
+    }
+  ],
+  "stop_cases": [
+    {
+      "requested_at": 0.0,
+      "wait_seconds": 0.35
+    },
+    {
+      "requested_at": 0.2,
+      "wait_seconds": 0.15
+    },
+    {
+      "requested_at": 0.6,
+      "wait_seconds": 0.35
+    },
+    {
+      "requested_at": 1.05,
+      "wait_seconds": 0.5
+    }
+  ]
+}

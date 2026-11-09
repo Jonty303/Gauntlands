@@ -1,0 +1,47 @@
+{
+  "baseline_backup": "C:\\Users\\jonat\\AppData\\Local\\Temp\\gauntlands-extension-before-20261108-234915",
+  "before": {
+    "support_phase_20_to_34_knee_range_degrees": [
+      27.263610308498357,
+      31.81557622047501
+    ],
+    "left_knee_contact_loading_support_degrees": [
+      21.634796771977477,
+      33.3585569351159,
+      27.356951673695733
+    ],
+    "pelvis_vertical_m": 0.035859107971191406,
+    "head_vertical_m": 0.03573763370513916,
+    "knee_range_degrees": [
+      13.42929437106929,
+      64.34664708622185
+    ],
+    "max_knee_step_degrees": 5.279353737826341,
+    "max_half_frame_knee_step_60hz_equivalent_degrees": null
+  },
+  "after": {
+    "support_phase_20_to_34_knee_range_degrees": [
+      12.973802715699492,
+      13.519357245465073
+    ],
+    "left_knee_contact_loading_support_degrees": [
+      13.234374432535475,
+      23.933305691848517,
+      13.0771161570851
+    ],
+    "pelvis_vertical_m": 0.04317063093185425,
+    "head_vertical_m": 0.043085336685180664,
+    "knee_range_degrees": [
+      12.179793224685511,
+      59.256612531809935
+    ],
+    "max_knee_step_degrees": 4.807305703908412,
+    "max_half_frame_knee_step_60hz_equivalent_degrees": 4.807360345421785
+  },
+  "max_added_swing_ankle_lift_m": 0.025990401902739158,
+  "planted_target_max_difference_m": 0.0,
+  "exported_stance_anchor_max_difference_m": 5.066394805908203e-07,
+  "idle_bounds_identical": true,
+  "source_sha256": "a4bd547d659e928b132f530f166d96fd20e9001fedb09dcc424e7c65c0fc1d75",
+  "glb_sha256": "3ca256fad0c931f7f41d81c8c4b822df9cab2b7428b8bb2b9625b0f2d37f5b92"
+}

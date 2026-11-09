@@ -1,0 +1,106 @@
+# Knee landing stability - 9 November 2026
+
+Historical pass: followed by the [foot-angle and three-view review](WALK_FOOT_ANGLE_REVIEW.md).
+Shared reports/media now describe the successor; numbers below remain historical.
+
+## Scope and handoff
+
+User authorised the next iteration to reduce the knee wobble while retaining the
+improved [dip-correction pass](WALK_DIP_REVIEW.md). R3 Character & Technical Artist
+leads; R2/R6 integration and validation were performed sequentially by the same
+agent. Existing `human-prototype-01`, Jonty303/Gauntlands. No commits, pushes,
+branches or merges. Human feel/visual acceptance remains pending.
+
+The prior knee rapidly changed from extension into loading near contact. Its
+largest cyclic second difference was 3.081 degrees per 60 Hz frame squared.
+The sampled bend direction stayed forward throughout both legs' cycles, so this
+pass keeps the existing bend-plane guidance and targets landing timing first.
+
+## Changes and contract
+
+The [generator](../tools/blender/build_locomotion.py) changes the late-swing
+minimum-flexion guide's endpoint from `(1.0,11,-70)` to `(1.0,16.5,180)`:
+phase, degrees and degrees/cycle. The correction's soft blending width eases
+from 1.5 mm to zero during phases 0.94-1.0 so the planted ankle takes over without
+a residual blending offset. This is a guide, not a directly imposed knee angle.
+
+Contact/settling pelvis offsets become -45/-45.5 mm, previously -41/-41.5 mm.
+The supported-rise key and all height-key phases/slopes are retained. This is a
+4 mm landing-height adjustment: a deliberately softer contact, while the
+mid-step knee remains about 15 degrees bent. It adds approximately 4 mm to the
+body's vertical range, so review for any renewed sense of dipping.
+
+The [validator](../tools/blender/test_locomotion.py) adds cyclic knee acceleration
+measurement, including the loop boundary. The new task-local target is <2.2
+degrees per 60 Hz frame squared; it is not an anatomical or project-wide rule.
+It was checked against the saved baseline, which fails this new guard. Existing
+speed, clearance, contact, collision and loop limits are unchanged.
+
+R3 -> R2/R6 artifacts: generator, validator,
+[editable derivative](../assets/Blender%20Models/Human-Male-Locomotion.blend),
+[GLB](../prototype/assets/human_locomotion.glb), refreshed
+[pose bounds](../prototype/tests/locomotion_bounds.json), build/validation reports
+and media. Preserved: metres; Blender Z-up/-Y-forward and Godot Y-up/+Z-facing;
+137 bones, nine source shape keys, packed textures, 8-influence export;
+60 Hz bake, 4-second Idle, 1.2-second Walk, 0.9 m/s, 60% stance and half-cycle
+leg offset; foot/toe roll, shoulders, fists and transition rules. Airborne ankle
+heights change. Idle sampled bounds and prescribed planted targets match exactly.
+No gameplay/model changes; sprite dimensions and facing order are not applicable.
+
+## Evidence
+
+Blender 5.2.3 LTS build and full export validator exited 0: 241 Idle frames,
+73 Walk frames and 72 half-frame floor/knee-speed samples. Godot 4.5.2 headless
+editor import, `test_locomotion.gd` and `test_locomotion_viewer.gd` exited 0.
+
+| Measure | Previous | Current |
+| --- | --- | --- |
+| Maximum cyclic knee acceleration, degrees/60 Hz frame squared | 3.081 | 1.775; 42% reduction |
+| Maximum authored knee change, degrees/60 Hz frame | 5.354 | 5.180 |
+| Knee at contact / 0.15 s loading / 0.30 s support | 13.234 / 20.323 / 14.689 degrees | 16.780 / 21.985 / 14.761 degrees |
+| Full knee range | 12.180-59.709 degrees | 14.758-59.765 degrees |
+| Pelvis vertical range | 37.917 mm | 41.909 mm |
+| Peak sampled pelvis vertical speed | 0.19524 m/s | 0.21676 m/s |
+| Source knee-position second difference | 13.603 mm | 7.133 mm |
+
+Half-frame knee speed is 5.180 degrees in 60 Hz units; pass. Loop endpoint vertex
+difference is zero. Sampled hand-self, body-cloth, cloth-self, inside-vertex and
+hand-thigh intersection checks are zero. Hand-thigh clearance: 15.852 mm minimum.
+Walk floor: +1.953 mm authored, +1.965 mm intermediate. Stance anchor and sampled
+skin step errors: 0.000610 and 0.188469 mm. Godot pose bounds error: 0.050187 mm;
+cross-fade/viewer floor minima: +0.385/+1.535 mm. All existing limits pass.
+
+Live-source direction checks sampled both knees at all 73 frames: maximum change
+in bend direction is 3.378 degrees/frame, versus 3.377 before. The forward
+component stays >=0.929; no sampled direction flip. Blender front poses and the
+matched Godot side contact sheet were visually inspected. These checks do not
+certify the absence of skin-twist artefacts or prove naturalness in playback.
+
+GPU `--capture`, `--record`, `--record --side-view`, `--record --travel`, GIF
+encoding and comparison generation exited 0. Source/export hashes, Python syntax,
+curve continuity, documentation links, GIF timing and diff whitespace were checked.
+[Metrics](../tools/blender/locomotion_previews/knee_metrics.json) were generated by
+`%TEMP%/gauntlands-compare-knee.py`, with source-direction measurements from live
+Blender. Baseline: `%TEMP%/gauntlands-knee-before-20261109-090444`.
+
+Receiving result: R2/R6 technical gates pass; human artistic acceptance pending.
+Acceleration is sampled at authored frames, not a continuous-time guarantee.
+Intermediate checks cover floor and knee speed only; collision checks are sampled.
+No fresh-character recreation, physical controller or uneven-terrain validation.
+Existing exporter weight/sampler warnings and CC0 MPFB provenance remain.
+
+## Review
+
+- [Side before/after](../tools/blender/locomotion_previews/knee_side_before_after.gif)
+- [One-third-speed comparison](../tools/blender/locomotion_previews/knee_side_before_after_slow.gif)
+- [Three-quarter comparison](../tools/blender/locomotion_previews/knee_before_after.gif)
+- [Contact poses](../tools/blender/locomotion_previews/knee_contact_sheet.png)
+- [Forward travel](../tools/blender/locomotion_previews/walk_travel.gif)
+- [Blender report](../tools/blender/locomotion_previews/validation.json)
+- [Godot report](../tools/blender/locomotion_previews/godot_validation.json)
+- [Viewer report](../tools/blender/locomotion_previews/viewer_validation.json)
+
+Normal-speed loops are 36 images/1.2 seconds; slow comparison 36 images/3.6 seconds.
+Forward travel is 72 images/2.4 seconds, then resets position. Connected Blender
+has the revised derivative open with Walk selected. Review knee stability and
+whether the extra contact softness retains the preferred body rhythm.

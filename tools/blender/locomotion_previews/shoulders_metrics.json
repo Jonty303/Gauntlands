@@ -1,0 +1,745 @@
+{
+  "before": {
+    "shoulder_yaw_range_degrees": 5.7800067616607915,
+    "shoulder_height_difference_range_m": 0.013889551162719727,
+    "samples": [
+      {
+        "frame": 1,
+        "yaw_degrees": 2.8900033808303958,
+        "height_difference_m": -1.1920928955078125e-07
+      },
+      {
+        "frame": 2,
+        "yaw_degrees": 2.8790160710430173,
+        "height_difference_m": 0.000605463981628418
+      },
+      {
+        "frame": 3,
+        "yaw_degrees": 2.846104168930943,
+        "height_difference_m": 0.0012061595916748047
+      },
+      {
+        "frame": 4,
+        "yaw_degrees": 2.7915247939331223,
+        "height_difference_m": 0.001797795295715332
+      },
+      {
+        "frame": 5,
+        "yaw_degrees": 2.715718934065204,
+        "height_difference_m": 0.0023758411407470703
+      },
+      {
+        "frame": 6,
+        "yaw_degrees": 2.6192371267799612,
+        "height_difference_m": 0.002935647964477539
+      },
+      {
+        "frame": 7,
+        "yaw_degrees": 2.5028181876323474,
+        "height_difference_m": 0.0034726858139038086
+      },
+      {
+        "frame": 8,
+        "yaw_degrees": 2.36735857441594,
+        "height_difference_m": 0.003983974456787109
+      },
+      {
+        "frame": 9,
+        "yaw_degrees": 2.2138770325622352,
+        "height_difference_m": 0.00446474552154541
+      },
+      {
+        "frame": 10,
+        "yaw_degrees": 2.0435282008916915,
+        "height_difference_m": 0.004910945892333984
+      },
+      {
+        "frame": 11,
+        "yaw_degrees": 1.8576580753053789,
+        "height_difference_m": 0.0053206682205200195
+      },
+      {
+        "frame": 12,
+        "yaw_degrees": 1.6576389071551307,
+        "height_difference_m": 0.005689501762390137
+      },
+      {
+        "frame": 13,
+        "yaw_degrees": 1.4449990568957563,
+        "height_difference_m": 0.006015300750732422
+      },
+      {
+        "frame": 14,
+        "yaw_degrees": 1.2213737381897987,
+        "height_difference_m": 0.006295204162597656
+      },
+      {
+        "frame": 15,
+        "yaw_degrees": 0.9884360948297621,
+        "height_difference_m": 0.0065271854400634766
+      },
+      {
+        "frame": 16,
+        "yaw_degrees": 0.747980581347103,
+        "height_difference_m": 0.006709098815917969
+      },
+      {
+        "frame": 17,
+        "yaw_degrees": 0.5018413203161556,
+        "height_difference_m": 0.0068399906158447266
+      },
+      {
+        "frame": 18,
+        "yaw_degrees": 0.2518746243971533,
+        "height_difference_m": 0.006919145584106445
+      },
+      {
+        "frame": 19,
+        "yaw_degrees": -1.4215051149461122e-05,
+        "height_difference_m": 0.006944775581359863
+      },
+      {
+        "frame": 20,
+        "yaw_degrees": -0.2518784170062925,
+        "height_difference_m": 0.006918907165527344
+      },
+      {
+        "frame": 21,
+        "yaw_degrees": -0.5018582919120491,
+        "height_difference_m": 0.006839871406555176
+      },
+      {
+        "frame": 22,
+        "yaw_degrees": -0.7479910285758428,
+        "height_difference_m": 0.006708860397338867
+      },
+      {
+        "frame": 23,
+        "yaw_degrees": -0.988442184413881,
+        "height_difference_m": 0.006526827812194824
+      },
+      {
+        "frame": 24,
+        "yaw_degrees": -1.2213726230244355,
+        "height_difference_m": 0.006294846534729004
+      },
+      {
+        "frame": 25,
+        "yaw_degrees": -1.4449997223472257,
+        "height_difference_m": 0.00601506233215332
+      },
+      {
+        "frame": 26,
+        "yaw_degrees": -1.657645217043967,
+        "height_difference_m": 0.005689263343811035
+      },
+      {
+        "frame": 27,
+        "yaw_degrees": -1.857673025314065,
+        "height_difference_m": 0.005321025848388672
+      },
+      {
+        "frame": 28,
+        "yaw_degrees": -2.043557069023431,
+        "height_difference_m": 0.004910826683044434
+      },
+      {
+        "frame": 29,
+        "yaw_degrees": -2.213888810130061,
+        "height_difference_m": 0.004464507102966309
+      },
+      {
+        "frame": 30,
+        "yaw_degrees": -2.3673610808995105,
+        "height_difference_m": 0.003983616828918457
+      },
+      {
+        "frame": 31,
+        "yaw_degrees": -2.5028279940281584,
+        "height_difference_m": 0.003473043441772461
+      },
+      {
+        "frame": 32,
+        "yaw_degrees": -2.619242040109403,
+        "height_difference_m": 0.0029352903366088867
+      },
+      {
+        "frame": 33,
+        "yaw_degrees": -2.715721160797606,
+        "height_difference_m": 0.0023758411407470703
+      },
+      {
+        "frame": 34,
+        "yaw_degrees": -2.791523304569765,
+        "height_difference_m": 0.0017976760864257812
+      },
+      {
+        "frame": 35,
+        "yaw_degrees": -2.8460997738781177,
+        "height_difference_m": 0.0012062788009643555
+      },
+      {
+        "frame": 36,
+        "yaw_degrees": -2.8790072848603216,
+        "height_difference_m": 0.0006052255630493164
+      },
+      {
+        "frame": 37,
+        "yaw_degrees": -2.8900033808303958,
+        "height_difference_m": 1.1920928955078125e-07
+      },
+      {
+        "frame": 38,
+        "yaw_degrees": -2.8790160710430173,
+        "height_difference_m": -0.000605463981628418
+      },
+      {
+        "frame": 39,
+        "yaw_degrees": -2.846104168930943,
+        "height_difference_m": -0.0012061595916748047
+      },
+      {
+        "frame": 40,
+        "yaw_degrees": -2.7915247939331223,
+        "height_difference_m": -0.001797795295715332
+      },
+      {
+        "frame": 41,
+        "yaw_degrees": -2.715718934065204,
+        "height_difference_m": -0.0023758411407470703
+      },
+      {
+        "frame": 42,
+        "yaw_degrees": -2.6192371267799612,
+        "height_difference_m": -0.002935647964477539
+      },
+      {
+        "frame": 43,
+        "yaw_degrees": -2.5028181876323474,
+        "height_difference_m": -0.0034726858139038086
+      },
+      {
+        "frame": 44,
+        "yaw_degrees": -2.36735857441594,
+        "height_difference_m": -0.003983974456787109
+      },
+      {
+        "frame": 45,
+        "yaw_degrees": -2.2138770325622352,
+        "height_difference_m": -0.00446474552154541
+      },
+      {
+        "frame": 46,
+        "yaw_degrees": -2.0435282008916915,
+        "height_difference_m": -0.004910945892333984
+      },
+      {
+        "frame": 47,
+        "yaw_degrees": -1.8576580753053789,
+        "height_difference_m": -0.0053206682205200195
+      },
+      {
+        "frame": 48,
+        "yaw_degrees": -1.6576389071551307,
+        "height_difference_m": -0.005689501762390137
+      },
+      {
+        "frame": 49,
+        "yaw_degrees": -1.4449990568957563,
+        "height_difference_m": -0.006015300750732422
+      },
+      {
+        "frame": 50,
+        "yaw_degrees": -1.2213737381897987,
+        "height_difference_m": -0.006295204162597656
+      },
+      {
+        "frame": 51,
+        "yaw_degrees": -0.9884360948297621,
+        "height_difference_m": -0.0065271854400634766
+      },
+      {
+        "frame": 52,
+        "yaw_degrees": -0.747980581347103,
+        "height_difference_m": -0.006709098815917969
+      },
+      {
+        "frame": 53,
+        "yaw_degrees": -0.5018413203161556,
+        "height_difference_m": -0.0068399906158447266
+      },
+      {
+        "frame": 54,
+        "yaw_degrees": -0.2518746243971533,
+        "height_difference_m": -0.006919145584106445
+      },
+      {
+        "frame": 55,
+        "yaw_degrees": 1.4215051149461122e-05,
+        "height_difference_m": -0.006944775581359863
+      },
+      {
+        "frame": 56,
+        "yaw_degrees": 0.2518784170062925,
+        "height_difference_m": -0.006918907165527344
+      },
+      {
+        "frame": 57,
+        "yaw_degrees": 0.5018582919120491,
+        "height_difference_m": -0.006839871406555176
+      },
+      {
+        "frame": 58,
+        "yaw_degrees": 0.7479910285758428,
+        "height_difference_m": -0.006708860397338867
+      },
+      {
+        "frame": 59,
+        "yaw_degrees": 0.988442184413881,
+        "height_difference_m": -0.006526827812194824
+      },
+      {
+        "frame": 60,
+        "yaw_degrees": 1.2213726230244355,
+        "height_difference_m": -0.006294846534729004
+      },
+      {
+        "frame": 61,
+        "yaw_degrees": 1.4449997223472257,
+        "height_difference_m": -0.00601506233215332
+      },
+      {
+        "frame": 62,
+        "yaw_degrees": 1.657645217043967,
+        "height_difference_m": -0.005689263343811035
+      },
+      {
+        "frame": 63,
+        "yaw_degrees": 1.857673025314065,
+        "height_difference_m": -0.005321025848388672
+      },
+      {
+        "frame": 64,
+        "yaw_degrees": 2.043557069023431,
+        "height_difference_m": -0.004910826683044434
+      },
+      {
+        "frame": 65,
+        "yaw_degrees": 2.213888810130061,
+        "height_difference_m": -0.004464507102966309
+      },
+      {
+        "frame": 66,
+        "yaw_degrees": 2.3673610808995105,
+        "height_difference_m": -0.003983616828918457
+      },
+      {
+        "frame": 67,
+        "yaw_degrees": 2.5028279940281584,
+        "height_difference_m": -0.003473043441772461
+      },
+      {
+        "frame": 68,
+        "yaw_degrees": 2.619242040109403,
+        "height_difference_m": -0.0029352903366088867
+      },
+      {
+        "frame": 69,
+        "yaw_degrees": 2.715721160797606,
+        "height_difference_m": -0.0023758411407470703
+      },
+      {
+        "frame": 70,
+        "yaw_degrees": 2.791523304569765,
+        "height_difference_m": -0.0017976760864257812
+      },
+      {
+        "frame": 71,
+        "yaw_degrees": 2.8460997738781177,
+        "height_difference_m": -0.0012062788009643555
+      },
+      {
+        "frame": 72,
+        "yaw_degrees": 2.8790072848603216,
+        "height_difference_m": -0.0006052255630493164
+      },
+      {
+        "frame": 73,
+        "yaw_degrees": 2.8900033808303958,
+        "height_difference_m": -1.1920928955078125e-07
+      }
+    ]
+  },
+  "after": {
+    "shoulder_yaw_range_degrees": 8.879079368197878,
+    "shoulder_height_difference_range_m": 0.022446155548095703,
+    "samples": [
+      {
+        "frame": 1,
+        "yaw_degrees": 4.409757921761157,
+        "height_difference_m": -0.000809788703918457
+      },
+      {
+        "frame": 2,
+        "yaw_degrees": 4.439539684098939,
+        "height_difference_m": 0.00016832351684570312
+      },
+      {
+        "frame": 3,
+        "yaw_degrees": 4.435581210673703,
+        "height_difference_m": 0.0011457204818725586
+      },
+      {
+        "frame": 4,
+        "yaw_degrees": 4.397871388298461,
+        "height_difference_m": 0.0021141767501831055
+      },
+      {
+        "frame": 5,
+        "yaw_degrees": 4.326694934920993,
+        "height_difference_m": 0.0030666589736938477
+      },
+      {
+        "frame": 6,
+        "yaw_degrees": 4.222589400556486,
+        "height_difference_m": 0.003995418548583984
+      },
+      {
+        "frame": 7,
+        "yaw_degrees": 4.086361881518155,
+        "height_difference_m": 0.0048940181732177734
+      },
+      {
+        "frame": 8,
+        "yaw_degrees": 3.9190381280478643,
+        "height_difference_m": 0.005755305290222168
+      },
+      {
+        "frame": 9,
+        "yaw_degrees": 3.7218734131891513,
+        "height_difference_m": 0.006573081016540527
+      },
+      {
+        "frame": 10,
+        "yaw_degrees": 3.496398155888771,
+        "height_difference_m": 0.007340788841247559
+      },
+      {
+        "frame": 11,
+        "yaw_degrees": 3.244327845275747,
+        "height_difference_m": 0.008053183555603027
+      },
+      {
+        "frame": 12,
+        "yaw_degrees": 2.9675204453511275,
+        "height_difference_m": 0.00870358943939209
+      },
+      {
+        "frame": 13,
+        "yaw_degrees": 2.6681545588746176,
+        "height_difference_m": 0.009288311004638672
+      },
+      {
+        "frame": 14,
+        "yaw_degrees": 2.3484447519783935,
+        "height_difference_m": 0.00980234146118164
+      },
+      {
+        "frame": 15,
+        "yaw_degrees": 2.0108646405903925,
+        "height_difference_m": 0.010241866111755371
+      },
+      {
+        "frame": 16,
+        "yaw_degrees": 1.6579427074999853,
+        "height_difference_m": 0.010602951049804688
+      },
+      {
+        "frame": 17,
+        "yaw_degrees": 1.2924419904896103,
+        "height_difference_m": 0.010883808135986328
+      },
+      {
+        "frame": 18,
+        "yaw_degrees": 0.9170499957930642,
+        "height_difference_m": 0.011081933975219727
+      },
+      {
+        "frame": 19,
+        "yaw_degrees": 0.5346825682582651,
+        "height_difference_m": 0.011194825172424316
+      },
+      {
+        "frame": 20,
+        "yaw_degrees": 0.14825208189374864,
+        "height_difference_m": 0.011223077774047852
+      },
+      {
+        "frame": 21,
+        "yaw_degrees": -0.23930917909318233,
+        "height_difference_m": 0.011165738105773926
+      },
+      {
+        "frame": 22,
+        "yaw_degrees": -0.6250525135663909,
+        "height_difference_m": 0.01102304458618164
+      },
+      {
+        "frame": 23,
+        "yaw_degrees": -1.0060312075357627,
+        "height_difference_m": 0.010796785354614258
+      },
+      {
+        "frame": 24,
+        "yaw_degrees": -1.379350512463632,
+        "height_difference_m": 0.010488271713256836
+      },
+      {
+        "frame": 25,
+        "yaw_degrees": -1.7421446803497838,
+        "height_difference_m": 0.010099411010742188
+      },
+      {
+        "frame": 26,
+        "yaw_degrees": -2.091682274279278,
+        "height_difference_m": 0.009634733200073242
+      },
+      {
+        "frame": 27,
+        "yaw_degrees": -2.4252947490842325,
+        "height_difference_m": 0.00909566879272461
+      },
+      {
+        "frame": 28,
+        "yaw_degrees": -2.7404166441303426,
+        "height_difference_m": 0.008487820625305176
+      },
+      {
+        "frame": 29,
+        "yaw_degrees": -3.034686657290629,
+        "height_difference_m": 0.007815361022949219
+      },
+      {
+        "frame": 30,
+        "yaw_degrees": -3.305850951227457,
+        "height_difference_m": 0.00708317756652832
+      },
+      {
+        "frame": 31,
+        "yaw_degrees": -3.5518613335103817,
+        "height_difference_m": 0.00629734992980957
+      },
+      {
+        "frame": 32,
+        "yaw_degrees": -3.7708297838290292,
+        "height_difference_m": 0.0054634809494018555
+      },
+      {
+        "frame": 33,
+        "yaw_degrees": -3.9610961594685197,
+        "height_difference_m": 0.0045882463455200195
+      },
+      {
+        "frame": 34,
+        "yaw_degrees": -4.121213827543916,
+        "height_difference_m": 0.003678441047668457
+      },
+      {
+        "frame": 35,
+        "yaw_degrees": -4.249976807948328,
+        "height_difference_m": 0.0027403831481933594
+      },
+      {
+        "frame": 36,
+        "yaw_degrees": -4.3464021323815905,
+        "height_difference_m": 0.0017817020416259766
+      },
+      {
+        "frame": 37,
+        "yaw_degrees": -4.409757921761157,
+        "height_difference_m": 0.000809788703918457
+      },
+      {
+        "frame": 38,
+        "yaw_degrees": -4.439539684098939,
+        "height_difference_m": -0.00016832351684570312
+      },
+      {
+        "frame": 39,
+        "yaw_degrees": -4.435581210673703,
+        "height_difference_m": -0.0011457204818725586
+      },
+      {
+        "frame": 40,
+        "yaw_degrees": -4.397871388298461,
+        "height_difference_m": -0.0021141767501831055
+      },
+      {
+        "frame": 41,
+        "yaw_degrees": -4.326694934920993,
+        "height_difference_m": -0.0030666589736938477
+      },
+      {
+        "frame": 42,
+        "yaw_degrees": -4.222589400556486,
+        "height_difference_m": -0.003995418548583984
+      },
+      {
+        "frame": 43,
+        "yaw_degrees": -4.086361881518155,
+        "height_difference_m": -0.0048940181732177734
+      },
+      {
+        "frame": 44,
+        "yaw_degrees": -3.9190381280478643,
+        "height_difference_m": -0.005755305290222168
+      },
+      {
+        "frame": 45,
+        "yaw_degrees": -3.7218734131891513,
+        "height_difference_m": -0.006573081016540527
+      },
+      {
+        "frame": 46,
+        "yaw_degrees": -3.496398155888771,
+        "height_difference_m": -0.007340788841247559
+      },
+      {
+        "frame": 47,
+        "yaw_degrees": -3.244327845275747,
+        "height_difference_m": -0.008053183555603027
+      },
+      {
+        "frame": 48,
+        "yaw_degrees": -2.9675204453511275,
+        "height_difference_m": -0.00870358943939209
+      },
+      {
+        "frame": 49,
+        "yaw_degrees": -2.6681545588746176,
+        "height_difference_m": -0.009288311004638672
+      },
+      {
+        "frame": 50,
+        "yaw_degrees": -2.3484447519783935,
+        "height_difference_m": -0.00980234146118164
+      },
+      {
+        "frame": 51,
+        "yaw_degrees": -2.0108646405903925,
+        "height_difference_m": -0.010241866111755371
+      },
+      {
+        "frame": 52,
+        "yaw_degrees": -1.6579427074999853,
+        "height_difference_m": -0.010602951049804688
+      },
+      {
+        "frame": 53,
+        "yaw_degrees": -1.2924419904896103,
+        "height_difference_m": -0.010883808135986328
+      },
+      {
+        "frame": 54,
+        "yaw_degrees": -0.9170499957930642,
+        "height_difference_m": -0.011081933975219727
+      },
+      {
+        "frame": 55,
+        "yaw_degrees": -0.5346825682582651,
+        "height_difference_m": -0.011194825172424316
+      },
+      {
+        "frame": 56,
+        "yaw_degrees": -0.14825208189374864,
+        "height_difference_m": -0.011223077774047852
+      },
+      {
+        "frame": 57,
+        "yaw_degrees": 0.23930917909318233,
+        "height_difference_m": -0.011165738105773926
+      },
+      {
+        "frame": 58,
+        "yaw_degrees": 0.6250525135663909,
+        "height_difference_m": -0.01102304458618164
+      },
+      {
+        "frame": 59,
+        "yaw_degrees": 1.0060312075357627,
+        "height_difference_m": -0.010796785354614258
+      },
+      {
+        "frame": 60,
+        "yaw_degrees": 1.379350512463632,
+        "height_difference_m": -0.010488271713256836
+      },
+      {
+        "frame": 61,
+        "yaw_degrees": 1.7421446803497838,
+        "height_difference_m": -0.010099411010742188
+      },
+      {
+        "frame": 62,
+        "yaw_degrees": 2.091682274279278,
+        "height_difference_m": -0.009634733200073242
+      },
+      {
+        "frame": 63,
+        "yaw_degrees": 2.4252947490842325,
+        "height_difference_m": -0.00909566879272461
+      },
+      {
+        "frame": 64,
+        "yaw_degrees": 2.7404166441303426,
+        "height_difference_m": -0.008487820625305176
+      },
+      {
+        "frame": 65,
+        "yaw_degrees": 3.034686657290629,
+        "height_difference_m": -0.007815361022949219
+      },
+      {
+        "frame": 66,
+        "yaw_degrees": 3.305850951227457,
+        "height_difference_m": -0.00708317756652832
+      },
+      {
+        "frame": 67,
+        "yaw_degrees": 3.5518613335103817,
+        "height_difference_m": -0.00629734992980957
+      },
+      {
+        "frame": 68,
+        "yaw_degrees": 3.7708297838290292,
+        "height_difference_m": -0.0054634809494018555
+      },
+      {
+        "frame": 69,
+        "yaw_degrees": 3.9610961594685197,
+        "height_difference_m": -0.0045882463455200195
+      },
+      {
+        "frame": 70,
+        "yaw_degrees": 4.121213827543916,
+        "height_difference_m": -0.003678441047668457
+      },
+      {
+        "frame": 71,
+        "yaw_degrees": 4.249976807948328,
+        "height_difference_m": -0.0027403831481933594
+      },
+      {
+        "frame": 72,
+        "yaw_degrees": 4.3464021323815905,
+        "height_difference_m": -0.0017817020416259766
+      },
+      {
+        "frame": 73,
+        "yaw_degrees": 4.409757921761157,
+        "height_difference_m": -0.000809788703918457
+      }
+    ]
+  },
+  "maximum_lower_body_matrix_element_difference": 0.0
+}

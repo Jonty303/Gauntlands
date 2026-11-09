@@ -1,0 +1,13 @@
+{
+  "minimum_hand_thigh_clearance_m": 0.024302732199430466,
+  "hand_thigh_intersections": 0,
+  "elbow_flex_range_degrees": [
+    15.824272882777592,
+    26.442471306101083
+  ],
+  "maximum_elbow_change_per_60hz_frame_degrees": 0.4921970919694729,
+  "passed": true,
+  "previous_pelvis_head_knee_samples_unchanged": true,
+  "foot_contact_samples_unchanged": true,
+  "idle_sampled_bounds_unchanged": true
+}

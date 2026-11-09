@@ -1,0 +1,40 @@
+{
+  "Idle": {
+    "frames": 241,
+    "hand_self_intersections": 0,
+    "minimum_cloth_clearance_m": 0.004428114392794669
+  },
+  "Walk": {
+    "frames": 73,
+    "hand_self_intersections": 0,
+    "minimum_cloth_clearance_m": 0.0012031833903165534
+  },
+  "walk_motion": {
+    "pelvis_range_m": [
+      0.05675628036260605,
+      0.00014452915638685226,
+      0.02399611473083496
+    ],
+    "head_range_m": [
+      0.027922293171286583,
+      0.00018291175365447998,
+      0.023854494094848633
+    ],
+    "knee_flex_range_degrees": [
+      21.122245716281384,
+      64.7553929269121
+    ],
+    "maximum_knee_change_per_60hz_frame_degrees": 4.96181824331245,
+    "passed": true
+  },
+  "hands": {
+    "minimum_hand_thigh_clearance_m": 0.014078867621719837,
+    "hand_thigh_intersections": 0,
+    "elbow_flex_range_degrees": [
+      15.824286543155921,
+      26.442471306101083
+    ],
+    "maximum_elbow_change_per_60hz_frame_degrees": 0.49221075234780187,
+    "passed": true
+  }
+}

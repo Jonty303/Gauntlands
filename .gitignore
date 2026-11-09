@@ -5,3 +5,10 @@
 # Godot import cache and Blender backups
 /prototype/.godot/
 /assets/Blender Models/*.blend1
+
+# Raw GPU frames used to encode the walk preview
+/tools/blender/locomotion_previews/frames/
+/tools/blender/locomotion_previews/frames_side/
+/tools/blender/locomotion_previews/frames_travel/
+
+/tools/blender/locomotion_previews/frames_review/

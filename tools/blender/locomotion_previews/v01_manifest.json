@@ -1,0 +1,12 @@
+{
+  "version": "human_male_prototype_v0.1",
+  "approval_date": "2026-11-09",
+  "approval_scope": "Relaxed unarmed prototype walk; not full character/controller/equipment sign-off",
+  "branch": "human-prototype-01",
+  "files": {
+    "assets/Blender Models/Human-Male-180cm.blend": "a4bd547d659e928b132f530f166d96fd20e9001fedb09dcc424e7c65c0fc1d75",
+    "assets/Blender Models/Human-Male-Locomotion.blend": "8bea8072286b7423a728f02f7ca2765bd8331fe3db08332c0e887751ea464d7e",
+    "prototype/assets/human_locomotion.glb": "18a9fd0ee4a1c45b573840db23602b206d9badd8023ae136ae346899ba558043",
+    "tools/blender/build_locomotion.py": "a5955b2494acafd63ae6561f748a7b274a236911734e9fe6991c93bec2bdb901"
+  }
+}

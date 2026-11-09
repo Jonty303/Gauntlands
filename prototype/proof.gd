@@ -1,5 +1,10 @@
 extends Node3D
 ## Review-only animation viewer. No gameplay/controller implementation.
+@export var character: PackedScene = preload("res://assets/human_diagnostic.glb")
+@export var initial_animation: StringName = &""
+@export var heading := "GAUNTLANDS / ANIMATED RIG PROOF"
+@export var description := "1.80 m human - diagnostic motion - Godot 4.5.2"
+@export var instructions := "Left leg, right leg, arms, head. Drag the timeline to inspect a pose."
 var actor: Node3D
 var player: AnimationPlayer
 var camera: Camera3D
@@ -10,13 +15,14 @@ var clip: StringName
 var capture_mode := false
 
 func _ready() -> void:
-	capture_mode = "--capture" in OS.get_cmdline_user_args()
-	actor = preload("res://assets/human_diagnostic.glb").instantiate()
+	capture_mode = "--capture" in OS.get_cmdline_user_args() or "--record" in OS.get_cmdline_user_args()
+	actor = character.instantiate()
 	add_child(actor)
 	player = actor.find_child("AnimationPlayer", true, false) as AnimationPlayer
 	for name in player.get_animation_list():
 		if name != "RESET":
 			clip = name
+	if not initial_animation.is_empty(): clip = initial_animation
 	assert(not clip.is_empty())
 	player.get_animation(clip).loop_mode = Animation.LOOP_LINEAR
 	var floor_mesh := MeshInstance3D.new()
@@ -70,11 +76,11 @@ func build_ui() -> void:
 	panel.size.x = 1052
 	layer.add_child(panel)
 	var title := Label.new()
-	title.text = "GAUNTLANDS  /  ANIMATED RIG PROOF"
+	title.text = heading
 	title.add_theme_font_size_override("font_size", 24)
 	panel.add_child(title)
 	var subtitle := Label.new()
-	subtitle.text = "1.80 m human · diagnostic motion · Blender → Godot 4.5.2"
+	subtitle.text = description
 	panel.add_child(subtitle)
 	status = Label.new()
 	panel.add_child(status)
@@ -96,20 +102,20 @@ func build_ui() -> void:
 		)
 	timeline = HSlider.new()
 	timeline.min_value = 0
-	timeline.max_value = 8
+	timeline.max_value = player.get_animation(clip).length
 	timeline.step = 1.0 / 30.0
 	panel.add_child(timeline)
 	timeline.value_changed.connect(func(value: float) -> void:
 		player.seek(value, true)
 	)
 	var note := Label.new()
-	note.text = "Left leg → right leg → arms → head turn. Drag the timeline to inspect a pose."
+	note.text = instructions
 	panel.add_child(note)
 
 func _process(_delta: float) -> void:
 	if player and player.is_playing():
 		timeline.set_value_no_signal(player.current_animation_position)
-		status.text = "Diagnostic  •  %.2f / 8.00 seconds" % player.current_animation_position
+		status.text = "%s - %.2f / %.2f seconds" % [clip, player.current_animation_position, player.get_animation(clip).length]
 
 func capture_evidence() -> void:
 	player.speed_scale = 0

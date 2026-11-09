@@ -1,0 +1,46 @@
+{
+  "facing_degrees": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "frames": 36,
+  "loop_seconds": 1.2,
+  "pose_times_s": [
+    0,
+    0.3,
+    0.6,
+    0.9
+  ],
+  "views": {
+    "isometric": {
+      "orthographic_size": 2.79999995231628,
+      "position": [
+        4.0,
+        4.90000009536743,
+        4.0
+      ]
+    },
+    "three_quarter": {
+      "orthographic_size": 2.79999995231628,
+      "position": [
+        2.5,
+        5.90000009536743,
+        4.33012676239014
+      ]
+    },
+    "top_down": {
+      "orthographic_size": 2.79999995231628,
+      "position": [
+        0.0,
+        6.90000009536743,
+        0.0
+      ]
+    }
+  }
+}

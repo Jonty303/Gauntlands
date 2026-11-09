@@ -1,16 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
 config_version=5
 
 [application]
+
 config/name="Gauntlands — Animated Rig Proof"
-run/main_scene="res://proof.tscn"
+run/main_scene="res://locomotion.tscn"
+config/features=PackedStringArray("4.5")
 
 [display]
+
 window/size/viewport_width=1100
 window/size/viewport_height=900
 window/size/window_width_override=1100
 window/size/window_height_override=900
 
 [rendering]
+
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-textures/default_filters/use_nearest_mipmap_filter=false

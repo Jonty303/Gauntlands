@@ -1,34 +1,42 @@
-# Animated rig/export proof
+# Idle and walk — first locomotion clips
 
 Open `project.godot` in **Godot 4.5.2 stable** and press **F5**.
-The eight-second diagnostic plays automatically. Use Play/pause, the timeline,
-and Front/Side/Back/Three-quarter buttons to inspect it.
 
-This scene demonstrates the existing 1.80 m character, skin, eyes, briefs and
-137-bone rig in Godot. It is a diagnostic animation viewer, not the walking
-milestone. No movement controller, idle/walk cycle or gamepad actions yet.
+- **Idle**: relaxed four-second standing loop with subtle body movement.
+- **Walk**: in-place 1.2-second loop, intended for travel at **0.9 m/s**.
+- **Idle / Walk buttons**: start walking from a planted passing pose; stopping
+  finishes the step before a short blend to idle.
+- **Ground reference**: moving marks help reveal foot sliding at the nominal speed.
+- **Play/pause and timeline**: inspect the animation at a chosen phase.
+- **Isometric / Raised 3/4 / Top-down**: the required model review views; isometric is the default.
+- **Facing selector**: inspect eight facings without changing the animation.
 
-The clip lifts and bends the left leg, then right leg, swings the arms, and
-turns the head both ways. Neutral poses separate the tests. Foot planting,
-weight shifts and believable locomotion are deliberately not implied by this clip.
+This is animation review, not a controllable character. Gamepad movement and
+turning are the next implementation stage. The relaxed unarmed walk is approved as
+[human_male_prototype_v0.1](../development/HUMAN_MALE_PROTOTYPE_V01.md). The original diagnostic is still available by
+opening `proof.tscn` and pressing **F6**.
 
-[Build, validation, limitations and handoff](../development/ANIMATION_PROOF_REVIEW.md)
+[Animated walk preview](../tools/blender/locomotion_previews/walk.gif) ·
+[Validation and reproduction](../development/LOCOMOTION_REVIEW.md) ·
+[Earlier diagnostic report](../development/ANIMATION_PROOF_REVIEW.md).
 
-## Checks
-
-After importing the project, from the repository root (replace `godot` with
-its full executable path if it is not on PATH):
+From the repository root, substitute the installed executable path for `godot`:
 
 ```powershell
 godot --headless --editor --path prototype --quit
-godot --headless --path prototype --script res://tests/test_import.gd
+godot --headless --path prototype --script res://tests/test_locomotion.gd
+godot --headless --path prototype --script res://tests/test_locomotion_viewer.gd
 ```
 
-`godot --path prototype -- --capture` writes seven actual GPU-rendered review
-frames to `tools/blender/animation_previews/` and exits. It requires a display
-and renderer; headless import checks are not visual evidence.
+The [model review contract](../development/HUMAN_MODEL_REVIEW.md) defines the
+three required sign-off views. `godot --path prototype -- --record --review`
+captures those loops and eight-facing pose sheets; run
+`python tools/blender/encode_review_views.py` to encode them.
 
-Keep the committed `.glb.import` settings: unit import scale, 30 fps, animation
-optimisation disabled, mesh compression disabled, LOD generation disabled.
-The GLB includes its textures; Godot extracts the two PNGs alongside it.
-Do not manually overwrite the GLB with a default-settings export.
+`godot --path prototype -- --capture` records six actual engine views.
+`godot --path prototype -- --record` records 36 walk frames; optional
+`tools/blender/encode_walk_preview.py` packages these into a GIF using Pillow.
+
+Keep the committed GLB import settings: metres, 60 fps for locomotion, disabled
+animation optimisation, disabled mesh compression and disabled LOD generation.
+The diagnostic retains its separate 30 fps import settings.

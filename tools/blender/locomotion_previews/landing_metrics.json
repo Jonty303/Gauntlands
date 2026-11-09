@@ -1,0 +1,888 @@
+{
+  "before": {
+    "samples": [
+      {
+        "frame": 0,
+        "phase": 0.0,
+        "pelvis_height_m": 0.9576658010482788,
+        "left_knee_degrees": 23.703169297954105
+      },
+      {
+        "frame": 1,
+        "phase": 0.013888888888888888,
+        "pelvis_height_m": 0.9568217992782593,
+        "left_knee_degrees": 26.5120026318518
+      },
+      {
+        "frame": 2,
+        "phase": 0.027777777777777776,
+        "pelvis_height_m": 0.956322968006134,
+        "left_knee_degrees": 28.44300639324112
+      },
+      {
+        "frame": 3,
+        "phase": 0.041666666666666664,
+        "pelvis_height_m": 0.9561842679977417,
+        "left_knee_degrees": 29.750946638163555
+      },
+      {
+        "frame": 4,
+        "phase": 0.05555555555555555,
+        "pelvis_height_m": 0.9564101696014404,
+        "left_knee_degrees": 30.600034774644513
+      },
+      {
+        "frame": 5,
+        "phase": 0.06944444444444445,
+        "pelvis_height_m": 0.9569939374923706,
+        "left_knee_degrees": 31.12287209523066
+      },
+      {
+        "frame": 6,
+        "phase": 0.08333333333333333,
+        "pelvis_height_m": 0.9579175710678101,
+        "left_knee_degrees": 31.445311665568596
+      },
+      {
+        "frame": 7,
+        "phase": 0.09722222222222222,
+        "pelvis_height_m": 0.9591530561447144,
+        "left_knee_degrees": 31.695733721297955
+      },
+      {
+        "frame": 8,
+        "phase": 0.1111111111111111,
+        "pelvis_height_m": 0.960662841796875,
+        "left_knee_degrees": 32.00415774345905
+      },
+      {
+        "frame": 9,
+        "phase": 0.125,
+        "pelvis_height_m": 0.9624011516571045,
+        "left_knee_degrees": 32.46294155000882
+      },
+      {
+        "frame": 10,
+        "phase": 0.1388888888888889,
+        "pelvis_height_m": 0.9643152952194214,
+        "left_knee_degrees": 32.82670376482534
+      },
+      {
+        "frame": 11,
+        "phase": 0.1527777777777778,
+        "pelvis_height_m": 0.9663467407226562,
+        "left_knee_degrees": 33.03946415747126
+      },
+      {
+        "frame": 12,
+        "phase": 0.16666666666666666,
+        "pelvis_height_m": 0.9684339165687561,
+        "left_knee_degrees": 33.13152144710469
+      },
+      {
+        "frame": 13,
+        "phase": 0.18055555555555555,
+        "pelvis_height_m": 0.9705135822296143,
+        "left_knee_degrees": 33.132464013210154
+      },
+      {
+        "frame": 14,
+        "phase": 0.19444444444444445,
+        "pelvis_height_m": 0.9725222587585449,
+        "left_knee_degrees": 33.0709786503017
+      },
+      {
+        "frame": 15,
+        "phase": 0.20833333333333334,
+        "pelvis_height_m": 0.974399209022522,
+        "left_knee_degrees": 32.974591020734465
+      },
+      {
+        "frame": 16,
+        "phase": 0.2222222222222222,
+        "pelvis_height_m": 0.9760872721672058,
+        "left_knee_degrees": 32.86918754146282
+      },
+      {
+        "frame": 17,
+        "phase": 0.2361111111111111,
+        "pelvis_height_m": 0.9775351285934448,
+        "left_knee_degrees": 32.77835968587999
+      },
+      {
+        "frame": 18,
+        "phase": 0.25,
+        "pelvis_height_m": 0.9786986112594604,
+        "left_knee_degrees": 32.72246141771262
+      },
+      {
+        "frame": 19,
+        "phase": 0.2638888888888889,
+        "pelvis_height_m": 0.9795427322387695,
+        "left_knee_degrees": 32.7178851909687
+      },
+      {
+        "frame": 20,
+        "phase": 0.2777777777777778,
+        "pelvis_height_m": 0.9800416231155396,
+        "left_knee_degrees": 32.776187685723926
+      },
+      {
+        "frame": 21,
+        "phase": 0.2916666666666667,
+        "pelvis_height_m": 0.9801803827285767,
+        "left_knee_degrees": 32.90367999677139
+      },
+      {
+        "frame": 22,
+        "phase": 0.3055555555555556,
+        "pelvis_height_m": 0.9799542427062988,
+        "left_knee_degrees": 33.10092219962303
+      },
+      {
+        "frame": 23,
+        "phase": 0.3194444444444444,
+        "pelvis_height_m": 0.9793707132339478,
+        "left_knee_degrees": 33.362859954293015
+      },
+      {
+        "frame": 24,
+        "phase": 0.3333333333333333,
+        "pelvis_height_m": 0.9784470796585083,
+        "left_knee_degrees": 33.679247977026336
+      },
+      {
+        "frame": 25,
+        "phase": 0.3472222222222222,
+        "pelvis_height_m": 0.9772114157676697,
+        "left_knee_degrees": 34.08833532717509
+      },
+      {
+        "frame": 26,
+        "phase": 0.3611111111111111,
+        "pelvis_height_m": 0.975701630115509,
+        "left_knee_degrees": 34.848002627042234
+      },
+      {
+        "frame": 27,
+        "phase": 0.375,
+        "pelvis_height_m": 0.9739632606506348,
+        "left_knee_degrees": 35.93192632756657
+      },
+      {
+        "frame": 28,
+        "phase": 0.3888888888888889,
+        "pelvis_height_m": 0.9720492362976074,
+        "left_knee_degrees": 37.25993366827049
+      },
+      {
+        "frame": 29,
+        "phase": 0.4027777777777778,
+        "pelvis_height_m": 0.9700177907943726,
+        "left_knee_degrees": 38.75286275667355
+      },
+      {
+        "frame": 30,
+        "phase": 0.4166666666666667,
+        "pelvis_height_m": 0.9679305553436279,
+        "left_knee_degrees": 40.337808153575
+      },
+      {
+        "frame": 31,
+        "phase": 0.4305555555555556,
+        "pelvis_height_m": 0.9658509492874146,
+        "left_knee_degrees": 41.9501699298049
+      },
+      {
+        "frame": 32,
+        "phase": 0.4444444444444444,
+        "pelvis_height_m": 0.9638422727584839,
+        "left_knee_degrees": 43.53435034551933
+      },
+      {
+        "frame": 33,
+        "phase": 0.4583333333333333,
+        "pelvis_height_m": 0.9619653224945068,
+        "left_knee_degrees": 45.042975208635056
+      },
+      {
+        "frame": 34,
+        "phase": 0.4722222222222222,
+        "pelvis_height_m": 0.9602773785591125,
+        "left_knee_degrees": 46.43625183704762
+      },
+      {
+        "frame": 35,
+        "phase": 0.4861111111111111,
+        "pelvis_height_m": 0.9588295221328735,
+        "left_knee_degrees": 47.680684983067266
+      },
+      {
+        "frame": 36,
+        "phase": 0.5,
+        "pelvis_height_m": 0.9576658010482788,
+        "left_knee_degrees": 48.74839381450198
+      },
+      {
+        "frame": 37,
+        "phase": 0.5138888888888888,
+        "pelvis_height_m": 0.9568217992782593,
+        "left_knee_degrees": 49.63678285946722
+      },
+      {
+        "frame": 38,
+        "phase": 0.5277777777777778,
+        "pelvis_height_m": 0.956322968006134,
+        "left_knee_degrees": 50.406599820441016
+      },
+      {
+        "frame": 39,
+        "phase": 0.5416666666666666,
+        "pelvis_height_m": 0.9561842679977417,
+        "left_knee_degrees": 51.303198752788575
+      },
+      {
+        "frame": 40,
+        "phase": 0.5555555555555556,
+        "pelvis_height_m": 0.9564101696014404,
+        "left_knee_degrees": 52.23717248027447
+      },
+      {
+        "frame": 41,
+        "phase": 0.5694444444444444,
+        "pelvis_height_m": 0.9569939374923706,
+        "left_knee_degrees": 53.08840529615482
+      },
+      {
+        "frame": 42,
+        "phase": 0.5833333333333334,
+        "pelvis_height_m": 0.9579175710678101,
+        "left_knee_degrees": 53.7472999850076
+      },
+      {
+        "frame": 43,
+        "phase": 0.5972222222222222,
+        "pelvis_height_m": 0.9591530561447144,
+        "left_knee_degrees": 54.11020159598873
+      },
+      {
+        "frame": 44,
+        "phase": 0.6111111111111112,
+        "pelvis_height_m": 0.960662841796875,
+        "left_knee_degrees": 54.649786540419726
+      },
+      {
+        "frame": 45,
+        "phase": 0.625,
+        "pelvis_height_m": 0.9624011516571045,
+        "left_knee_degrees": 56.166307102215995
+      },
+      {
+        "frame": 46,
+        "phase": 0.6388888888888888,
+        "pelvis_height_m": 0.9643152952194214,
+        "left_knee_degrees": 58.15118739577838
+      },
+      {
+        "frame": 47,
+        "phase": 0.6527777777777778,
+        "pelvis_height_m": 0.9663467407226562,
+        "left_knee_degrees": 60.18902897616505
+      },
+      {
+        "frame": 48,
+        "phase": 0.6666666666666666,
+        "pelvis_height_m": 0.9684339165687561,
+        "left_knee_degrees": 62.08138752723045
+      },
+      {
+        "frame": 49,
+        "phase": 0.6805555555555556,
+        "pelvis_height_m": 0.9705135822296143,
+        "left_knee_degrees": 63.662835867276854
+      },
+      {
+        "frame": 50,
+        "phase": 0.6944444444444444,
+        "pelvis_height_m": 0.9725222587585449,
+        "left_knee_degrees": 64.91412652322319
+      },
+      {
+        "frame": 51,
+        "phase": 0.7083333333333334,
+        "pelvis_height_m": 0.974399209022522,
+        "left_knee_degrees": 65.83337436285852
+      },
+      {
+        "frame": 52,
+        "phase": 0.7222222222222222,
+        "pelvis_height_m": 0.9760872721672058,
+        "left_knee_degrees": 66.40015712056453
+      },
+      {
+        "frame": 53,
+        "phase": 0.7361111111111112,
+        "pelvis_height_m": 0.9775351285934448,
+        "left_knee_degrees": 66.5747709066959
+      },
+      {
+        "frame": 54,
+        "phase": 0.75,
+        "pelvis_height_m": 0.9786986112594604,
+        "left_knee_degrees": 66.30460960426522
+      },
+      {
+        "frame": 55,
+        "phase": 0.7638888888888888,
+        "pelvis_height_m": 0.9795427322387695,
+        "left_knee_degrees": 65.535981096207
+      },
+      {
+        "frame": 56,
+        "phase": 0.7777777777777778,
+        "pelvis_height_m": 0.9800416231155396,
+        "left_knee_degrees": 64.22926345514601
+      },
+      {
+        "frame": 57,
+        "phase": 0.7916666666666666,
+        "pelvis_height_m": 0.9801803827285767,
+        "left_knee_degrees": 62.374006491652125
+      },
+      {
+        "frame": 58,
+        "phase": 0.8055555555555556,
+        "pelvis_height_m": 0.9799542427062988,
+        "left_knee_degrees": 59.97783952702825
+      },
+      {
+        "frame": 59,
+        "phase": 0.8194444444444444,
+        "pelvis_height_m": 0.9793707132339478,
+        "left_knee_degrees": 56.87940617232201
+      },
+      {
+        "frame": 60,
+        "phase": 0.8333333333333334,
+        "pelvis_height_m": 0.9784470796585083,
+        "left_knee_degrees": 53.05885789780534
+      },
+      {
+        "frame": 61,
+        "phase": 0.8472222222222222,
+        "pelvis_height_m": 0.9772114157676697,
+        "left_knee_degrees": 48.57770738714336
+      },
+      {
+        "frame": 62,
+        "phase": 0.8611111111111112,
+        "pelvis_height_m": 0.975701630115509,
+        "left_knee_degrees": 43.539718874206955
+      },
+      {
+        "frame": 63,
+        "phase": 0.875,
+        "pelvis_height_m": 0.9739632606506348,
+        "left_knee_degrees": 38.08511614265643
+      },
+      {
+        "frame": 64,
+        "phase": 0.8888888888888888,
+        "pelvis_height_m": 0.9720492362976074,
+        "left_knee_degrees": 32.394735280957065
+      },
+      {
+        "frame": 65,
+        "phase": 0.9027777777777778,
+        "pelvis_height_m": 0.9700177907943726,
+        "left_knee_degrees": 26.710269363078936
+      },
+      {
+        "frame": 66,
+        "phase": 0.9166666666666666,
+        "pelvis_height_m": 0.9679305553436279,
+        "left_knee_degrees": 21.38860943353353
+      },
+      {
+        "frame": 67,
+        "phase": 0.9305555555555556,
+        "pelvis_height_m": 0.9658509492874146,
+        "left_knee_degrees": 17.01575840235128
+      },
+      {
+        "frame": 68,
+        "phase": 0.9444444444444444,
+        "pelvis_height_m": 0.9638422727584839,
+        "left_knee_degrees": 14.502043882111508
+      },
+      {
+        "frame": 69,
+        "phase": 0.9583333333333334,
+        "pelvis_height_m": 0.9619653224945068,
+        "left_knee_degrees": 14.604947512146907
+      },
+      {
+        "frame": 70,
+        "phase": 0.9722222222222222,
+        "pelvis_height_m": 0.9602773785591125,
+        "left_knee_degrees": 16.8978420165202
+      },
+      {
+        "frame": 71,
+        "phase": 0.9861111111111112,
+        "pelvis_height_m": 0.9588295221328735,
+        "left_knee_degrees": 20.220264594867842
+      },
+      {
+        "frame": 72,
+        "phase": 1.0,
+        "pelvis_height_m": 0.9576658010482788,
+        "left_knee_degrees": 23.703169297954105
+      }
+    ]
+  },
+  "after": {
+    "samples": [
+      {
+        "frame": 0,
+        "phase": 0.0,
+        "pelvis_height_m": 0.9611815214157104,
+        "left_knee_degrees": 21.634878734247508
+      },
+      {
+        "frame": 1,
+        "phase": 0.013888888888888888,
+        "pelvis_height_m": 0.9597532749176025,
+        "left_knee_degrees": 24.98305112576611
+      },
+      {
+        "frame": 2,
+        "phase": 0.027777777777777776,
+        "pelvis_height_m": 0.9583301544189453,
+        "left_knee_degrees": 27.47306488958594
+      },
+      {
+        "frame": 3,
+        "phase": 0.041666666666666664,
+        "pelvis_height_m": 0.9570375084877014,
+        "left_knee_degrees": 29.35879815715643
+      },
+      {
+        "frame": 4,
+        "phase": 0.05555555555555555,
+        "pelvis_height_m": 0.9560011625289917,
+        "left_knee_degrees": 30.781936372620294
+      },
+      {
+        "frame": 5,
+        "phase": 0.06944444444444445,
+        "pelvis_height_m": 0.9553467035293579,
+        "left_knee_degrees": 31.84009659959534
+      },
+      {
+        "frame": 6,
+        "phase": 0.08333333333333333,
+        "pelvis_height_m": 0.9552147388458252,
+        "left_knee_degrees": 32.60686729619931
+      },
+      {
+        "frame": 7,
+        "phase": 0.09722222222222222,
+        "pelvis_height_m": 0.9560157656669617,
+        "left_knee_degrees": 33.03512015715913
+      },
+      {
+        "frame": 8,
+        "phase": 0.1111111111111111,
+        "pelvis_height_m": 0.9577616453170776,
+        "left_knee_degrees": 33.23771722832004
+      },
+      {
+        "frame": 9,
+        "phase": 0.125,
+        "pelvis_height_m": 0.9602837562561035,
+        "left_knee_degrees": 33.358679878520974
+      },
+      {
+        "frame": 10,
+        "phase": 0.1388888888888889,
+        "pelvis_height_m": 0.9634135365486145,
+        "left_knee_degrees": 33.20825179224059
+      },
+      {
+        "frame": 11,
+        "phase": 0.1527777777777778,
+        "pelvis_height_m": 0.9669820070266724,
+        "left_knee_degrees": 32.76892036444704
+      },
+      {
+        "frame": 12,
+        "phase": 0.16666666666666666,
+        "pelvis_height_m": 0.9708203077316284,
+        "left_knee_degrees": 32.10371458080115
+      },
+      {
+        "frame": 13,
+        "phase": 0.18055555555555555,
+        "pelvis_height_m": 0.9747599363327026,
+        "left_knee_degrees": 31.276114219449056
+      },
+      {
+        "frame": 14,
+        "phase": 0.19444444444444445,
+        "pelvis_height_m": 0.9786319136619568,
+        "left_knee_degrees": 30.353642530525462
+      },
+      {
+        "frame": 15,
+        "phase": 0.20833333333333334,
+        "pelvis_height_m": 0.9822678565979004,
+        "left_knee_degrees": 29.411199368468772
+      },
+      {
+        "frame": 16,
+        "phase": 0.2222222222222222,
+        "pelvis_height_m": 0.9854986071586609,
+        "left_knee_degrees": 28.533246852555322
+      },
+      {
+        "frame": 17,
+        "phase": 0.2361111111111111,
+        "pelvis_height_m": 0.988155722618103,
+        "left_knee_degrees": 27.814451404681535
+      },
+      {
+        "frame": 18,
+        "phase": 0.25,
+        "pelvis_height_m": 0.9900702238082886,
+        "left_knee_degrees": 27.35704729634412
+      },
+      {
+        "frame": 19,
+        "phase": 0.2638888888888889,
+        "pelvis_height_m": 0.9910736083984375,
+        "left_knee_degrees": 27.263705931146717
+      },
+      {
+        "frame": 20,
+        "phase": 0.2777777777777778,
+        "pelvis_height_m": 0.9910187125205994,
+        "left_knee_degrees": 27.615119163943888
+      },
+      {
+        "frame": 21,
+        "phase": 0.2916666666666667,
+        "pelvis_height_m": 0.9899799823760986,
+        "left_knee_degrees": 28.358366689046335
+      },
+      {
+        "frame": 22,
+        "phase": 0.3055555555555556,
+        "pelvis_height_m": 0.9881357550621033,
+        "left_knee_degrees": 29.377717781157372
+      },
+      {
+        "frame": 23,
+        "phase": 0.3194444444444444,
+        "pelvis_height_m": 0.9856626391410828,
+        "left_knee_degrees": 30.56304247009973
+      },
+      {
+        "frame": 24,
+        "phase": 0.3333333333333333,
+        "pelvis_height_m": 0.9827365875244141,
+        "left_knee_degrees": 31.81564452236671
+      },
+      {
+        "frame": 25,
+        "phase": 0.3472222222222222,
+        "pelvis_height_m": 0.9795337915420532,
+        "left_knee_degrees": 33.10476076593656
+      },
+      {
+        "frame": 26,
+        "phase": 0.3611111111111111,
+        "pelvis_height_m": 0.9762305617332458,
+        "left_knee_degrees": 34.63132170581275
+      },
+      {
+        "frame": 27,
+        "phase": 0.375,
+        "pelvis_height_m": 0.9730031490325928,
+        "left_knee_degrees": 36.31026416607193
+      },
+      {
+        "frame": 28,
+        "phase": 0.3888888888888889,
+        "pelvis_height_m": 0.9700279831886292,
+        "left_knee_degrees": 38.02440942131335
+      },
+      {
+        "frame": 29,
+        "phase": 0.4027777777777778,
+        "pelvis_height_m": 0.9674810171127319,
+        "left_knee_degrees": 39.673927426628126
+      },
+      {
+        "frame": 30,
+        "phase": 0.4166666666666667,
+        "pelvis_height_m": 0.9655384421348572,
+        "left_knee_degrees": 41.17335885512102
+      },
+      {
+        "frame": 31,
+        "phase": 0.4305555555555556,
+        "pelvis_height_m": 0.964316725730896,
+        "left_knee_degrees": 42.46744747640665
+      },
+      {
+        "frame": 32,
+        "phase": 0.4444444444444444,
+        "pelvis_height_m": 0.9636293649673462,
+        "left_knee_degrees": 43.60385435051336
+      },
+      {
+        "frame": 33,
+        "phase": 0.4583333333333333,
+        "pelvis_height_m": 0.9632233381271362,
+        "left_knee_degrees": 44.644283406403076
+      },
+      {
+        "frame": 34,
+        "phase": 0.4722222222222222,
+        "pelvis_height_m": 0.9628474712371826,
+        "left_knee_degrees": 45.64366302538099
+      },
+      {
+        "frame": 35,
+        "phase": 0.4861111111111111,
+        "pelvis_height_m": 0.9622505903244019,
+        "left_knee_degrees": 46.65220875822507
+      },
+      {
+        "frame": 36,
+        "phase": 0.5,
+        "pelvis_height_m": 0.9611815214157104,
+        "left_knee_degrees": 47.71633857053473
+      },
+      {
+        "frame": 37,
+        "phase": 0.5138888888888888,
+        "pelvis_height_m": 0.9597532749176025,
+        "left_knee_degrees": 48.79489374237144
+      },
+      {
+        "frame": 38,
+        "phase": 0.5277777777777778,
+        "pelvis_height_m": 0.9583301544189453,
+        "left_knee_degrees": 49.841688534567595
+      },
+      {
+        "frame": 39,
+        "phase": 0.5416666666666666,
+        "pelvis_height_m": 0.9570375084877014,
+        "left_knee_degrees": 51.06848613215027
+      },
+      {
+        "frame": 40,
+        "phase": 0.5555555555555556,
+        "pelvis_height_m": 0.9560011625289917,
+        "left_knee_degrees": 52.347083884398316
+      },
+      {
+        "frame": 41,
+        "phase": 0.5694444444444444,
+        "pelvis_height_m": 0.9553467035293579,
+        "left_knee_degrees": 53.52148027066865
+      },
+      {
+        "frame": 42,
+        "phase": 0.5833333333333334,
+        "pelvis_height_m": 0.9552147388458252,
+        "left_knee_degrees": 54.44544094083129
+      },
+      {
+        "frame": 43,
+        "phase": 0.5972222222222222,
+        "pelvis_height_m": 0.9560157656669617,
+        "left_knee_degrees": 54.91146474790126
+      },
+      {
+        "frame": 44,
+        "phase": 0.6111111111111112,
+        "pelvis_height_m": 0.9577616453170776,
+        "left_knee_degrees": 55.38108123447465
+      },
+      {
+        "frame": 45,
+        "phase": 0.625,
+        "pelvis_height_m": 0.9602837562561035,
+        "left_knee_degrees": 56.685196573461866
+      },
+      {
+        "frame": 46,
+        "phase": 0.6388888888888888,
+        "pelvis_height_m": 0.9634135365486145,
+        "left_knee_degrees": 58.364876694151405
+      },
+      {
+        "frame": 47,
+        "phase": 0.6527777777777778,
+        "pelvis_height_m": 0.9669820070266724,
+        "left_knee_degrees": 60.04306783360188
+      },
+      {
+        "frame": 48,
+        "phase": 0.6666666666666666,
+        "pelvis_height_m": 0.9708203077316284,
+        "left_knee_degrees": 61.54692522467694
+      },
+      {
+        "frame": 49,
+        "phase": 0.6805555555555556,
+        "pelvis_height_m": 0.9747599363327026,
+        "left_knee_degrees": 62.72852063033247
+      },
+      {
+        "frame": 50,
+        "phase": 0.6944444444444444,
+        "pelvis_height_m": 0.9786319136619568,
+        "left_knee_degrees": 63.583031937014425
+      },
+      {
+        "frame": 51,
+        "phase": 0.7083333333333334,
+        "pelvis_height_m": 0.9822678565979004,
+        "left_knee_degrees": 64.12351846641587
+      },
+      {
+        "frame": 52,
+        "phase": 0.7222222222222222,
+        "pelvis_height_m": 0.9854986071586609,
+        "left_knee_degrees": 64.34677002962691
+      },
+      {
+        "frame": 53,
+        "phase": 0.7361111111111112,
+        "pelvis_height_m": 0.988155722618103,
+        "left_knee_degrees": 64.23429047437514
+      },
+      {
+        "frame": 54,
+        "phase": 0.75,
+        "pelvis_height_m": 0.9900702238082886,
+        "left_knee_degrees": 63.76008410067949
+      },
+      {
+        "frame": 55,
+        "phase": 0.7638888888888888,
+        "pelvis_height_m": 0.9910736083984375,
+        "left_knee_degrees": 62.90387890708338
+      },
+      {
+        "frame": 56,
+        "phase": 0.7777777777777778,
+        "pelvis_height_m": 0.9910187125205994,
+        "left_knee_degrees": 61.662492025433565
+      },
+      {
+        "frame": 57,
+        "phase": 0.7916666666666666,
+        "pelvis_height_m": 0.9899799823760986,
+        "left_knee_degrees": 60.01692186945907
+      },
+      {
+        "frame": 58,
+        "phase": 0.8055555555555556,
+        "pelvis_height_m": 0.9881357550621033,
+        "left_knee_degrees": 57.94406873938692
+      },
+      {
+        "frame": 59,
+        "phase": 0.8194444444444444,
+        "pelvis_height_m": 0.9856626391410828,
+        "left_knee_degrees": 55.24875314949483
+      },
+      {
+        "frame": 60,
+        "phase": 0.8333333333333334,
+        "pelvis_height_m": 0.9827365875244141,
+        "left_knee_degrees": 51.88578656823398
+      },
+      {
+        "frame": 61,
+        "phase": 0.8472222222222222,
+        "pelvis_height_m": 0.9795337915420532,
+        "left_knee_degrees": 47.897229300513345
+      },
+      {
+        "frame": 62,
+        "phase": 0.8611111111111112,
+        "pelvis_height_m": 0.9762305617332458,
+        "left_knee_degrees": 43.37048044695237
+      },
+      {
+        "frame": 63,
+        "phase": 0.875,
+        "pelvis_height_m": 0.9730031490325928,
+        "left_knee_degrees": 38.4283741295846
+      },
+      {
+        "frame": 64,
+        "phase": 0.8888888888888888,
+        "pelvis_height_m": 0.9700279831886292,
+        "left_knee_degrees": 33.224835491545406
+      },
+      {
+        "frame": 65,
+        "phase": 0.9027777777777778,
+        "pelvis_height_m": 0.9674810171127319,
+        "left_knee_degrees": 27.945495414097394
+      },
+      {
+        "frame": 66,
+        "phase": 0.9166666666666666,
+        "pelvis_height_m": 0.9655384421348572,
+        "left_knee_degrees": 22.815381309635853
+      },
+      {
+        "frame": 67,
+        "phase": 0.9305555555555556,
+        "pelvis_height_m": 0.964316725730896,
+        "left_knee_degrees": 18.159036446763054
+      },
+      {
+        "frame": 68,
+        "phase": 0.9444444444444444,
+        "pelvis_height_m": 0.9636293649673462,
+        "left_knee_degrees": 14.692824726008297
+      },
+      {
+        "frame": 69,
+        "phase": 0.9583333333333334,
+        "pelvis_height_m": 0.9632233381271362,
+        "left_knee_degrees": 13.429321691825976
+      },
+      {
+        "frame": 70,
+        "phase": 0.9722222222222222,
+        "pelvis_height_m": 0.9628474712371826,
+        "left_knee_degrees": 14.76189159889546
+      },
+      {
+        "frame": 71,
+        "phase": 0.9861111111111112,
+        "pelvis_height_m": 0.9622505903244019,
+        "left_knee_degrees": 17.84028517857689
+      },
+      {
+        "frame": 72,
+        "phase": 1.0,
+        "pelvis_height_m": 0.9611815214157104,
+        "left_knee_degrees": 21.634878734247508
+      }
+    ]
+  },
+  "maximum_foot_matrix_element_difference": 3.5762786865234375e-07,
+  "maximum_upper_body_rotation_matrix_element_difference": 0.0
+}

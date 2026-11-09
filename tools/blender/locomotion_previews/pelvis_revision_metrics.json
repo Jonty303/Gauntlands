@@ -1,0 +1,37 @@
+{
+  "pelvis_range_m": [
+    0.048486750572919846,
+    8.131004869937897e-05,
+    0.023995578289031982
+  ],
+  "head_range_m": [
+    0.02691809367388487,
+    0.00010284408926963806,
+    0.023915886878967285
+  ],
+  "knee_flex_range_degrees": [
+    20.717133536229596,
+    64.09726321924634
+  ],
+  "maximum_knee_change_per_60hz_frame_degrees": 5.0102306241495,
+  "passed": true,
+  "idle_sample_bounds_delta_m": 0.0,
+  "minimum_cloth_clearance_m": 0.0034132470391341485,
+  "previous_live_source_measurements": {
+    "pelvis_range_m": [
+      0.02799999713897705,
+      4.516914486885071e-08,
+      0.05400007963180542
+    ],
+    "head_range_m": [
+      0.02800000086426735,
+      0.010403163731098175,
+      0.054677605628967285
+    ],
+    "knee_flex_range_degrees": [
+      18.575787269160543,
+      58.11060241173017
+    ],
+    "maximum_knee_change_per_60hz_frame_degrees": 4.327293669418253
+  }
+}
