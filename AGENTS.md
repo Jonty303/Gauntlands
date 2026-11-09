@@ -1,5 +1,15 @@
 # Gauntlands — repository agent instructions
 
+## Authorised Prototype 02 exception — 9 November 2026
+
+The owner explicitly authorised `human-prototype-02` as the test area for Kevin
+Iglesias models and animations. On this branch, that authorisation supersedes
+the older single-branch restriction below and in the development instruction
+documents. It does not authorise merges, pushes, purchases or wider gameplay.
+Read [the trial record](development/HUMAN_PROTOTYPE_02.md) for the starting
+checkpoint, local asset location, scope and pending validation.
+
+
 This file is the **Codex and repository-working entrypoint**. Read the detailed [agent role register](development/AGENT_ROLES.md), [operating model](development/AGENT_OPERATING_MODEL.md), [project instructions](development/PROJECT_CUSTOM_INSTRUCTIONS.md) and [environment reference](development/TARGET_DEVELOPMENT_ENVIRONMENT.md) before substantial work.
 
 ## Identity and source control
