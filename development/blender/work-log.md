@@ -86,3 +86,17 @@ Date/request; owner and reviewers; baseline commit/hash; changed artifact paths;
 interface/timing changes; commands actually run and pass/fail/not-run evidence;
 visual review versus owner acceptance; failed trials and linked lessons; current
 commit/tag and pending work. Keep unrelated user changes out of scoped commits.
+
+## Prototype 02 dummy walk test — 9 November 2026
+
+Owner authorised the male dummy, one forward walk, flat floor, joypad movement
+and three cameras. Branch human-prototype-02; R2 lead, same-agent R3/R6 checks.
+[Full record](../../tools/kevin_walk/README.md) and
+[model interface](models/kevin-male-dummy.md) contain sources, licence, hashes,
+commands, results, failed attempts and limitations. F5 launches dummy_walk.tscn.
+Repeat export matched; Godot import, 72 travel cases and 97 floor samples pass.
+All six rendered pose/facing sheets inspected. Physical joypad operation and
+owner feel approval remain pending. Prototype 01 and source downloads unchanged.
+
+Owner approved dummy walk test 01 as perfect on 9 November 2026. Next authorised
+slice: idle and run/walk transitions, explicitly excluding sprint.

@@ -1,0 +1,446 @@
+{
+  "cases": [
+    {
+      "facing": 0,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 0
+    },
+    {
+      "facing": 1,
+      "hz": 30,
+      "travel_m": 3.99999976158142,
+      "view": 0
+    },
+    {
+      "facing": 2,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 0
+    },
+    {
+      "facing": 3,
+      "hz": 30,
+      "travel_m": 3.99999976158142,
+      "view": 0
+    },
+    {
+      "facing": 4,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 0
+    },
+    {
+      "facing": 5,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 0
+    },
+    {
+      "facing": 6,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 0
+    },
+    {
+      "facing": 7,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 0
+    },
+    {
+      "facing": 0,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 1
+    },
+    {
+      "facing": 1,
+      "hz": 30,
+      "travel_m": 3.99999976158142,
+      "view": 1
+    },
+    {
+      "facing": 2,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 1
+    },
+    {
+      "facing": 3,
+      "hz": 30,
+      "travel_m": 3.99999976158142,
+      "view": 1
+    },
+    {
+      "facing": 4,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 1
+    },
+    {
+      "facing": 5,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 1
+    },
+    {
+      "facing": 6,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 1
+    },
+    {
+      "facing": 7,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 1
+    },
+    {
+      "facing": 0,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 2
+    },
+    {
+      "facing": 1,
+      "hz": 30,
+      "travel_m": 3.99999976158142,
+      "view": 2
+    },
+    {
+      "facing": 2,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 2
+    },
+    {
+      "facing": 3,
+      "hz": 30,
+      "travel_m": 3.99999976158142,
+      "view": 2
+    },
+    {
+      "facing": 4,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 2
+    },
+    {
+      "facing": 5,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 2
+    },
+    {
+      "facing": 6,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 2
+    },
+    {
+      "facing": 7,
+      "hz": 30,
+      "travel_m": 4.00000000000001,
+      "view": 2
+    },
+    {
+      "facing": 0,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 0
+    },
+    {
+      "facing": 1,
+      "hz": 60,
+      "travel_m": 3.99999976158142,
+      "view": 0
+    },
+    {
+      "facing": 2,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 0
+    },
+    {
+      "facing": 3,
+      "hz": 60,
+      "travel_m": 3.99999976158142,
+      "view": 0
+    },
+    {
+      "facing": 4,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 0
+    },
+    {
+      "facing": 5,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 0
+    },
+    {
+      "facing": 6,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 0
+    },
+    {
+      "facing": 7,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 0
+    },
+    {
+      "facing": 0,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 1
+    },
+    {
+      "facing": 1,
+      "hz": 60,
+      "travel_m": 3.99999976158142,
+      "view": 1
+    },
+    {
+      "facing": 2,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 1
+    },
+    {
+      "facing": 3,
+      "hz": 60,
+      "travel_m": 3.99999976158142,
+      "view": 1
+    },
+    {
+      "facing": 4,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 1
+    },
+    {
+      "facing": 5,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 1
+    },
+    {
+      "facing": 6,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 1
+    },
+    {
+      "facing": 7,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 1
+    },
+    {
+      "facing": 0,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 2
+    },
+    {
+      "facing": 1,
+      "hz": 60,
+      "travel_m": 3.99999976158142,
+      "view": 2
+    },
+    {
+      "facing": 2,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 2
+    },
+    {
+      "facing": 3,
+      "hz": 60,
+      "travel_m": 3.99999976158142,
+      "view": 2
+    },
+    {
+      "facing": 4,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 2
+    },
+    {
+      "facing": 5,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 2
+    },
+    {
+      "facing": 6,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 2
+    },
+    {
+      "facing": 7,
+      "hz": 60,
+      "travel_m": 4.0,
+      "view": 2
+    },
+    {
+      "facing": 0,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 0
+    },
+    {
+      "facing": 1,
+      "hz": 120,
+      "travel_m": 3.99999976158142,
+      "view": 0
+    },
+    {
+      "facing": 2,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 0
+    },
+    {
+      "facing": 3,
+      "hz": 120,
+      "travel_m": 3.99999976158142,
+      "view": 0
+    },
+    {
+      "facing": 4,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 0
+    },
+    {
+      "facing": 5,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 0
+    },
+    {
+      "facing": 6,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 0
+    },
+    {
+      "facing": 7,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 0
+    },
+    {
+      "facing": 0,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 1
+    },
+    {
+      "facing": 1,
+      "hz": 120,
+      "travel_m": 3.99999976158142,
+      "view": 1
+    },
+    {
+      "facing": 2,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 1
+    },
+    {
+      "facing": 3,
+      "hz": 120,
+      "travel_m": 3.99999976158142,
+      "view": 1
+    },
+    {
+      "facing": 4,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 1
+    },
+    {
+      "facing": 5,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 1
+    },
+    {
+      "facing": 6,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 1
+    },
+    {
+      "facing": 7,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 1
+    },
+    {
+      "facing": 0,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 2
+    },
+    {
+      "facing": 1,
+      "hz": 120,
+      "travel_m": 3.99999976158142,
+      "view": 2
+    },
+    {
+      "facing": 2,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 2
+    },
+    {
+      "facing": 3,
+      "hz": 120,
+      "travel_m": 3.99999976158142,
+      "view": 2
+    },
+    {
+      "facing": 4,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 2
+    },
+    {
+      "facing": 5,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 2
+    },
+    {
+      "facing": 6,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 2
+    },
+    {
+      "facing": 7,
+      "hz": 120,
+      "travel_m": 3.99999999999999,
+      "view": 2
+    }
+  ],
+  "engine": "4.5.2-stable (official)",
+  "failures": [],
+  "joypads_detected": [
+    0
+  ],
+  "maximum_floor_m": 0.000504724681377411,
+  "maximum_height_m": 1.78222262859344,
+  "minimum_floor_m": 0.000495046377182007,
+  "passed": true,
+  "physical_joypad_test": "not performed"
+}

@@ -74,3 +74,10 @@ This branch setup does not claim that these evaluation steps have been run.
 - Added this record and the scoped authorisation note in `AGENTS.md`.
 - No code, scene, import or animation changes; Godot/Blender execution is not
   applicable to branch setup. Asset and gameplay acceptance remain unverified.
+
+## First test implementation — 9 November 2026
+
+Owner narrowed and authorised test 01 to the male dummy and one forward walk.
+[Test record](../tools/kevin_walk/README.md) contains the local setup, commands,
+validation and review limits. F5 launches it. The broader idle/run/sprint and
+retargeting evaluation above remains proposed.

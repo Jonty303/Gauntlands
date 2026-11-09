@@ -79,3 +79,11 @@ captures those loops and eight-facing pose sheets; run
 Keep the committed GLB import settings: metres, 60 fps for locomotion, disabled
 animation optimisation, disabled mesh compression and disabled LOD generation.
 The diagnostic retains its separate 30 fps import settings.
+
+## Human Prototype 02 — dummy walk
+
+F5 launches dummy_walk.tscn: Kevin Iglesias male dummy, one forward walk,
+left-stick/WASD movement and three cameras. 1/2/3: views; Space: auto-walk;
+P: pause; R: reset. Release holds pose. Transitions/retargeting are not in test 01.
+[Local asset rebuild and tests](../tools/kevin_walk/README.md).
+Licensed assets are local and gitignored; rebuild them on a fresh checkout.

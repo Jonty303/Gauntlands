@@ -146,3 +146,14 @@ height while lateral correction changes, body/garment geometry and three views.
 Record symptom; model/export/version; verified measurements; working diagnosis;
 failed trials; confirmed fix; reproduction/checks; evidence paths; scope and
 remaining uncertainty. Update the model/work log when the fix changes a contract.
+
+## Kevin Iglesias dummy: native bake versus FBX — 9 November 2026
+
+Scope is Basic Motions FREE 2.4 male dummy, Blender 5.2.3 and Godot 4.5.2.
+The first FBX trial showed greater sampled between-frame sole penetration than
+the native-source bake. Quaternion sign correction changed zero keys, so that
+hypothesis was not confirmed. Native evaluated-source export passed surface
+preservation, repeat-hash and Godot floor tests. Set quaternion rotation mode
+before assigning baked matrix_basis. Details, source hand-control warnings
+and remaining limitations: [test 01 record](../../tools/kevin_walk/README.md).
+This is not a universal judgement about the publisher's FBX files.

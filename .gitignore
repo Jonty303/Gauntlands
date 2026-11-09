@@ -29,3 +29,9 @@
 /tools/motion_v04/stance/*.log
 
 /tools/motion_v04/stance/geometry_samples.json
+
+# Local licensed Kevin Iglesias assets and disposable inspection/capture data
+/.local/
+/prototype/assets/kevin_local/
+/tools/kevin_walk/frames/
+/tools/kevin_walk/*.log
