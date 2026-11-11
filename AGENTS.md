@@ -10,6 +10,12 @@ This file is the **Codex and repository-working entrypoint**. Read the detailed 
 - Do not merge to `main`, force-push, delete work or modify unrelated files without explicit permission.
 - Before edits verify `git remote -v`, `git status --short --branch`, remote branch existence, current spec and any uncommitted work; preserve the user's changes.
 
+## Godot 4 coding policy
+
+- For all new or materially modified production GDScript, follow [coding standards](development/CODING_STANDARDS.md): modern Godot 4 `@` annotations; typed parameters, returns, signals, properties and node references; safe inference with `:=` where clear; intentional, documented exceptions for dynamic values.
+- Prefer scene/node composition, typed Resources and narrowly scoped signals; use **call down, signal up** as a heuristic, not a rigid law. Keep game rules/state independent of presentation and input.
+- Configure and verify applicable GDScript warnings when a Godot project exists; no unverified claims of warnings-as-errors or headless validation.
+
 ## Operating contract
 
 - Choose one primary role among L0–R6 defined in `development/AGENT_ROLES.md`; name any reviewers.
